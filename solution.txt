@@ -1,0 +1,96 @@
+339  cd deliverables
+  340  ls
+  341  cd Star_Wars-2
+  342  ls
+  343  cd starwars
+  344  mkdir empire rebellion
+  345  ls
+  346  cd empire
+  347  touch darth_vader.txt
+  348  ls
+  349  cat darth_vader.txt
+  350  echo "...heavy breathing..." > darth_vader.txt
+  351  ls
+  352  touch emperor_palpatine.txt
+  353  mkdir death_star
+  354  la
+  355  ls
+  356  mv darth_vader.txt death_star
+  357  la
+  358  ls
+  359  cd death_star
+  360  ls
+  361  cd ..
+  362  tree
+  363  git add
+  364  git add .
+  365  git status
+  366  git commit -m "finish act 1"
+  367  cd rebellion
+  368  touch princess_leia.txt echo "Help me, Obi-Wan...You're my only hope." > princess_leia.txt
+  369  ls
+  370  tree
+  371  rm Help\ me,\ Obi-Wan...You\'re\ my\ only\ hope.
+  372  ls
+  373  rm echo
+  374  ls
+  375  rm princess_leia.txt
+  376  ls
+  377  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope." > princess_leia.txt
+  378  ls
+  379  tree
+  380  touch obi-wan.txt
+  381  rm obi-wan.txt
+  382  touch obi_wan.txt
+  383  touch luke_skywalker.txt
+  384  mkdir millenium_falcon
+  385  cd millenium_falcon
+  386  touch han_solo.txt chewbacca.txt
+  387  ls
+  388  cd ..
+  389  mv luke_skywalker.txt millenium_falcon
+  390  mv obi_wan.txt millenium_falcon
+  391  mv princess_leia.txt millenium_falcon
+  392  cd..
+  393  cd ..
+  394  mv rebellion/millenium_falcon/ empire/death_star
+  395  tree
+  396  git add .
+  397  git commit -m "Finsih act 2"
+  398  git add .
+  399  git commit -m "finish act 2 for real"
+  400  git status
+  401  git add .
+  402  git status
+  403  mv rebellion/millenium_falcon/* empire/death_star
+  404  cd rebellion
+  405  ls
+  406  cd ..
+  407  cd empire
+  408  ls
+  409  mv death_star/millenium_falcon/* death_star
+  410  ls
+  411  tree
+  412  cd death_star
+  413  ls
+  414  rm obi_wan.txt
+  415  mv chewbacca.txt millenium_falcon
+  416  mv han_solo.txt millenium_falcon
+  417  mv luke_skywalker.txt millenium_falcon
+  418  mv princess_leia.txt millenium_falcon
+  419  cd ..
+  420  mv empire/death_star/millenium_falcon rebellion
+  421  tree
+  422  mv empire/death_star/darth_vader.txt empire/death_star
+  423  mv empire/death_star/darth_vader.txt empire
+  424  cd empire
+  425  rm death_star
+  426  tree
+  427  rm -rf ~/death_star
+  428  tree
+  429  rm -rf death_star
+  430  tree
+  431  cd ..
+  432  tree
+  433  git add .
+  434  git commit -m "finish act 3"
