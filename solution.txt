@@ -1,0 +1,71 @@
+
+  247  git clone https://github.com/BoognishSaves/Star_Wars.git
+  248  code .
+  249  tree
+  250  cd star_wars
+  251  mkdir empire rebellion
+  252  cd empire
+  253  touch darth_vader.txt
+  254  tree
+  255  echo "...heavy breathing..." >> darth_vader.txt
+  256  ls
+  257  pwd
+  258  clear
+  259  touch emperor_palpatine.txt
+  260  tree
+  261  mkdir death_star
+  262  tree
+  263  mv ~/darth_vader.txt ~/empire/death_star
+  264  mv /Users/mbp/darth_vader.txt ~/death_star
+  265  clear
+  266  mv ~ /Users/mbp/empire/darth_vader.txt ~/Users/mbp/empire/death_star 
+  267  tree
+  268  mv ~ /Users/mbp/sei/homework/star_wars/empire/darth_vader.txt ~/Users/mbp/sei/homework/star_wars/death_star
+  269  mv ~ /Users/mbp/sei/homework/star_wars/empire/darth_vader.txt ~/Users/mbp/sei/homework/star_wars/empire/death_star 
+  270  cd  ..
+  271  mv ~ /Users/mbp/sei/homework/star_wars/empire/darth_vader.txt ~/Users/mbp/sei/homework/star_wars/death_star 
+  272  clear
+  273  mv ~/empire/darth_vader.txt ~/empire/death_star
+  274  mv  ~/sei/homework/Star_Wars/empire/darth_vader.txt ~/sei/homework/Star_Wars/empire/death_star
+  275  git status
+  276  git add .
+  277  git commit -m "act1 completed.txt"
+  278  git push origin master
+  279  clear
+  280  tree
+  281  cd  rebellion
+  282  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  283  tree
+  284  touch obi_wan.txt
+  285  clear
+  286  touch luke_skywalker.txt
+  287  mkdir millenium_falcon
+  288  cd millenium_falcon
+  289  touch han_solo.txt chewbacca.txt
+  290  cd..
+  291  cd ..
+  292  mv ~/sei/homework/Star_Wars/rebellion/luke_skywalker.txt ~/sei/homework/Star_Wars/rebellion/millenium_falcon/
+  293  git status
+  294  clear
+  295  cd ..
+  296  git add .
+  297  cd  Star_Wars
+  298  git add .
+  299  git commit -m "Act 2 completed"
+  300  git push origin master
+  301  clear
+  302  mv ~/sei/homework/Star_Wars/empire/death_star/millenium_falcon/* ~/sei/homework/Star_Wars/empire/death_star
+  303  rm ~/sei/homework/Star_Wars/empire/death_star/obi_wan.txt
+  304  mv ~/sei/homework/Star_Wars/empire/death_star/chewbacca.txt ~/sei/homework/Star_Wars/empire/death_star/millenium_falcon
+  305  mv ~/sei/homework/Star_Wars/empire/death_star/han_solo.txt ~/sei/homework/Star_Wars/empire/death_star/millenium_falcon/
+  306  mv ~/sei/homework/Star_Wars/empire/death_star/luke_skywalker.txt ~/sei/homework/Star_Wars/empire/death_star/millenium_falcon/
+  307  mv ~/sei/homework/Star_Wars/empire/death_star/princess_leia.txt ~/sei/homework/Star_Wars/empire/death_star/millenium_falcon/
+  308  mv ~/sei/homework/Star_Wars/empire/death_star/millenium_falcon ~/sei/homework/Star_Wars/rebellion
+  309  mv ~/sei/homework/Star_Wars/empire/death_star/darth_vader.txt ~/sei/homework/Star_Wars/empire   
+  310  rm ~/sei/homework/Star_Wars/empire/death_star 
+  311  rm -rf~/sei/homework/Star_Wars/empire/death_star 
+  312  rm -rf ~/sei/homework/Star_Wars/empire/death_star
+  313  git status
+  314  git add .
+  315  git commit -m "Act 3 complete"
+  316  git push origin master
