@@ -1,0 +1,250 @@
+~
+  184  cd drawers
+  185  ~drawers/pjs
+  186  ~
+  187  ~drawers/pjs
+  188  ~
+  189  mk dir ~/drawers/pjs
+  190  ~
+  191  mkdir ~/drawers/pjs
+  192  mkdir ~/drawers/more-socks
+  193  ls
+  194  cd ~ drawers/pjs
+  195  touch warm.pjs
+  196  touch favorite.socks
+  197  ls
+  198  cd ~
+  199  cd drawers
+  200  ls
+  201  cd ~/drawers
+  202  tree .
+  203  mv ~/drawers/pjs/favorite.socks ~/drawers/more-socks
+  204  ls
+  205  tree .
+  206  mv more-socks socks
+  207  ls
+  208  mkdir ~/drawers/pjs/shorts
+  209  tree .
+  210  touch ~/drawers/pjs/shorts/plaid.pjs
+  211  ls
+  212  tree .
+  213  mv ~/drawers/pjs/shorts ~/drawers/
+  214  tree .
+  215  mv shorts ~/drawers/pjs/
+  216  tree .
+  217  mv ~/drawers/pjs/shorts ~/drawers
+  218  ls
+  219  tree .
+  220  cd shorts
+  221  touch stripes.pjs
+  222  cd ~ drawers
+  223  cd drawers
+  224  cd ~drawers
+  225  cd -
+  226  ls
+  227  rm shorts/stripes.pjs
+  228  ls
+  229  tree .
+  230  rm -rf ~/drawers/pjs
+  231  tree .
+  232  touch socks/holy.socks
+  233  tree .
+  234  mkdir more-socks
+  235  ls
+  236  cp/socks/*.socks ~/drawers/more-socks
+  237  cp socks/*.socks ~/drawers/more-socks
+  238  ls
+  239  tree .
+  240  cp -R ~/drawers/more-socks ~/drawers/even-more-socks
+  241  ls
+  242  tree .
+  243  mv even-more-socks backup-socks
+  244  ls
+  245  ~
+  246  mkdir ~/sei
+  247  cd ~/sei
+  248  mkdir labs
+  249  mkdir fundamentals
+  250  mkdir projects
+  251  mkdir repos
+  252  mkdir code-alongs
+  253  mkdir deliverables
+  254  mkdir reflections
+  255  ls
+  256  tree .
+  257  mkdir boilerplate
+  258  ls
+  259  cd boilerplate
+  260  ls
+  261  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  262  ls
+  263  tree .
+  264  cd ..
+  265  cp -R boilerplate ./code-alongs
+  266  cd code-alongs
+  267  mv boilerplate hello_world
+  268  ls
+  269  tree .
+  270  cd hello_world
+  271  code
+  272  code .
+  273  ~
+  274  ls
+  275  cd sei
+  276  ls
+  277  cd deliverables
+  278  ls
+  279  cd ..
+  280  cd code-alongs
+  281  dc ..
+  282  cd ..
+  283  git clone
+  284  git clone https://github.com/anthowest/daily-js-code-challenges.git
+  285  ls
+  286  cd daily-js-code-challenges
+  287  ls
+  288  ls -a
+  289  code .
+  290  node []
+  291  git status
+  292  node challenges.js
+  293  git status
+  294  git add .
+  295  git commit -m "Solve addOne function"
+  296  git status
+  297  git push origin master
+  298  la -a
+  299  tree .
+  300  ls -a
+  301  git status
+  302  cd ..
+  303  cd labs
+  304  git clone https://github.com/anthowest/github_101.git
+  305  ls
+  306  ls -a
+  307  cd github_101
+  308  code .
+  309  git status
+  310  git add .
+  311  git commit -m "Add my answers to answers.txt"
+  312  git push origin master
+  313  git pull request
+  314  cd ..
+  315  ls
+  316  cd deliverables
+  317  git clone https://github.com/anthowest/Star_Wars.git
+  318  code .
+  319  ls
+  320  cd star_wars
+  321  mkdir empire rebellion
+  322  ls
+  323  cd empire
+  324  commit darth_vader.txt
+  325  touch darth_vader.txt
+  326  cd darth.vader.txt
+  327  ls
+  328  cd darth_vader.txt
+  329  echo "...heavy breathing..."
+  330  ls
+  331  echo "...heavy breathing..." ~/sei/deliverables/Star_Wars/empire/darth_vader.txt
+  332  touch emperor_palpatine.txt
+  333  ls
+  334  mkdir death_star
+  335  ls
+  336  mv darth_vader.txt death_star
+  337  ls
+  338  tree .
+  339  git status
+  340  .git status
+  341  cd star_wars
+  342  git status
+  343  git add .
+  344  git status
+  345  git commit -m "act1 commands"
+  346* cd ..
+  347* ls
+  348* cd rebellion
+  349* touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope."
+  350* ls
+  351* touch obi_wan.txt
+  352* tree .
+  353* touch luke_skywalker.txt
+  354* touch millenium_falcon
+  355* rm millenium_falcon
+  356* ls
+  357* mkdir millenium_falcon
+  358* ls
+  359* cd millenium_falcon
+  360* touch han_solo.txt chewbacca.txt
+  361* ls
+  362* cd ..
+  363* ls
+  364* mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  365* ls
+  366* tree .
+  367* mv millenium_falcon ~/sei/deliverables/Star_Wars/empire/death_star
+  368* tree .
+  369* cd ..
+  370* tree .
+  371  git status
+  372  git add
+  373  git add .
+  374  git status
+  375  git commit -m "act2 commands"
+  376* mv *millenium_falcon ~/sei/deliverables/Star_Wars/empire/death_star
+  377* mv millenium_falcon* ~/s
+  378* mv millenium_falcon/* ~/sei/deliverables/Star_Wars/empire/death_star
+  379* cd death_star
+  380* cd ..
+  381* cd star_wars
+  382* ls
+  383* cd empire
+  384* ls
+  385* cd death_star
+  386* cd ..
+  387* mv death_star/millenium_falcon/* ~/death_star/
+  388* cd ..
+  389* ~/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon/* ~/sei/deliverables/Star_Wars/empire/death_star
+  390* ~/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon/ ~/sei/deliverables/Star_Wars/empire/death_star
+  391* mv ~/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon/* ~/sei/deliverables/Star_Wars/empire/death_star
+  392* ls
+  393* cd empire
+  394* ls
+  395* cd death_star
+  396* ls
+  397* rm obi_wan.txt
+  398* ls
+  399* tree .
+  400* cd ..
+  401* tree .
+  402* cd death_star
+  403* ls
+  404* ~/sei/deliverables/Star_Wars/empire/death_star/darth_vader.txt ~/sei/deliverables/Star_Wars/empire/death_star/darth_vader
+  405* mv /death_star.txt ~/death_star 
+  406* mv /darth_vader.txt ~/darth_vader
+  407* mv ~/sei/deliverables/Star_Wars/empire/death_star/darth_vader.txt ~/sei/deliverables/Star_Wars/empire/death_star/darth_vader1.txt
+  408* ls
+  409* mv ~/sei/deliverables/Star_Wars/empire/death_star/darth_vader1.txt  ~/sei/deliverables/Star_Wars/empire/death_star/darth_vader.
+  410* ls
+  411* mv *.txt ~/millenium_falcon
+  412* .txt
+  413* ls
+  414* mv .txt* millenium_falcon
+  415* mv *.txt millenium_falcon/
+  416* mv darth_vader. darth.vader.txt
+  417* ls
+  418* mv millenium_falcon ~/rebellion
+  419* ls
+  420* mv death_star/darth_vader.txt ~/empire
+  421* cd death_star
+  422* mv darth_vader.txt ~/empire 
+  423* cd ..
+  424* mv death_star/darth.vader.txt ~/empire
+  425* rm death_star
+  426* rm death_star/
+  427* rm /death_star/
+  428* rm -rf death_star
+  429  git status
+  430  git add .
+  431  git status
+  432  git commit -m "act3 commands"
