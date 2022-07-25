@@ -1,0 +1,73 @@
+  164  cd Star_Wars
+  165  code .
+  166  mkdir star_wars
+  167  cd star_wars
+  168  mkdir empire && rebellion
+  169  mkdir empire rebellion
+  170  tree
+  171  cd empire
+  172  touch darth_vader.txt
+  173  touch emperor_palpatine.txt
+  174  mkdir death_star
+  175  mv darth_vader.txt death_star
+  176  cd ..
+  177  cd rebellion
+  178  echo 'Help me, Obi-Wan…You’re my only hope.' > princess_leia.txt
+  179  touch obi_wan.txt
+  180  touch luke_skywalker.txt
+  181  mkdir millenium_falcon
+  182  cd millenium_falcon
+  183  touch han_solo.txt
+  184  touch chewbacca.txt
+  185  cd ..
+  186  mv luke_skywalker.txt millenium_falcon
+  187  mv obi_wan.txt millenium_falcon
+  188  mv princess_leia.txt millenium_falcon
+  189  cd..
+  190  cd ..
+  191  tree
+  192  cd rebellion
+  193  mv millenium_falcon ~/empire/death_star
+  194  mv ~/rebellion/millenium_falcon ~/empire/death_star
+  195  mv ~/star_wars/star_wars/rebellion/millenium_falcon ~/star_wars/star_wars/empire/death_star
+  196  tree
+  197  mv ~/rebellion/millenium_falcon /empire/death_star
+  198  cd ..
+  199  cd empire
+  200  cd death_star
+  201  mv *.txt death_star
+  202  mv *.txt ~/death_star
+  203  mv .*.txt ~/death/star
+  204  cd millenium_falcon
+  205  mv *.txt /death_star
+  206  mv *.txt death_star
+  207  mv *txt deathstar
+  208  cd ..
+  209  ls
+  210  rm obi_wan.txt
+  211  mv han_solo millenium_falcon
+  212  mv chewbacca.txt millenium_falcon
+  213  mv han_solo.txt millenium_falcon
+  214  mv luke_skywalker.txt millenium_falcon
+  215  mv princess_leia.txt millenium_falcon
+  216  mv millenium_falcon ~/sei/star_wars/star_wars/rebellion
+  217  mv millenium_falcon/ star_wars/rebellion
+  218  mv millenium_falcon /Users/rick/sei/deliverables/Star_Wars/star_wars/rebellion
+  219  cd ..
+  220  tree
+  221  cd ..
+  222  ls
+  223  cd star_wars
+  224  ls
+  225  cd empire
+  226  ls
+  227  cd death_star
+  228  ls
+  229  mv darth_vader.txt /Users/rick/sei/deliverables/Star_Wars/star_wars/empire
+  230  rm ~/Users/rick/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  231  rm /Users/rick/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  232  rm -rf ~/Users/rick/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  233  rm -rf /Users/rick/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  234  cd ..
+  235  git add .
+  236  git status
