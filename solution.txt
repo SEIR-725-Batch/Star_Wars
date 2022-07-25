@@ -1,0 +1,253 @@
+  NOTE: I accidentally deleted empire rather than death star in act 3, 
+  so there are some extra steps to add them back in and finalize the story.
+
+  282  mkdir star_wars
+  283  ls
+  284  cd star_wars
+  285  mkdir empire rebellion
+  286  ls
+  287  cd empire
+  288  touch dark_vader.txt
+  289  ls
+  290  echo "...heavy breathing..."
+  291  ls
+  292  mv dark_vader.txt darth_vader.txt
+  293  l
+  294  ls
+  295  echo "...heavy breathing..." > darth_vader.txt
+  296  ls
+  297  touch emperor_palpatine.txt
+  298  mkdir death_star
+  299  ls
+  300  mv darth_vader.txt ./death_star/
+  301  ls
+  302  cd death_star
+  303  ls
+  304  cd ..
+  305  ls
+  306  cd ..
+  307  ls
+  308  cd rebellion
+  309  ls
+  310  c d..
+  311  cd ..
+  312  ls
+  313  cd ..
+  314  ls
+  315  cd /star_wars
+  316  cd star_wars/rebellion
+  317  ls
+  318  cd
+  319  cd ~/Star_Wars/star_wars/rebellion
+  320  ls
+  321  touch princess_leia.txt && echo "Help me, Obi-Wan... You're my only hope." > princess_leia.txt
+  322  cd Desktop
+  323  cd 
+  324  cd Desktop
+  325  tree
+  326  cd ..
+  327  ls
+  328  cd Star_Wars
+  329  tree
+  330  ls
+  331  cd star_wars
+  332  ls
+  333  cd rebellion
+  334  ls
+  335  touch obi_wan.txt
+  336  touch luke_skywalker.txt
+  337  mkdir millenium_falcon
+  338  ls
+  339  cd millenium_falcon
+  340  touch han_solo.txt chewbacca.txt
+  341  ls
+  342  cd ..
+  343  ls
+  344  pwd
+  345  cd
+  346  cd rebellion/Users/nduitsman/Star_Wars/star_wars/rebellion
+  347  cd /Users/nduitsman/Star_Wars/star_wars/rebellion\n
+  348  ls
+  349  cd millenium_falcon
+  350  cd ./rebellion
+  351  cd ~/rebellion
+  352  cd ~/Star_Wars/star_wars/rebellion
+  353  ls
+  354  mv luke_skywalker.txt obi_wan.txt princess_leia.txt ./millenium_falcon/
+  355  ls
+  356  cd millenium_falcon
+  357  ls
+  358  cd ..
+  359  ls
+  360  cd ..
+  361  tree
+  362  cd star_wars/rebellion
+  363  mv ./rebellion/ ~/Star_Wars/star_wars/empire/death_star
+  364  ls
+  365  tree
+  366  cd ..
+  367  ls
+  368  cd ..
+  369  ls
+  370  cd ..
+  371  ls
+  372  cd Star_Wars
+  373  tree
+  374  ls
+  375  cd star_wars
+  376  ls
+  377  cd rebellion
+  378  ls
+  379  cd /Star_wars?
+  380  cd 
+  381  cd Star_Wars
+  382  ls
+  383  cd star_wars
+  384  mv ./rebellion/millenium_falcon/ ~/Star_Wars/star_wars/empire/death_star
+  385  ls
+  386  cd rebellion
+  387  ls
+  388  mkdir testdir
+  389  ls
+  390  mv testdir ~/Star_Wars/star_wars/empire/death_star
+  391  ls
+  392  cd ..
+  393  ls
+  394  cd empire/death_star
+  395  ls
+  396  rm testdir
+  397  rm -r testdir
+  398  ls
+  399  cd
+  400  ls
+  401  cd Desktop
+  402  ls
+  403  cd GASEI
+  404  ls
+  405  git clone https://github.com/nduitsman/daily-js-code-challenges.git
+  406  ls
+  407  cd daily-js-code-challenges
+  408  ls -a
+  409  code .
+  410* node challenges.js
+  411* clear
+  412* node challenges.js
+  413  git status
+  414* git add .
+  415* git status
+  416* git commit -m "solved addOne function"
+  417* git status
+  418* git branch
+  419* git push origin master
+  420  cd
+  421  ls
+  422  cd Desktop
+  423  cd GASEI
+  424  ls
+  425  cd labs
+  426  git clone https://github.com/nduitsman/github_101.git
+  427  ls
+  428  cd github_101
+  429  ls
+  430  code .
+  431* git status
+  432* git add .
+  433* git status
+  434* git commit -m "Answers added to answers.txt"
+  435* git push origin master
+  436  cd
+  437  cd Desktop
+  438  ls
+  439  cd GASEI
+  440  ls
+  441  cd ..
+  442  ls
+  443  cd ..
+  444  ls
+  445  cd Star_Wars/star_wars/empire/death_star
+  446  ls
+  447  mv ~/Star_Wars/star_wars/empire/death_star/millenium_falcon/* ~/Star_Wars/star_wars/empire/death_star
+  448  ls
+  449  cd ..
+  450  ls
+  451  cd death_star
+  452  cd ~/Star_Wars/star_wars/empire/death_star
+  453  ls
+  454  cd
+  455  cd ~/Star_Wars/star_wars/empire/death_star && rm obi_wan.txt
+  456  ls
+  457  mv *.txt ~/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  458  ls
+  459  cd ..
+  460  ls
+  461  cd ..
+  462  ls
+  463  cd empire
+  464  ls
+  465  cd death_star
+  466  ls
+  467  cd millenium_falcon
+  468  ls
+  469  mv *.txt ~/Star_Wars/star_wars/empire/death_star
+  470  ls
+  471  cd ..
+  472  ls
+  473  mv chewbacca.txt luke_skywalker.txt princess_leia.txt han_solo.txt ~/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  474  ls
+  475  mv millenium_falcon ~/star_wars/star_wars/rebellion/
+  476  ls
+  477  cd ..
+  478  ls
+  479  cd ..
+  480  ls
+  481  cd rebellion
+  482  ls
+  483  cd ..
+  484  ls
+  485  cd empire
+  486  ls
+  487  cd death_star
+  488  ls
+  489  mv darth_vader.txt ~/star_wars/star_wars/empire/
+  490  ls
+  491  cd ..
+  492  ls
+  493  rm -r ~/star_wars/star_wars/empire
+  494  ls
+  495  cd ..
+  496  ls
+  497  cd ..
+  498  ls
+  499  cd star_wars
+  500  ls
+  501  cd rebellion
+  502  l
+  503  ls
+  504  cd millenium_falcon
+  505  ls
+  506  cd ..
+  507  ls
+  508  cd ..
+  509  ls
+  510  cd ..
+  511  ls
+  512  cd star_wars
+  513  mkdir empire
+  514  ls
+  515  cd empire
+  516  touch emperor_palpatine.txt
+  517  ls
+  518  cd ..
+  519  ls
+  520  cd empire
+  521  ls
+  522  mkdir death_star
+  523  ls
+  524  cd ..
+  525  ls
+  526  cd empire
+  527  ls
+  528  touch darth_vader.txt
+  529  ls
+  530  rm -r ~/star_wars/star_wars/death_star
+  531  rm -r ~/Star_wars/star_wars/empire/death_star
