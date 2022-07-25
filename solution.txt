@@ -1,0 +1,39 @@
+386  git clone git@github.com:SeanBu/Star_Wars.git
+  387  ls
+  388  cd Star_Wars
+  389  code .
+  390  mkdir star_wars
+  391  cd star_wars
+  392  mkdir empire rebellion
+  393  cd empire
+  394  touch darth_vader.txt
+  395  echo "...heavy breathing..." > darth_vader.txt
+  396  touch emperor_palpatine.txt
+  397  mkdir death_star
+  398  mv darth_vader.txt ~/death_star/
+  399  mv darth_vader.txt death_star
+  400  cd ..
+  401  cd rebellion
+  402  touch princess_leia.text && echo "Help me, Obu-Wan...You're my only hope." >> princess_leia.txt
+  403  rm princess_leia.text
+  404  touch obi_wan.txt
+  405  touch luke_skywalker.txt
+  406  mkdir millenium_falcon
+  407  cd millenium_falcon
+  408  touch han_solo.txt chewbacca.txt
+  409  cd ..
+  410  mv *.txt millenium_falcon
+  411  cd ..
+  412  cd rebellion
+  413  mv millenium_falcon/ ~/star_wars/empire/death_star/
+  414  cd ..
+  415  mv rebellion/millenium_falcon empire/death_star
+  416  mv empire/death_star/millenium_falcon/* empire/death_star
+  417  cd empire
+  418  cd death_star
+  419  rm obi_wan.txt
+  420  mv chewbacca.txt millenium_falcon && mv han_solo.txt millenium_falcon && mv luke_skywalker.txt millenium_falcon && mv princess_leia.txt millenium_falcon
+  421  cd ..
+  422  mv empire/death_star/millenium_falcon rebellion
+  423  mv empire/death_star/darth_vader.txt empire/
+  424  rm -rf empire/death_star
