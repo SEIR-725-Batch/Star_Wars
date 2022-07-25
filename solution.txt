@@ -1,0 +1,16 @@
+  386  rm death_star
+  387  cd ..
+  388  rm death_star
+  389  rm -rf ~/sei/repos/star_wars/empire/death_star
+  390  ls
+  391  git status
+  392  git add .
+  393  git status
+  394  cd ..
+  395  cd ..
+  396  git add .
+  397  git status
+  398  cd star_wars
+  399  git add .
+  400  git status
+  401  git commit -m "act 3"
