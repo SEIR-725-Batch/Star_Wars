@@ -1,0 +1,94 @@
+514  gh repo clone TimRathert/Star_Wars
+  515  ls
+  516  cd Star_Wars
+  517  code .
+  518  mkdir star_wars
+  519  cd star_wars
+  520  mkdir empire rebellion
+  521  cd empire
+  522  ls
+  523  ls -a
+  524  touch darth_vader.txt && echo ...heavy breathing....>>darth_vader.txt
+  525  ls
+  526  pwd
+  527  cd ..
+  528  cd .
+  529  ls
+  530  cd empire
+  531  touch emperor_palpatine.txt
+  532  mkdir death_star
+  533  pwd
+  534  mv ./darth_vader.txt ./death_star
+  535  tree
+  536  cd..
+  537  cd ..
+  538  ls
+  539  cd ..
+  540  ls
+  541  git status
+  542  git add .
+  543  git status
+  544  git commit -m "completed act1"
+  545  git push origin master
+  546  git status
+  547  pwd
+  548  ls
+  549  cd star_wars/rebellion
+  550  touch princess_leia.txt && echo Help me, Obi-Wan…You’re my only hope.>>princess_leia.txt
+  551  touch obi_wan.txt luke_skywalker.txt
+  552  ls
+  553  mkdir millenium_falcon
+  554  touch ./millenium_falcon/han_solo.txt ./millenium_falcon/chewbacca.txt
+  555  ls
+  556  cd millenium_falcon
+  557  ls
+  558  cd ..
+  559  ls
+  560  mv luke_skywalker.txt ./millenium_falcon
+  561  mv obi_wan.txt ./millenium_falcon
+  562  mv princess_leia.txt ./millenium_falcon
+  563  ls
+  564  tree
+  565  cd ..
+  566  ls
+  567  mv ./rebellion/millenium_falcon ./empire/death_star
+  568  tree
+  569  pwd
+  570  cd ..
+  571  git status
+  572  pwd
+  573  git status
+  574  git add .
+  575  git status
+  576  git commit -m "act2 completed"
+  577  git push origin master
+  578  pwd
+  579  mv ./star_wars/empire/death_star/millenium_falcon/* ./star_wars/empire/death_star
+  580  tree
+  581  rm ./star_wars/empire/death_star/obi_wan.txt
+  582  cd ./star_wars/empire/death_star
+  583  tree
+  584  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ./millenium_falcon
+  585  tree
+  586  mv ./millenium_falcon/ ~/sei/Star_Wars/star_wars/rebellion
+  587  tree
+  588  cd ..
+  589  cd..
+  590  cd ..
+  591  tree
+  592  ls
+  593  mv ./empire/death_star/darth_vader.txt ./empire
+  594  rm ./empire/death_star/*
+  595  tree
+  596  rm ./empire/death_star
+  597  rm -rf ./empire/death_star
+  598  tree
+  599  pwd
+  600  cd ..
+  601  git status
+  602  git add .
+  603  git commit -m "act 3 completed"
+  604  git push origin master
+  605  git status
+  606  history
+  607  history | tail -n 92
