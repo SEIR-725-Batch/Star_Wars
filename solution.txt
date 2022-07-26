@@ -1,0 +1,252 @@
+➜  Star_wars-1 git:(master) ✗ history | tail -n 250
+  356  ls
+  357  cd boilerplate
+  358  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  359  ls
+  360  tree
+  361  cd ..
+  362  ls
+  363  tree
+  364  cp ~boilerplate ~/sei/code-alongs
+  365  cp -R boilerplate ./code-alongs
+  366  ls
+  367  cd code-alongs
+  368  tree
+  369  code .
+  370  cd ..
+  371  ls
+  372  tree
+  373  mkdir hello_world
+  374  ls
+  375  mkdir daily-code-challenges
+  376  ls
+  377  code .
+  378  cd daily-code-challenges
+  379  code .
+  380  git clone
+  381  git clone https://github.com/faizamahmoud/daily-js-code-challenges.git
+  382  cd ..
+  383  ls
+  384  cd daily-code-challenges
+  385  ls
+  386  ls -a
+  387  cd ..
+  388  git version
+  389  brew install gh
+  390  brew install node
+  391  node -v
+  392  npm -v
+  393  git config --global init.defaultBranch main
+  394  git config --global core.editor "code --wait"
+  395  git config --global pull.rebase false
+  396  touch ~/.gitignore_global
+  397  git config --global core.excludesfile ~/.gitignore_global
+  398  code ~/.gitignore_global
+  399  cd
+  400  ls
+  401  desktop
+  402  ls
+  403  cd sei
+  404  documents
+  405  ls
+  406  cd ..
+  407  ls
+  408  cd sei
+  409  ls
+  410  cd daily-code-challenges
+  411  git status
+  412  -a
+  413  ls -a
+  414  git clone https://github.com/faizamahmoud/daily-js-code-challenges.git
+  415  ls -a
+  416  cd ..
+  417  ls -a
+  418  cd ..
+  419  ls -a
+  420  .git
+  421  cd ~/desktop
+  422  ls
+  423  cd ..
+  424  ls
+  425  cd sei
+  426  git init
+  427  ree
+  428  tree
+  429  git status
+  430  git add .
+  431  git submodule add <url> daily-code-challenges/daily-js-code-challenges
+  432  git submodule add daily-code-challenges/daily-js-code-challenges
+  433  git submodule add -daily-code-challenges/daily-js-code-challenges
+  434  git commit -m "Solve addOne"
+  435  code .
+  436  ls -a
+  437  git status
+  438  git add .
+  439  git status
+  440  git clone https://github.com/faizamahmoud/daily-js-code-challenges.git
+  441  git status
+  442  git add .
+  443  git commit -m "hi"
+  444  git push origin main
+  445  git status
+  446  ls -a
+  447  touch ~/.gitignore_global
+  448  git config --global core.excludesfile ~/.gitignore_global
+  449  code ~/.gitignore_global
+  450  code .
+  451  touch ~/.gitignore_global
+  452  git config --global core.excludesfile ~/.gitignore_global
+  453  code ~/.gitignore_global
+  454  ls
+  455  rmdir function\ mult_iter\(\)\{
+  456  rm function\ mult_iter\(\)\{
+  457  ls
+  458  cd ..
+  459  ls
+  460  faizamahmoud
+  461  ls
+  462  sei
+  463  ls
+  464  boilerplate
+  465  ls
+  466  ls -a
+  467  cd ..
+  468  npm i -g nodemon
+  469  -f
+  470  ls
+  471  sei
+  472  ls
+  473  cd boilerplate
+  474  ls
+  475  cd ..
+  476  labs
+  477  ls
+  478  cd ..
+  479  rm -r sei
+  480  ls
+  481  cd sei
+  482  ls
+  483  d ..
+  484  cd ..
+  485  ls
+  486  desktop
+  487  mkdir SEI
+  488  ls
+  489  sei
+  490  mkdir {npm i -g nodemon
+  491  ls
+  492  rm nodemon {npm
+  493  ls
+  494  rmdir nodemon {npm
+  495  ls
+  496  g
+  497  cd ..
+  498  npm i -g nodemon
+  499  npm i -f -g nodemon
+  500  ls -l
+  501  chmod
+  502  chmod 755
+  503  chmod 755 /Users/faizamahmoud 
+  504  npm i -g nodemon
+  505  sudo npm i -g nodemon
+  506  ls
+  507  desktop
+  508  ls
+  509  sei
+  510  mkdir {boilerplate,code-alongs,deliverables, fundamentals,hello_world,labs,projects, reflections,repos}
+  511  ls
+  512  mkdir boilerplate,code-alongs,deliverables,fundamentals,hello_world,labs,projects, reflections,repos
+  513  ls
+  514  rmdir boilerplate,code-alongs,deliverables,fundamentals,hello_world,labs,projects,relections,repos
+  515  ls
+  516  mkdir boilerplate, code-alongs, deliverables, fundamentals, hello_world, labs, projects, reflections, repos
+  517  ls
+  518  mkdir boilerplate code-alongs deliverables fundamentals hello_world labs projects reflections repos
+  519  ls
+  520  tree
+  521  boilerplate
+  522  touch index.html scripts styles
+  523  l
+  524  ls
+  525  code .
+  526  cd ..
+  527  git init
+  528  cd labs
+  529  mkdir star-wars1
+  530  cd star-wars1
+  531  git clone https://github.com/faizamahmoud/Star_Wars-1.git
+  532  git status
+  533  code .
+  534  echo
+  535  ls
+  536  cd star_wars_1
+  537  cd Star_Wars-1
+  538  ls
+  539  ./act1
+  540  ./act1.sh
+  541  ls
+  542  empire
+  543  ls
+  544  cd ..
+  545  empire
+  546  ls
+  547  death_star
+  548  ls
+  549  darth_vader.txt
+  550  cd ..
+  551  echo ./darth_vader.txt "...heavy breathing..."
+  552  touch text.txt
+  553  echo HelloWorld >> text
+  554  cd text.txt
+  555  cd empire
+  556  ./act1.sh
+  557  ./empire/darth_vader.txt
+  558  ./darth_vader.txt
+  559  ls
+  560  empire
+  561  ls
+  562  death_star
+  563  ./darth_vader.txt
+  564  sudo ./darth_vader.txt
+  565  sudo darth_vader.txt
+  566  sudo nano darth_vader.txt
+  567  ./
+  568  ./Star_wars-1
+  569  ls
+  570  desktop
+  571  ls
+  572  tree
+  573  Star-wars-1
+  574  ls
+  575  sei
+  576  labs
+  577  star-wars-1
+  578  star-wars1
+  579  star-wars-1
+  580  Star-wars-1
+  581  ./act1.sh
+  582  cd Star_wars-1
+  583  ./act1.sh
+  584  ./act2.sh
+  585  ls
+  586  star_wars
+  587  ls
+  588  empire
+  589  ls
+  590  death_star
+  591  ls
+  592  cd ..
+  593  ./act2.sh
+  594  ls
+  595  ./act3.sh
+  596  ls
+  597  ./act1.sh
+  598  git add act1.sh
+  599  git status
+  600  git commit -m "Act 1 is complete"
+  601  git add act2.sh
+  602  git commit -m "Act 2 is complete"
+  603  git add act3.sh
+  604  git commit -m "Act 3 is complete"
+  605  history
+➜  Star_wars-1 git:(master) ✗ 
