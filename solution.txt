@@ -1,0 +1,136 @@
+301  git clone https://github.com/ekelly55/Star_Wars.git
+  302  code .
+  303  ls
+  304  cd Star_Wars
+  305  mkdir star_wars
+  306  mkdir star_wars/empire rebellion
+  307  tree .
+  308  mkdir star-wars/rebellion
+  309  mkdir star_wars/rebellion
+  310  tree .
+  311  cd .
+  312  cd ..
+  313  cd Star_Wars
+  314  git rm -r rebellion
+  315  rm -r rebellion
+  316  touch star_wars/empire/darth_vader.txt
+  317  echo ...heavy breathing... >>darth_vader.txt
+  318  mkdir star_wars/empire/emperor_palpatine.txt
+  319  rm -r emperor_palpatine.txt
+  320  cd star_wars
+  321  rm -r emperor_palpatine.txt
+  322  cd empire
+  323  rm -r emperor_palpatine.txt
+  324  touch emperor_palpatine.txt
+  325  mkdir death_star
+  326  mv darth_vader.txt death_star
+  327  git status
+  328  git ad .
+  329  git add .
+  330  git status
+  331  git add darth_vader.txt
+  332  git add <darth_vader.txt>
+  333  git add death_star/darth_vader.txt
+  334  git status
+  335  cd ..
+  336  git add .
+  337  git status
+  338  echo ...heavy breathing... >>empire/death_star/darth_vader.txt
+  339  git add .
+  340  cd ..
+  341  rm darth_vader.txt
+  342  git status
+  343  cd act1.sh
+  344  cd
+  345  cd deliverables
+  346  cd sei
+  347  cd deliverables
+  348  tree .
+  349  git add .
+  350  cd Star_Wars
+  351  git add .
+  352  git status
+  353  git add .
+  354  git status
+  355  git commit -m nn
+  356  git commit -m Adds commands given in terminal to act1.sh
+  357  git status
+  358  touch star_wars/rebellion princess_leia.txt
+  359  touch star_wars/rebellion/princess_leia.txt
+  360  rm princess_leia.txt
+  361  touch star_wars/rebellion/obi_wan.txt
+  362  touch star_wars/rebellion/luke_skywalker.txt
+  363  mkdir star_wars/rebellion/millenium_falcon
+  364  touch star_wars/rebellion/millenium_falcon/han_solo.txt star_wars/rebellion/millenium_falcon/chewbacca.txt   
+  365  cd star-wars
+  366  cd star_wars
+  367  mv luke_ skywalker millenium_falcon
+  368  rv luke_skywalker rebellion/millenium_falcon
+  369  mv luke_skywalker rebellion/millenium_falcon
+  370  mv luke_skywalker.txt rebellion/millenium_falcon
+  371  mv luke_skywalker.txt star_wars/rebellion/millenium_falcon
+  372  mv rebellion/luke_skywalker.txt rebellion/millenium_falcon
+  373  mv rebellion/obi_wan.txt rebellion/millenium_falcon
+  374  mv rebellion/princess_leia.txt rebellion/millenium_falcon
+  375  mv rebellion/millenium_falcon  empire
+  376  git add .
+  377  git status
+  378  cd ..
+  379  git add .
+  380  git status
+  381  git commit -m Adds commands given in terminal to act2.sh
+  382  git status
+  383  cd star-wars
+  384  mv rebellion/millenium_falcon  empire/death_star
+  385  cd star_wars
+  386  mv rebellion/millenium_falcon  empire/death_star
+  387  mv rebellion/millenium_falcon  empire/death_star/millenium_falcon
+  388  mv empire/millenium_falcon  empire/death_star
+  389  git add .
+  390  git status
+  391  cd ..
+  392  git add .
+  393  git status
+  394  git commit -m Fix bugs: millenium falcon moved to wrong dir.
+  395  git status
+  396  cd death_star
+  397  cd star_wars/empire/death_star
+  398  pwd
+  399  mv millenium_falcon* death_star
+  400  mv death_star* millenium_falcon
+  401  mv millenium_falcon/* death_star
+  402  mv millenium_falcon/* empire/death_star
+  403  mv millenium_falcon/* death_star
+  404  cd ..
+  405  mv millenium_falcon/* death_star
+  406  mv death_star/millenium_falcon/* death_star
+  407  mv death_star/darth_vader.txt death_star
+  408  mv death_star/millenium_falcon/darth_vader.txt death_star
+  409  mv empire/death_star/millenium_falcon/darth_vader.txt empire/death_star
+  410  cd death_star
+  411  mv millenium_falcon/darth_vader.txt empire/death_star
+  412  cd ..
+  413  mv star_wars/empire/death_star/millenium_falcon/darth_vader.txt star_wars/empire/death_star
+  414  cd star_wars
+  415  cd empire
+  416  mv death_star/millenium_falcon/darth_vader.txt death_star 
+  417  ls
+  418  cd death_star
+  419  ls
+  420  rm obi_wan.txt
+  421  ls
+  422  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  423  mv millenium_falcon star_wars/rebellion
+  424  cd ..
+  425  mv empire/death_star/millenium_falcon rebellion
+  426  mv empire/death_star/darth_vader.txt empire
+  427  cd empire
+  428  cd death_star
+  429  ls
+  430  cd ..
+  431  rm -r death_star
+  432  cd ..
+  433  git add .
+  434  git status
+  435  git commit -m Adds commands given in terminal to act3.sh
+  436  git status
