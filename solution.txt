@@ -1,0 +1,613 @@
+ 1  ls
+    2  mkdir test
+    3  ls
+    4  cd test
+    5  echo "Hello Command Line">>hello_cli.txt
+    6  ls
+    7  cat hello_cli.txt
+    8  hello
+    9  where am i?
+   10  pwd
+   11  ls
+   12  cd documents
+   13  ls
+   14  ls -a
+   15  cd..
+   16  cd ..
+   17  pwd
+   18  cd ~
+   19  mkdir myfolder
+   20  ls
+   21  cd myfolder
+   22  touch
+   23  touch index.html style.css
+   24  rm style.css
+   25  ls
+   26  cd ..
+   27  rm -r myfolder
+   28  cd ..
+   29  ls
+   30  cd downloads
+   31  cd ~
+   32  ls
+   33  documents
+   34  Downloads
+   35  cd downloads
+   36  ls
+   37  world
+   38  cd world
+   39  ls
+   40  world -a
+   41  -a
+   42  ls -a
+   43  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   44  git --version
+   45  git --version
+   46  cd ..
+   47  mkdir GA-Blog
+   48  cd GA-Blog
+   49  $ git init
+   50  cd GA-Blog
+   51  ls
+   52  $ git init
+   53  pwd
+   54  $ git init
+   55  ls -a
+   56  $ git stauts
+   57  git init
+   58  git status
+   59  touch post.txt
+   60  git status
+   61  touch post.txt
+   62  git status
+   63  git add post.txt
+   64  git status
+   65  git commit -m "created a new post.txt file"
+   66  git log
+   67  mkdir git-practice
+   68  cd git-practice
+   69  pwd
+   70  git init
+   71  git status
+   72  ls -a
+   73  touch README.txt
+   74  git status
+   75  git add README.txt
+   76  git commit -m "created a new post.txt file"
+   77  git status
+   78  echo $SHELL
+   79  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   80  code .
+   81  touch ~/.gitignore_global
+   82  git config --global core.excludesfile ~/.gitignore_global
+   83  code ~/.gitignore_global
+   84  gh auth login
+   85  brew install node
+   86  node -v
+   87  npm -v
+   88  npm i -g nodemon
+   89  brew install git
+   90  echo $SHELL
+   91  ```bash\nsh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n```
+   92  which brew
+   93  ```bash\n/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n```
+   94  code .
+   95  ```bash\n/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n```
+   96  which brew
+   97  ```bash\n/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n```
+   98  which brew
+   99  bash\n/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  100  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  101  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/joeycaltabellotta/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+  102  which brew
+  103  brew install git
+  104  which git
+  105  brew install git
+  106  git config --global user.name "Username"
+  107  git config --global user.name "joeycalt"
+  108  git config --global user.email "joeycalt@yahoo.com"
+  109  git config --global init.defaultBranch main
+  110  git config --global core.editor "code --wait"
+  111  git config --global pull.rebase false
+  112  touch ~/.gitignore_global
+  113  git config --global core.excludesfile ~/.gitignore_global
+  114  code ~/.gitignore_global
+  115  brew install node
+  116  node -v\nnpm -v
+  117  npm i -g nodemon
+  118  brew install gh
+  119  gh auth login
+  120  code test
+  121  which brew
+  122  brew list
+  123  pwd
+  124  cd
+  125  cd ~
+  126  ls
+  127  cd desktop
+  128  ls
+  129  pwd
+  130  cd.
+  131  cd ..
+  132  ls
+  133  ls -a
+  134  ls
+  135  ls -a
+  136  cd ~
+  137  brew install tree
+  138  ls
+  139  cd sei
+  140  mkdir socks
+  141  mkdir socks  && cd socks
+  142  pwd
+  143  socks >>tree
+  144  ls
+  145  cd socks
+  146  pwd
+  147  touch dress.socks.module.friend.txt
+  148  ls
+  149  touch dress.socks
+  150  ls
+  151  cd ..
+  152  ls
+  153  cd ~
+  154  mkdir socks && cd socks
+  155  mkdir draws/pjs
+  156  cd ~
+  157  mkdir drawers/pjs
+  158  ls
+  159  cd desktop
+  160  mkdir drawers/pjs
+  161  mkdir drawers
+  162  mkdir more-socks
+  163  mkdir ~/drawers/pjs
+  164  ls
+  165  touch warm.pjs
+  166  ls
+  167  cd ~
+  168  mkdir drawers && pjs
+  169  cd drawers
+  170  ls
+  171  mkdir pjs
+  172  ls
+  173  mkdir more-socks
+  174  ls
+  175  cd pjs
+  176  touch warm.pjs favorite.socks
+  177  ls
+  178  cd ..
+  179  tree .
+  180  mv ~/drawers.pjs.favorite.socks ~/drawers/more-socks
+  181  ls
+  182  mv ~/drawers/pjs/favorite.socks ~/drawers/more-socks
+  183  ls
+  184  tree .
+  185  mkdir ~/drawers/pjs/shorts
+  186  ls
+  187  tree .
+  188  mv shorts
+  189  ls
+  190  mv ~/drawers/pjs/shorts ~/drawers
+  191  ls
+  192  mv shorts ~/drawers/pjs
+  193  ls
+  194  tree .
+  195  mv ~/drawers/pjs/shorts ~/drawers
+  196  ls
+  197  cd shorts
+  198  mkdir plaid.pjs
+  199  ls
+  200  cd ..
+  201  touch ~/drawers/shorts/plaid.pjs
+  202  touch shorts/stripes.pjs
+  203  ls
+  204  tree .
+  205  mv pjs/warm.pjs pjs/winter.pjs
+  206  ls
+  207  tree .
+  208  rm shorts/stripes.pjs
+  209  ls
+  210  rm -rf ~/drawers/pjs
+  211  ls
+  212  touch socks/holy.socks
+  213  touch more-socks/holy.socks
+  214  ls
+  215  tree .
+  216  mkdir more-socks
+  217  ls
+  218  cp socks/*.socks ~/drawers/more-scoks
+  219  cp more-socks/*.more-socks ~/drawers/socks
+  220  ls
+  221  cp more-socks/*.more-socks ~drawers/socks
+  222  cp -R ~drawers/more-socks ~/drawers/even-more-socks
+  223  cd ~
+  224  mkdir ~/sei
+  225  cd ~/sei
+  226  touch labs
+  227  ls
+  228  touch fundamentals projects repos
+  229  ls
+  230  touch code-alongs deliverables reflections
+  231  ls
+  232  mkdir labs fundamentals projects repos code-alongs deliverables reflections
+  233  ls
+  234  rm~/sei
+  235  pwd
+  236  ls
+  237  mkdir boiler plate
+  238  ls
+  239  mkidr boilerplate
+  240  mkdir boilerplate
+  241  ls
+  242  cd boilerplate
+  243  ls
+  244  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  245  ls
+  246  tree .
+  247  cd ..
+  248  ls
+  249  cp *.boilerplates ~/sei/code-alongs
+  250  cp -R boilerplate ./code-alongs
+  251  cd ..
+  252  ls
+  253  cp -R boilerplate ./code.alongs
+  254  touch code-alongs deliverables reflections
+  255  rm -rf ~/sei
+  256  mkdir ~/sei
+  257  cd ~/sei
+  258  mkdir labs fundamentals projects repos code-alongs deliverables reflections
+  259  ls
+  260  mkdir hello_world
+  261  cd hello
+  262  cd hello_world
+  263  mkdir scripts styles && touch index.html scripts/app.js styles/main.css 
+  264  ls
+  265  tree .
+  266  cd ..
+  267  ls
+  268  mkdir boilerplate
+  269  ls
+  270  cd scripts
+  271  cd hello_world
+  272  cd ~
+  273  cd ..
+  274  cdsei
+  275  cd sei
+  276  cd ..
+  277  cd sei
+  278  ls
+  279  https://github.com/joeycalt/daily-js-code-challenges.git
+  280  git clone https://github.com/joeycalt/daily-js-code-challenges.git
+  281  cd ~
+  282  cd sei
+  283  git clone https://github.com/joeycalt/daily-js-code-challenges.git
+  284  ls
+  285  cd daily-js-code-challenges
+  286  ls -a
+  287  code .
+  288  clear
+  289  git status
+  290  clear
+  291  node challenges.js
+  292  git status
+  293  git add .
+  294  git status
+  295  git commit -m 'solve addOne function'
+  296  git status
+  297  git push origin master
+  298  git status
+  299  ls -a
+  300  git add .
+  301  git clone https://github.com/joeycalt/github_101.git
+  302  code .
+  303  cd github_101
+  304  code .
+  305  ~
+  306  git clone https://github.com/SEIR-725-Batch/github_101.git
+  307  cd github_101
+  308  code .
+  309  git status
+  310  git add .
+  311  git commit -m "Add my answers to answers.txt"
+  312  git push origin master
+  313  cd~
+  314  git clone https://github.com/joeycalt/github_101.git
+  315  code .
+  316  ~
+  317  git clone https://github.com/joeycalt/github_101.git
+  318  rm github_101
+  319  rm -rf github_101
+  320  ~
+  321  pwd
+  322  ~
+  323  git clone https://github.com/joeycalt/github_101.git
+  324  cd github_101
+  325  code .
+  326  git status
+  327  git add answers.txt
+  328  git commit -m "Add my answers to answers.txt"
+  329  git push origin master
+  330  ~
+  331  git clone https://github.com/joeycalt/Star_Wars.git
+  332  cd Star_Wars
+  333  code .
+  334  git status
+  335  tree .
+  336  git add act1.sh
+  337  tree .
+  338  mkdir star_wars
+  339  cd star_wars
+  340  mk dir empire, mkdir rebellion
+  341  mkdir empire, rebellion
+  342  ls
+  343  cd empire
+  344  git status
+  345  git add act1.sh
+  346  tree .
+  347  cd empire
+  348  mkdir ~/empire
+  349  mkdir ~/rebellion
+  350  cd empire
+  351  tree .
+  352  touch dart_vader.txt
+  353  tree .
+  354  rm darth_vader.txt
+  355  mv darth_vader.txt empire
+  356  tree .
+  357  mkdir empire
+  358  cd empire
+  359  mv darth_vader.tx empire
+  360  mv darth_vader.txt empire
+  361  cd empire
+  362  touch darth.vader.txt
+  363  tree.
+  364  tree .
+  365  echo ...heavy breathing... >>darth.vader.txt
+  366  touch emperor_palpatine.txt
+  367  touch death_star
+  368  mv darth_vader.txt death_star
+  369  tree .
+  370  mv darth_vader.txt death_star
+  371  mv ~/darth_vader.txt ~/death_star
+  372  rm death_star
+  373  ls
+  374  tree .
+  375  mkdir death_star
+  376  mv darth_vader.txt death_star
+  377  mv darth_vader.txt/death_star
+  378  tree .
+  379  cd rebellion
+  380  cd star_wars
+  381  ~
+  382  pwd
+  383  cd star_wars
+  384  ls
+  385  cd rebellion
+  386  mkdir rebellion
+  387  cd rebellion
+  388  rm rebellion
+  389  ~
+  390  cd rebellion
+  391  tree .
+  392  q
+  393  cd star_wars
+  394  tree .
+  395  cd rebellion
+  396  ~
+  397  cd rebellion
+  398  touch princess_leia.txt
+  399  echo Help me, Obi-Wan…You’re my only hope.
+  400  tree .
+  401  clear
+  402  tree .
+  403  touch obi_wan.txt
+  404  touch luke_skywalker.txt
+  405  mkdir millenium_falcon
+  406  cd millenium_falcon
+  407  touch han_solo.txt
+  408  touch chewbacca.txt
+  409  mv luke_skywalker,obi_wan,princess_leia/millenium_falcon
+  410  ls
+  411  mv luke_skywalker obi_wan princess_leia/millenium_falconm
+  412  ls
+  413  mv luke_skywalker/millenium
+  414  mv luke_skywalker/millenium_falcon
+  415  ls
+  416  mv ~/luke_skywalker ~/millenium_falcon
+  417  tree .
+  418  cd star_wars
+  419  tree .
+  420  clear
+  421  tree .
+  422  cd rebellion
+  423  cd ..
+  424  $ touch obi_wan.txt
+  425  $touch obi_wan.txt
+  426  touch obi_wan.txt
+  427  touch luke_skywalker.txt
+  428  mkdir millenium_falcon
+  429  cd millenium_falcon
+  430  touch han_solo.txt
+  431  touch chewbacca.txt
+  432  tree .
+  433  clear
+  434  tree .
+  435  cd rebellion
+  436  cd ..
+  437  mv obi_wan.txt/millenium_falcon
+  438  mv obi_wan.txt ~/millenium_falcon
+  439  ls
+  440  cd .
+  441  cd ..
+  442  cd millenium_falcom
+  443  rm millenium_falcon
+  444  cd rebellion
+  445  mkdir millenium_falcon
+  446  ls
+  447  rm -rf millenium_falcon
+  448  ls
+  449  mkdir millenium_falcon
+  450  cd millenium_falcon
+  451  ls
+  452  touch hans_solo.txt
+  453  touch chewbacca.txt
+  454  ls
+  455  mv ob_wan.txt
+  456  ls
+  457  mv obi_wan.txt ~/millenium_falcon
+  458  cd ..
+  459  ls
+  460  touch obi_wan.txt
+  461  cd millenium_falcon
+  462  mv obi_wan.txt ~/millenium_falcon
+  463  ls
+  464  cd ..
+  465  ls
+  466  mv luke_skywalker.txt
+  467  mv luke_skywalker.txt/millenium_falcon
+  468  cd millenium_falcon
+  469  ls
+  470  mv -i luke_skywalker.txt ~/millenium_falcon
+  471  ls
+  472  mv -i luke_skywalker.txt/millenium_falcon
+  473  ls
+  474  mv *.rebellion ~/millenium_falcon
+  475  ls
+  476  ~
+  477  mv luke_skywalker.txt millenium_falcon
+  478  star_wars
+  479  mv luke_skywalker.txt millenium_falcon
+  480  mv luke_skywalker.txt/millenium_falcon
+  481  cd millenium_falcon
+  482  cd rebellion
+  483  ~
+  484  cd millenium_falcon
+  485  cd rebellion
+  486  cd millenium_falcon
+  487  ls
+  488  tree .
+  489  cd star_wars
+  490  ~
+  491  cd star_wars
+  492  mkdir rebellion
+  493  ls
+  494  cd rebellion
+  495  touch princess_leia.txt
+  496  echo Help me, Obi-Wan…You’re my only hope. >>princess_leia.txt
+  497  touch obi_wan.txt
+  498  touch luke_skywalker.txt
+  499  mkdir millenium_falcon
+  500  cd millenium_falcon
+  501  touch han_solo.txt
+  502  touch chewbacca.txt
+  503  mv luke_skywalker.txt/millenium_falcon
+  504  ls
+  505  mv luke_skywalker.txt millenium_falcon
+  506  tree .
+  507  mv luke_skywalker.txt
+  508  mv -i luke_skywalker.txt
+  509  mv -i luke_skywalker.txt millenium_falcon
+  510  mv luke_skywalker.txt millenium_falcon
+  511  mv luke_skywalker.txt/millenium_falcon
+  512  mv luke_skywalker.txt/rebellion/millenium_falcon
+  513  ls
+  514  mv ~/luke_skywalker.txt/rebellion ~/millenium_falcon
+  515  ls
+  516  cd rebellion
+  517  cd ..
+  518  ls
+  519  mv /Users/joeycaltabellotta/Star_Wars/rebellion/luke_skywalker.txt millenium_falcon
+  520  cd millenium_falcon
+  521  ls
+  522  mv /users/joeycaltabellotta/Star_Wars/rebellion/obi_wan.txt millenium_falcon
+  523  mv /users/joeycaltabellotta/Star_Wars/rebellion/princess_leia.txt millenium_falcon
+  524  ls
+  525  rm millenium_falcon
+  526  ls
+  527  tree .
+  528  cd rebellion
+  529  cd ..
+  530  ls
+  531  touch princess_leia.txt
+  532  echo  Help me, Obi-Wan…You’re my only hope. >>princess_leia.txt
+  533  touch obi_wan.txt
+  534  mv /Users/joeycaltabellotta/Star_Wars/rebellion/obi_wan.txt millenium_falcon
+  535  mv /Users/joeycaltabellotta/Star_Wars/rebellion/princess_leia.txt millenium_falcon
+  536  cd millenium_falcon
+  537  ls
+  538  mv /Users/joeycaltabellotta/Star_Wars/rebellion/millenium_falcon death_star
+  539  cd ..
+  540  mv /Users/joeycaltabellotta/Star_Wars/rebellion/millenium_falcon death_star
+  541  cd death_star
+  542  ls
+  543  tree .
+  544  rm -rf /Users/joeycaltabellotta/Star_Wars/rebellion/death_star
+  545  git remote https://github.com/joeycalt/Star_Wars.git
+  546  git clone https://github.com/SEIR-725-Batch/joeycalt.git
+  547  git clone https://github.com/joeycalt/Star_Wars.git
+  548  rm -rf https://github.com/joeycalt/Star_Wars.git
+  549  git clone https://github.com/joeycalt/Star_Wars.git
+  550  cd Star_Wars.git
+  551  code .
+  552  git clone https://github.com/joeycalt/Star_Wars.git
+  553  code .
+  554  cd star_wars
+  555  code .
+  556  cd star_wars
+  557  mkdir empire
+  558  cd empire
+  559  touch darth_vader.txt
+  560  echo ...heavy breathing... >>darth_vader.txt
+  561  touch emperor_palpatine.txt
+  562  mkdir death_star
+  563  mv /Users/joeycaltabellotta/Star_Wars/empire/darth_vader.txt death_star
+  564  cd rebellion
+  565  cd ..
+  566  cd rebellion
+  567  touch princess_leia.txt
+  568  echo Help me, Obi-Wan…You’re my only hope. >>princess_leia.txt
+  569  touch obi_Wan.txt
+  570  touch luke_skywalker.txt
+  571  mv /Users/joeycaltabellotta/Star_Wars/rebellion/luke_skywalker.txt millenium_falcon
+  572  mv /Users/joeycaltabellotta/Star_Wars/rebellion/obi_wan.txt millenium_falcon
+  573  mv /Users/joeycaltabellotta/Star_Wars/rebellion/princess_leia.txt millenium_falcon
+  574  ls
+  575  rm millenium_falcon
+  576  rm -f millenium_directory
+  577  ls
+  578  cd millenium_directory
+  579  cd ..
+  580  cd millenium_falcon
+  581  cd rebellion
+  582  cd millenium_falcon
+  583  cd ..
+  584  mv darth_vader.txt death_star
+  585  mv /Users/joeycaltabellotta/Star_Wars/empire/darth_vader.txt death_star\n
+  586  cd millenium_falcon
+  587  cd ..
+  588  cd millenium_falcon
+  589  cd star_wars
+  590  cd rebellion
+  591  cd millenium_falcon
+  592  mkdir millenium_falcon
+  593  cd ..
+  594  cd millenium_falcon
+  595  cd rebellion
+  596  cd millenium
+  597  cd millenium_falcon
+  598  ls
+  599  mv /Users/joeycaltabellotta/Star_Wars/empire/death_star/darth_vader.txt empire
+  600  rm death_star
+  601  rm -f death_star
+  602  rm -rf death_star
+  603  cd empire
+  604  cd ..
+  605  rm death_star
+  606  rm -rf death_star
+  607  ls
+  608  cd empire
+  609  cd ...
+  610  cd star_wars
+  611  cd empire
+  612  rm death_star
+  613  rm -rf death_star
