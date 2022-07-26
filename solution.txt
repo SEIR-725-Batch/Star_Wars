@@ -1,0 +1,99 @@
+593  pwd
+  594  cd ..
+  595  ls
+  596  cd ..
+  597  ls
+  598  tree
+  599  ls
+  600  cd deliverables
+  601  ls
+  602  tree
+  603  cd Star_Wars
+  604  git status
+  605  code .
+  606  clear
+  607  git status
+  608  ls
+  609  mkdir star_wars
+  610  ls
+  611  cd star_wars
+  612  ls
+  613  mkdir empire rebellion
+  614  ls
+  615  cd empire
+  616  ls
+  617  touch darth_vader.txt
+  618  ls
+  619  cat darth_vader.txt
+  620  echo '...heavy breathing...' > darth_vader.txt
+  621  cat darth_vader.txt
+  622  ls
+  623  touch emperor_palpatine.txt
+  624  ls
+  625  mkdir death_star
+  626  ls
+  627  mv darth_vader.txt death_star
+  628  tree
+  629  git status
+  630  cd Star_Wars
+  631  cd STAR_WARS
+  632  cd ..
+  633  cd Star_Wars
+  634  ls
+  635  git status
+  636  git add .
+  637  git status
+  638  git commit -m 'Finish Act 1 commands'
+  639  git push origin master
+  640  cd star_wars/rebellion
+  641  touch princess_leia.txt && echo 'Help me, Obi-Wan…You’re my only hope.' > princess_leia.txt
+  642  cat princess_leia.txt
+  643  touch obi_wan.txt
+  644  touch luke_skywalker.txt
+  645  mkdir millenium_falcon
+  646  cd millenium_falcon
+  647  touch han_solo.txt chewbacca.txt
+  648  cd ..
+  649  mv luke_skywalker.txt millenium_falcon
+  650  mv obi_wan.txt millenium_falcon
+  651  mv princess_leia.txt millenium_falcon
+  652  cd
+  653  ls
+  654  cd sei
+  655  ls
+  656  cd deliverables
+  657  ls
+  658  cd Star_Wars
+  659  cd star_wars/rebellion
+  660  ls
+  661  cd millenium_falcon
+  662  ls
+  663  cd ..
+  664  ls
+  665  mv rebellion/millenium_falcon empire/death_star
+  666  cd ..
+  667  git status
+  668  git add .
+  669  git status
+  670  git commit -m 'Finish Act 2 commands'
+  671  git status
+  672  git push origin master
+  673  git status
+  674  cd star_wars/empire
+  675  mv death_star/millenium_falcon/* death_star
+  676  cd death_star
+  677  ls
+  678  rm -i obi_wan.txt
+  679  mv luke_skywalker.txt princess_leia.txt han_solo.txt chewbacca.txt millenium_falcon
+  680  cd ..
+  681  mv empire/death_star/millenium_falcon rebellion
+  682  mv empire/death_star/darth_vader.txt empire
+  683  rm -rf empire/death_star
+  684  git status
+  685  cd ..
+  686  git status
+  687  git add .
+  688  git status
+  689  git commit -m 'Finish Act 3 commands'
+  690  git status
+  691  git push origin master
