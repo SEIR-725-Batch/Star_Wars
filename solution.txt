@@ -1,0 +1,132 @@
+1083  git clone https://github.com/SEIR-725-Batch/Star_Wars.git
+ 1084  ls
+ 1085  cd Star_wars
+ 1086  code .
+ 1087  mkdir star_wars
+ 1088  mkdir empire rebellion
+ 1089  ls
+ 1090  cd empire 
+ 1091  touch darth_vader.txt
+ 1092  ls
+ 1093  echo "...heavy breathing..." darth_vader.txt
+ 1094  echo "...heavy breathing..."
+ 1095  echo "...heavy breathing..." >  darth_vader.txt
+ 1096  cd empire
+ 1097  pwd
+ 1098  touch emperor_palpatine.txt
+ 1099  mkdir death_star
+ 1100  mv empire/darth_vader.txt death_star
+ 1101  ls
+ 1102  pwd
+ 1103  cd empire
+ 1104  cd ..
+ 1105  cd empire
+ 1106  ls
+ 1107  mv darth_vader.txt death_star
+ 1108  ls
+ 1109  cd death_star
+ 1110  ls
+ 1111  cd ..
+ 1112  cd rebellion
+ 1113  touch princess_leia.txt echo "Help me, Obi-Wan…You’re my only hope." >
+ 1114  touch princess_leia.txt echo "Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+ 1115  ls
+ 1116  cd princess_leia.txt
+ 1117  echo "Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+ 1118  pwd
+ 1119  touch obi_wan.txt 
+ 1120  luke_skywalker.txt
+ 1121  mkdir millenium_falcon
+ 1122  cd millenium_falcon
+ 1123  touch han_solo.txt and chewbacca.txt
+ 1124  ls
+ 1125  tree
+ 1126  cd ..
+ 1127  tree
+ 1128  cd rebellion
+ 1129  touch luke_skywalker.txt
+ 1130  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+ 1131  ls
+ 1132  cd millenium_falcon
+ 1133  ls
+ 1134  cd ..
+ 1135  mv millenium_falcon death_star
+ 1136  cd death_star
+ 1137  ls
+ 1138  cd ..
+ 1139  cd Millenium Falcon
+ 1140  tree
+ 1141  cd ..
+ 1142  tree
+ 1143  qclear
+ 1144  clear
+ 1145  cd star_wars
+ 1146  cd millenium_falcon
+ 1147  cd reballio
+ 1148  cd rebellion
+ 1149  ls
+ 1150  cd death_star
+ 1151  ls
+ 1152  cd ..
+ 1153  mkdir millenium_falcon
+ 1154  ls
+ 1155  mv death_star/luke_skywalker.txt millenium_falcon
+ 1156  ls
+ 1157  cd millenium_falcon
+ 1158  ls
+ 1159  cd ..
+ 1160  mv death_star/obi_wan.txt millenium_falcon
+ 1161  mv death_star/princess_leia.txt millenium_falcon
+ 1162  cd ..
+ 1163  cd rebellion
+ 1164  cd millenium_falcon
+ 1165  ls
+ 1166  cd ..
+ 1167  ls
+ 1168  mv *.txt /death_star 
+ 1169  mv /*.txt death_star 
+ 1170  ls
+ 1171  cd millenium_falcon
+ 1172  ls
+ 1173  mv ~/STAR_WARS/rebellion/millenium_falcon/* ~/STAR_WARS/empire/death_star
+ 1174  ls
+ 1175  cd darth_vader
+ 1176  cd ..
+ 1177  ls
+ 1178  cd darth_vader
+ 1179  cd ..
+ 1180  cd deatth_vader
+ 1181  cd death_vader
+ 1182  ls
+ 1183  cd empire
+ 1184  cd desth_vader
+ 1185  cd death_vader
+ 1186  cd darth_vader
+ 1187  rm obi_wan.txt
+ 1188  cd darth_vader
+ 1189  ls
+ 1190  cd death_star
+ 1191  ls
+ 1192  rm obi_wan.txt   
+ 1193  la
+ 1194  cd ..
+ 1195  mv ~/STAR_WARS/empire/death_star/* ~/STAR_WARS/rebellion/millenium_falcon
+ 1196  ls
+ 1197  cd ..
+ 1198  ls
+ 1199  cd rebellion
+ 1200  ls
+ 1201  mv millenium_falcon/darth_vader to empire
+ 1202  mv millenium_falcon/darth_vader empire
+ 1203  mv millenium_falcon/darth_vader.txt  empire
+ 1204  rm -rf death_star
+ 1205  pwd
+ 1206  touch han-solo.txt
+ 1207  ls
+ 1208  cd millenium_falcon
+ 1209  ls
+ 1210  cd ..
+ 1211  touch chewbacca.txt
+ 1212  history | tail-n 250
+ 1213  cd ..
+➜  star_wars git:(master) ✗ 
