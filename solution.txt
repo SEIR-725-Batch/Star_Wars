@@ -1,0 +1,251 @@
+corey@AlienUbuntu-22:~/github_101/Star_Wars$ history | tail -n 250
+   57  cd pjs
+   58  touch warm.pjs
+   59  cd ..
+   60  touch pjs/warm2.pjs && socks/favorite2.socks
+   61  ls
+   62  tree
+   63  mv drawers/pjs/warm2.pjs drawers/socks
+   64  tress
+   65  tree
+   66  cd drawers
+   67  rm dress.socks
+   68  rm more.socks
+   69  tree
+   70  rm pjs warm2.pjs
+   71  rm pjs/warm2.pjs
+   72  rm socks/more.socks
+   73  tree
+   74  rem socks/favorite.socks
+   75  rm socks/favorite.socks
+   76  tree
+   77  cd pjs && touch favorite.socks
+   78  tree
+   79  cd ..
+   80  tree
+   81  mv socks/dress.socks /more-socks
+   82  tree
+   83  mv /pjs/favorite.socks /socks
+   84  cd pjs
+   85  mv favorite.socks /drawers/socks
+   86  mv favorite.socks socks
+   87  tree
+   88  mv socks favorite.socks
+   89  tree
+   90  mv /drawers/pjs/favorite.socks /drawers/more-socks
+   91  tree
+   92  cd ==
+   93  cd ..
+   94  tree
+   95  mv /drawers/pjs/favorite.socks /more-socks
+   96  mv favorite.socks drawrs/more-socks
+   97  mv pjs/favorite.socks socks
+   98  tree
+   99  mv pjs/warm.pjs pjs/winter.pjs
+  100  tree
+  101  rm -rf socks
+  102  tree
+  103  rm -rf
+  104  tree
+  105  cd terminal-basics
+  106  cd ..
+  107  rm -rf drawers
+  108  tree
+  109  mkdir drawers
+  110  cd drawers
+  111  mkdir socks && cd socks
+  112  touch favorite.socks purple.socks red.socks black.socks
+  113  tree
+  114  ls
+  115  mkdir secret-socks
+  116  ls
+  117  cd .. && mkdir new-socks && mv socks/*.socks new-socks
+  118  tree
+  119  mv socks/secret-socks new-socks
+  120  tree
+  121  mv new-socks socks
+  122  tree
+  123  cd ~
+  124  ls
+  125  rm 725 && rm seir
+  126  rm -rf 725
+  127  rm -rf seir
+  128  ls
+  129  cd seir725
+  130  ls
+  131  cd ..
+  132  mv /terminal-basics /seir725
+  133  tree
+  134  cp -R ~/terminal basics ~/seir725
+  135  cp -R ~/terminal-basics ~seir725
+  136  tree
+  137  cp -R ~/terminal-basics seir725
+  138  tree
+  139  rm -rf ~seir725
+  140  tree
+  141  rm -rf terminal-basics
+  142  tree
+  143  clear
+  144  cd ~
+  145  tree
+  146  ls
+  147  mkdir hello_world && cd hello_world
+  148  mkdir scripts styles %% touch index.html scripts/app.js styles/main.css
+  149  ls
+  150  rm -rf touch
+  151  ls
+  152  touch index.html scripts/app.js styles/main.css
+  153  ls
+  154  tree
+  155  rm -rf %%
+  156  tree
+  157  cd ~
+  158  touch index.html scripts/app.js styles/main.css
+  159  rm -rf hello_world
+  160  cd ..
+  161  list
+  162  ls
+  163  tree
+  164  apt install zsh
+  165  sudo apt install zsh
+  166  zsh --version
+  167  chsh -s $(which zsh)
+  168  echo $SHELL
+  169  zsh --version
+  170  sudo chsh -s $(which zsh)
+  171  echo $SHELL
+  172  djfiosjfods
+  173  fifjodsg
+  174  clear
+  175  zsh --version
+  176  chsh -s $(which zsh)
+  177  sudo chsh -s $(which zsh)
+  178  echo $SHELL
+  179  sudo apt install /home/corey/Downloads/discord-0.0.18.deb
+  180  ssh-keygen
+  181  git clone git@github.com:BadMeme/github_101.git
+  182  cat ~/.ssh/id_rsa.pub
+  183  git clone git@github.com:BadMeme/github_101.git
+  184  clear
+  185  cd github_101
+  186  code .
+  187  git status
+  188  git add .
+  189  git commit -m "Added my answers to answers.txt"
+  190  config --global user.email "noveladdress@gmail.com"
+  191  git config --global user.email "noveladdress@gmail.com"
+  192  git config --global user.name "Corey Neal"
+  193  git config
+  194  git commit -m "Added quiz answers to answers.txt"
+  195  git push origin master
+  196  git config global.email coreymneal91@gmail.com
+  197  git commit -m "Added quiz answers to answers.txt"
+  198  git push origin master
+  199  git commit origin master
+  200  git push origin master
+  201  clear
+  202  ~
+  203  git clone git@github.com:BadMeme/Star_Wars.git
+  204  cd Star_Wars
+  205  code .
+  206  mkdir empire rebellion
+  207  push empire/darth_vader.txt
+  208  tree
+  209  mv empire act1.sh && mv empire rebellion act1.sh
+  210  cd act1.sh
+  211  touch empire/darth_vader.txt
+  212  echo "..." > empire/darth_vader.txt
+  213  cat empire/darth_vader.txt
+  214  echo "...heavy breathing..." empire/darth_vader.txt
+  215  echo "...heavy breathing..." > empire/darth_vader.txt
+  216  echo darth_vader.txt
+  217  echo empire/darth_vader.txt
+  218  cat empire/darth_vader.txt
+  219  touch empire/emperor_palpatine.txt
+  220  mkdir empire/death_star
+  221  tree
+  222  mv empire/darth_vader.txt empire/dath_star
+  223  tree
+  224  mv empire/dath_star empire/death_star/darth_vader.txt
+  225  tree
+  226  cat darth_vader.txt
+  227  cat empire/death_star/darth_vader.txt
+  228  mv empire star_wars/ && mv rebellion star_wars/
+  229  tree
+  230  cd star_wars
+  231  mkdir empire
+  232  mv death_star empire/
+  233  move emperor_palpatine.txt empire/
+  234  tree
+  235  mv emperor_palpatine.txt  empire/
+  236  tree
+  237  cd Star_Wars
+  238  cd ..
+  239  git status
+  240  tree
+  241  git status
+  242  git add .
+  243  git commit
+  244  pwd
+  245  li
+  246  lis
+  247  ls
+  248  cd github_101
+  249  tree
+  250  cd Star_Wars
+  251  git commit -m "Created the empire and the rebellion. Created Darth Vader and Emperor Palpatine. Moved darth vader into the death star and gave him heavy breathing exercises."
+  252  cd rebellion
+  253  cd star_wars/rebellion
+  254  cd ..
+  255  echo "Help me, Obi-Wan...You're my only hope." > rebellion/princess_leia.txt 
+  256  tree
+  257  echo princess_leia.txt
+  258  cat princess_leia.txt
+  259  cat rebellion/princess_leia.txt
+  260  touch rebellion/obi_wan.txt
+  261  tree
+  262  touch rebllion/luke_skywalker.txt
+  263  touch rebellion/luke_skywalker.txt
+  264  mkdir rebellion/millenium_falcon
+  265  tree
+  266  cd rebellion/millenium_falcon && touch han_solo.txt chewbacca.txt
+  267  tree
+  268  cd..
+  269  cd ..
+  270  tree
+  271  cd rebellion
+  272  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  273  tree
+  274  pwd
+  275  cd .. && mv rebellion/millenium_falcon empire/death_star
+  276  tree
+  277  cd ..
+  278  git add .
+  279  git commit -m "Transmitted leia's message, created the cast of the rebellion, put them on the mellinium falcon and sent them to the death star"
+  280  star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  281  cd star_wars/empire/death_star
+  282  cd ..
+  283  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  284  tree
+  285  rm star_wars/empire/death_star/obi_wan.txt
+  286  tree
+  287  cd star_wars/empire/death_star && mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  288  tree
+  289  cd..
+  290  cd ..
+  291  tree
+  292  mv millenium_falcon ../rebellion 
+  293  mv death_star/millenium_falcon ../rebellion 
+  294  tree
+  295  cd..
+  296  cd ..
+  297  tree
+  298  mv empire/death_star/darth_vader.txt empire
+  299  tree
+  300  rmdir empire/death_star
+  301  /tree
+  302  tree
+  303  cd ..
+  304  git add .
+  305  git commit -m "Took the falcon to the death star, obi wan dies. The heros escape the death star, and blow it up, but darth vader escaped the deathstar too."
+  306  history | tail -n 250
