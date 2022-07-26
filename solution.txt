@@ -129,4 +129,4 @@
  1211  touch chewbacca.txt
  1212  history | tail-n 250
  1213  cd ..
-➜  star_wars git:(master) ✗ !
+➜  star_wars git:(master) ✗ !!
