@@ -1,0 +1,20 @@
+aaronjohnston@Aarons-MacBook-Pro-2 Star_Wars % history | tail -n 250
+  142  cd ..
+  143  touch darth_vader.txt
+  144  echo -e "...heavy breathing..." >> darth_vader.txt
+  145  ls
+  146  pwd
+  147  rmdir death_star
+  148  cd ..
+  149  cd ..
+  150  git add Act1.sh
+  151  git commit -m "Act1.sh"
+  152  git add Act2.sh
+  153  git commit -m "Act2.sh"
+  154  git add Act3.sh
+  155  git commit -m "Act3.sh"
+  156  history | tail -n 250
+  157  git push origin master
+aaronjohnston@Aarons-MacBook-Pro-2 Star_Wars %
+
+
