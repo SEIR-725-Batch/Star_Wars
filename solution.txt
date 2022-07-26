@@ -1,0 +1,16 @@
+ 171  cd sei
+  172  cd star_wars
+  173  cd death_star
+  174  cd death_star
+  175  mv darth_vader.txt>empire
+  176  cd empire
+  177  mv death_star/darth_vader.txt>*
+  178  cd death_star
+  179  mv darth_vader.txt>~/sei/star_wars/empire
+  180  mv darth_vader.txt*~/sei/star_wars/empire
+  181  cd ~
+  182  cd sei
+  183  cd star_wars
+  184  cd act1.sh
+  185  git add .
+  186  git commit -m "STAR WARS"
