@@ -1,0 +1,100 @@
+  223  git clone https://github.com/basementlivin/Star_Wars.git
+  224  code .
+  225  makdir empire rebellion
+  226  mkdir empire rebellion
+  227  cd star_wars
+  228  mkdir empire rebellion
+  229  cd empire && touch darth_vader.txt
+  230  ls
+  231  echo "...heavy breathing..."
+  232  echo "...heavy breathing..." > darth_vader.txt
+  233  touch emporer_palpatine.txt
+  234  mkdir death_star
+  235  mv darth_vader.txt /death_star
+  236  mv darth_vader.txt death_star
+  237  cd ..
+  238  git add .
+  239  git status
+  240  git commit - "Complete act1.sh"
+  241  git commit -m "Complete act1.sh"
+  242  git status
+  243  cd rebellion
+  244  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope" > princess_leia.txt
+  245  touch obi-wan.txt
+  246  touch luke_skywalker.txt
+  247  touch millenium_falcon
+  248  rm -rf millenium_falcon
+  249  mkdir millenium_falcon
+  250  cd millenium_falcon && touch han_solo.txt chewbacca.txt
+  251  cd ..
+  252  mv *.txt /millenium_falcon
+  253  mv *.txt ~/millenium_falcon
+  254  mv *.txt millenium_falcon
+  255  mv millenium_falcon ~/empire/death_star
+  256  mv millenium_falcon /empire/death_star
+  257  cd millenium_falcon
+  258  ls
+  259  mv millenium_falcon /empire/death_star
+  260  mv millenium_falcon .../empire/death_star
+  261  cd ..
+  262  mv millenium_falcon .../empire/death_star
+  263  mv millenium_falcon .../death_star
+  264  mv millenium_falcon death_star
+  265  mv death_star millenium_falcon
+  266  tree
+  267  ls
+  268  mv millenium_falcon ~/death_star
+  269  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope" > princess_leia.txt 
+  270  touch obi-wan.txt
+  271  touch luke_skywalker.txt
+  272  mkdir millenium_falcon
+  273  cd millenium_falcon && touch han_solo.txt chewbacca.txt
+  274  mv *.txt millenium_falcon 
+  275  cd ..
+  276  mv *.txt millenium_falcon 
+  277  cd ..
+  278  git add .
+  279  git commit -m "Mostly complete act2.sh"
+  280  git status
+  281  cd empire
+  282  cd millenium_falcon
+  283  mv millenium_falcon/* /death_star
+  284  mv *.txt ~/Star_Wars/empire/death_star
+  285  mv *.txt ~/seir725/Star_Wars/empire/death_star
+  286  cd ..
+  287  mv /millenium_falcon ~/empire/death_star
+  288  tree
+  289  cd ..
+  290  tree
+  291  mv millenium_falcon death_star/millenium_falcon
+  292  cd rebellion
+  293  mv millenium_falcon death_star/millenium_falcon
+  294  mv millenium_falcon death_star
+  295  mv death_star millenium_falcon
+  296  mv millenium_falcon death_star/
+  297  mv death_star millenium_falcon
+  298  git add .
+  299  git commit -m "Second pass at act2.sh and still not understanding how to scoot things around with the mv command"
+  300  cd millenium-falcon rm obi_wan.txt
+  301  cd millenium-falcon && rm obi_wan.txt
+  302  cd millenium_falcon && rm obi_wan.txt
+  303  cd millenium_falcon && rm obi-wan.txt
+  304  rm obi-wan.txt
+  305  cd death_star
+  306  cd ..
+  307  cd empire/death_star
+  308  mv darth_vader.txt empire
+  309  mv empire darth_vader.txt
+  310  mv darth_vader.txt /empire
+  311  mv darth_vader.txt empire/
+  312  mv darth_vader.txt ~/empire
+  313  rm -rf death_star
+  314  rm -rf ~/death_star
+  315  rm death_star
+  316  cd ..
+  317  rm death_star
+  318  rm -rf death_star
+  319  git add .
+  320  git status
+  321  git commit -m "A kind of sad attempt at completing act3.sh"
+  322  ~
