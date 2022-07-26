@@ -1,0 +1,251 @@
+➜  Star_Wars git:(master) history | tail -n 250
+  542* cd sei
+  543* ls
+  544* mkdir Labs fundamentals Projects Repos Code-alongs Deliverables Reflections
+  545* ls
+  546* mkdir hello_world
+  547* cd hello_world
+  548* mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  549* ls
+  550* . code
+  551* code .
+  552* cd sei
+  553* ls
+  554* cd hello_world
+  555* code .
+  556* open HELLO_WROLD
+  557* cd ..
+  558* cd hello_world
+  559* ls
+  560* pwd
+  561* cd ..
+  562* open index.html
+  563* cd ..
+  564* ls
+  565* cd Code-alongs
+  566* cd ..
+  567* git clone https://github.com/rpeterson87/daily-js-code-challenges.git
+  568* ls
+  569* cd daily-js-code-challenges
+  570* ls -a
+  571* code .
+  572* node challenges.js
+  573* git status
+  574* git add .
+  575* git status
+  576* git commit -m "solve addOne function"
+  577* git status
+  578* git push origin master
+  579* git branch
+  580* ls -a
+  581* cd ..
+  582* cd
+  583* ls -a
+  584* cd -
+  585* cd
+  586* git status
+  587* mkdir sei sei-725
+  588* ls
+  589* rm sei-725
+  590* LS
+  591* ls
+  592* cd sei-725
+  593* ls
+  594* git clone https://github.com/SEIR-725-Batch/github_101.git
+  595* ls
+  596* cd github_101
+  597* code .
+  598* cd
+  599* cd -
+  600* cd ..
+  601* git clone https://github.com/rpeterson87/github_101.git
+  602* git clone https://github.com/rpeterson87/github_101.git https://github.com/rpeterson87/github_101.git
+  603* ls
+  604* git clone https://github.com/rpeterson87/github_101.git
+  605* cd github_101
+  606* code .
+  607* cd ..
+  608* ls -a
+  609* cd -
+  610* cd ..
+  611* ls
+  612* mkdir Labs
+  613* ls
+  614* mv github_101 Labs
+  615* ls
+  616* cd Labs
+  617* ls
+  618* cd github_101
+  619* code .
+  620* git status
+  621* git add .
+  622* git status
+  623* git commit -m "Add ny answers to answers.txt"
+  624* git push origin master
+  625* cd ..
+  626* ls
+  627* cd ..
+  628* ls
+  629* cd Deliverables
+  630* ls
+  631* git clone https://github.com/rpeterson87/Star_Wars.git
+  632* ls
+  633* cd Star_Wars
+  634* code .
+  635* cd ..
+  636* cd Star_Wars
+  637* mkdir star_wars
+  638* cd star_wars
+  639* mkdir empire rebellion
+  640* ls
+  641* cd empire
+  642* touch darth_vader.txt
+  643* ls
+  644* clear
+  645* ls
+  646* cd star_wars
+  647* ls
+  648* cd rebellion
+  649* cd ..
+  650* cd empire
+  651* ls
+  652* echo "...heavy breathing..." >> darth_vader.txt
+  653* cat darth_vader.txt
+  654* ls
+  655* touch emperor_palpatine.txt
+  656* ls
+  657* mkdir death_star
+  658* ls
+  659* mv darth_vader.txt death_star
+  660* ls death_star
+  661* clear
+  662* cd ..
+  663* ls
+  664* cd rebellion
+  665* tree
+  666* cd ..
+  667* ls
+  668  cd sei-725
+  669  cd Deliverables
+  670  git clone https://github.com/rpeterson87/Star_Wars.git
+  671  ls
+  672  code .
+  673  cd Star_Wars
+  674  code .
+  675  mkdir star_wars
+  676  cd star_wars
+  677  mkdir empire rebellion
+  678  ls
+  679  cd empire
+  680  touch darth_vader.txt
+  681  ls
+  682  echo "...heavy breathing..." >> darth_vader.txt
+  683  cat darth_vader.txt
+  684  touch emperor_palpatine.txt
+  685  ls
+  686  mkdir death_star
+  687  ls
+  688  mv darth_vader.txt death_star
+  689  ls death_star
+  690  git add .
+  691  git status
+  692  git commit -m "Introduce Rebellion, Empire, Death Star, Darth Vader, and Emperor Palpatine
+  693  git commit -m "Introduce Rebellion, Empire, Death Star, Darth Vader, and Emperor Palpatine"
+  694  git status
+  695  cd ..
+  696  git add .
+  697  git status
+  698  git commit -m "Introduce Rebellion, Empire, Death Star, Darth Vader, and Emperor Palpatine"
+  699  cd ..
+  700  git commit -m "Introduce Rebellion, Empire, Death Star, Darth Vader, and Emperor Palpatine"
+  701  git add .
+  702  git commit -m "Introduce Rebellion, Empire, Death Star, Darth Vader, and Emperor Palpatine"
+  703  git status
+  704  cd star_wars
+  705  cd rebellion
+  706  touch princess_leia.txt echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  707  cat princess_leia.txt
+  708  ls
+  709  rm Help\ me,\ Obi-Wan…You’re\ my\ only\ hope.
+  710  ls
+  711  rm echo
+  712  ls
+  713  rm princess_leia.txt
+  714  ls
+  715  cd ..
+  716  echo "Help me, Obi-Wan…You’re my only hope." > /Users/ryanpeterson/sei-725/Deliverables/Star_Wars/star_wars/rebellion/princess_leia.txt
+  717  cat rebellion/princess_leia.txt
+  718  cd rebellion
+  719  cd ..
+  720  touch rebellion/obi_wan.txt
+  721  ls rebellion
+  722  touch rebellion/luke_skywalker.txt
+  723  ls rebellion
+  724  cd rebellion
+  725  rm obi_wan.txt
+  726  rm luke_skywalker.txt
+  727  ls
+  728  cd ..
+  729  touch star_wars/rebellion/obi_wan.txt
+  730  ls star_wars/rebellion
+  731  touch star_wars/rebellion/luke_skywalker.txt
+  732  ls star_wars/rebellion
+  733  mkdir star_wars/rebellion/millenium_falcon
+  734  ls star_wars/rebellion/
+  735  cd star_wars/rebellion
+  736  cd millenium_falcon
+  737  touch han_solo.txt chewbacca.txt
+  738  ls
+  739  cd ..
+  740  ls
+  741  mv obi_wan.txt princess_leia.txt luke_skywalker.txt millenium_falcon
+  742  ls millenium_falcon
+  743  ls
+  744  mv millenium_falcon ~/sei-725/Deliverables/Star_Wars/star_wars/empire/death_star
+  745  ls /sei-725/Deliverables/Star_Wars/star_wars/empire/death_star
+  746  cd ..
+  747  cd empire
+  748  ls
+  749  cd death_star
+  750  ls
+  751  cd ..
+  752  tree
+  753  cd ..
+  754  tree
+  755  git add .
+  756  git status
+  757  git commit -m "After Princess Leia calls on Obi-Wan for help, Han Solo, Chewbacca, Luke Skywalker, and Obi-Wan join forces and fly to the Death Star on the Millenium Falcon to rescue her from Darth Vader"
+  758  cd star_wars/empire/death_star
+  759  ls
+  760  cd millenium_falcon
+  761  ls
+  762  cd ..
+  763  mv death_star/millenium_falcon/* death_star
+  764  ls death_star
+  765  cd ..
+  766  cd rebellion
+  767  ls
+  768  cd ..
+  769  cd empire
+  770  ls
+  771  cd death_star
+  772  ls
+  773  rm obi_wan.txt
+  774  ls
+  775  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  776  ls millenium_falcon
+  777  mv millenium_falcon ../../rebellion
+  778  ls ../../rebellion
+  779  mv darth_vader.txt ../../empire
+  780  ls ../../empire
+  781  cd ..
+  782  ls death_star
+  783  rm -R death_star
+  784  ls
+  785  cd ../
+  786  cd ..
+  787  git add .
+  788  git status
+  789  git commit "The Rebellion is saved"
+  790  git commit -m "The Rebellion is saved"
+  791  tree
