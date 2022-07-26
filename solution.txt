@@ -1,0 +1,250 @@
+357  ls
+  358  cd sei
+  359  mkdir hello_world
+  360  cd hello_world
+  361  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  362  tree
+  363  code scripts/app.js
+  364  ls
+  365  chrome index.html
+  366  ls
+  367  google-chrome index.html
+  368  tree
+  369  code .
+  370  clear
+  371  cd ~
+  372  clear
+  373  cd Documents/General_Assembly/sei/labs
+  374  ls
+  375  mkdir github-practice
+  376  cd github-practice
+  377  ls
+  378  git init
+  379  git clone git@github.com:StevieC7/github_101.git
+  380  git clone https://github.com/StevieC7/github_101.git
+  381  git status
+  382  ls
+  383  tree
+  384  cd github_101
+  385  code .
+  386  cd ..
+  387  ls
+  388  mkdir daily-challenges
+  389  cd daily-challenges
+  390  ls
+  391  cd ..
+  392  tree
+  393  cd daily-challenges
+  394  git status
+  395  git init
+  396  git clone https://github.com/StevieC7/daily-js-code-challenges.git
+  397  tree
+  398  README.md
+  399  code README.md
+  400  ls
+  401  ls -a
+  402  cd daily-js-code-challenges
+  403  code README.md
+  404  git status
+  405  cd ..
+  406  cd daily-challenges/daily-js-code-challenges
+  407  code .
+  408  node challenges.js
+  409  git status
+  410  git add .
+  411  git commit -m "Solve addOne"
+  412  git status
+  413  git push origin main
+  414  git status
+  415  git push
+  416  git log
+  417  git branch
+  418  clear
+  419  git status
+  420  git add .
+  421  git commit -m "Add Steven Calhoun answers to answers.txt"
+  422  git push origin master
+  423  git log
+  424  cd ~
+  425  cd Documents/General_Assembly
+  426  ls
+  427  cd sei
+  428  ls
+  429  cd labs
+  430  ls
+  431  cd github-practice
+  432  ls
+  433  git diff .
+  434  git log
+  435  cd github_101
+  436  ls
+  437  git log
+  438  git diff .
+  439  cd ..
+  440  mkdir github-lab
+  441  cd github-lab
+  442  ls
+  443  git init
+  444  touch github-lab-answers.md
+  445  code github-lab-answers.md
+  446  gh repo create
+  447  gh auth login
+  448  gh repo create
+  449  git status
+  450  git add .
+  451  git status
+  452  git commit -m "Commit 1 - The 1st set of GIT homeworkanswers are complete."
+  453  code .
+  454  git hist
+  455  git log
+  456  cd ~
+  457  mkdir veryable
+  458  ls
+  459  cd veryabl
+  460  cd veryable
+  461  git clone https://github.com/Veryable/veryable-landing-pages.git
+  462  ls
+  463  cd veryable-landing-pages
+  464  npm i
+  465  node index
+  466  code .
+  467  node index
+  468  git status
+  469  git checkout -b port-change
+  470  git branch
+  471  git remote -v
+  472  git push origin port-change
+  473  git checkout development
+  474  git reset --hard origin/development
+  475  git pull origin development
+  476  git log
+  477  cd Documents/General_Assembly/ls
+  478  cd Documents/General_Assembly
+  479  ls
+  480  cd sei
+  481  ls
+  482  cd labs
+  483  ls
+  484  tree
+  485  mkdir Star_Wars
+  486  ls
+  487  cd Star_Wars
+  488  git clone https://github.com/StevieC7/Star_Wars.git
+  489  tree
+  490  code .
+  491* mkdir empire rebellion
+  492* touch empire/darth_vader.txt
+  493* echo empire/darth_vader.txt "...heavy breathing..."
+  494* cd ..
+  495* ls
+  496* cd Star_Wars
+  497* tree
+  498* rm -rf empire
+  499* ls
+  500* rm -rf rebellion
+  501* ls
+  502  clear
+  503  mkdir star_wars
+  504  mkdir empire rebellion
+  505  tree
+  506  touch empire/darth_vader.txt
+  507  echo "...heavy breathing..." > empire/darth_vader.txt
+  508  touch empire/emperor_palpatine.txt
+  509  ls
+  510  tree
+  511  mkdir empire/death_star
+  512  mv empire/darth_vader.txt empire/death_star
+  513  tree
+  514  git add .
+  515  cd ..
+  516  git status
+  517  cd Star_Wars
+  518  git init
+  519  cd Star_Wars
+  520  git status
+  521  cd ..
+  522  ls -a
+  523  rm .git
+  524  rm -rf .git
+  525  ls
+  526  git status
+  527  cd Star_Wars
+  528  mkdir star_wars
+  529  ls
+  530  cd star_wars
+  531  mkdir empire rebellion
+  532  touch empire/darth_vader.txt
+  533  echo "...heavy breathing..." > empire/darth_vader.txt
+  534  touch empire/emperor_palpatine.txt
+  535  mkdir empire/death_star
+  536  mv empire/darth_vader.txt empire/death_star
+  537  tree
+  538  git status
+  539  git add .
+  540  git commit -m "Update act1.sh and add directory for key characters."
+  541  echo "Help me, Obi-Wan...You're my only hope." > rebellion/princess_leia.txt
+  542  ls
+  543  tree
+  544  touch rebellion/obi_wan.txt
+  545  touch rebellion/luke_skywalker.txt && mkdir millenium_falcon && touch rebellion/millenium_falcon/han_solo.txt rebellion/millenium_falcon/chewbacca.txt
+  546  ls
+  547  rm -rf millenium_falcon
+  548  ls
+  549  mkdir rebellion/millenium_falcon
+  550  touch rebellion/millenium_falcon/han_solo.txt rebellion/millenium_falcon/chewbacca.txt
+  551  tree
+  552  mv rebellion/*.txt rebellion/millenium_falcon
+  553  mv -R rebellion/millenium_falcon empire/death_star
+  554  mv -f rebellion/millenium_falcon empire/death_star
+  555  tree
+  556  git add .
+  557  git commit -m "Edit act2.sh and move rebellion characters into falcon into death star."
+  558  mv empire/death_star/millenium_falcon/*.txt .
+  559  tree
+  560  mv *.txt empire/death_star/millenium_falcon
+  561  tree
+  562  ls
+  563  mv empire/death_star/millenium_falcon/*.txt ..
+  564  tree
+  565  git log
+  566  git revert d0c2b06c898818c50223c5821475c6a2da8987ca
+  567  tree
+  568  cd ..
+  569  ls
+  570  mv *.txt star_wars/empire/death_star/
+  571  cd star_wars
+  572  ls
+  573  tree
+  574  mkdir empire/millenium_falcon
+  575  ls
+  576  tree
+  577  mv empire/millenium_falcon empire/death_star
+  578  ls
+  579  tree
+  580  cd empire
+  581  cd death_star
+  582  mv chewbacca.txt millenium_falcon
+  583  mv han_solo.txt millenium_falcon
+  584  mv luke_skywalker.txt millenium_falcon
+  585  mv obi_wan.txt millenium_falcon
+  586  mv princess_leia.txt millenium_falcon
+  587  tree
+  588  cd ..
+  589  ls
+  590  tree
+  591  mv empire/death_star/millenium_falcon/*.txt empire/death_star
+  592  tree
+  593  rm empire/death_star/obi_wan.txt
+  594  mv empire/death_star/chewbacca.txt empire/death_star/han_solo.txt empire/death_star/luke_skywalker.txt empire/death_star/obi_wan.txt empire/death_star/princess_leia.txt empire/death_star/millenium_falcon
+  595  tree
+  596  mv empire/death_star/millenium_falcon rebellion
+  597  tree
+  598  mv empire/death_star/darth_vader.txt empire
+  599  tree
+  600  mv empire/death_star/solution.txt .
+  601  tree
+  602  rm -d empire/death_star
+  603  tree
+  604  git add .
+  605  git status
+  606  git commit -m "Edit act3.sh and move characters around, delete obi and death star."
