@@ -1,0 +1,500 @@
+149  git status
+  150  git commit -m 'solve addOne function'
+  151  git config --global user.email "kehfunn@gmail.com"
+  152  git status
+  153  git status
+  154  git branch
+  155  git config --global user.name "Kevin Ng'
+  156  git status
+  157  git status
+  158  git branch
+  159  git config --global user.name "kevinwng23@gmail.com"
+  160  git status
+  161  git branch
+  162  git config --global user.name "kehfunn@gmail.com"
+  163  git branch
+  164  git config --global user.name "kevinwng23@gmail.com"
+  165  node challenges.js 
+  166  clear
+  167  clear
+  168  git status
+  169  clear
+  170  git branch
+  171  clear
+  172  git config --global user.name "Kevin Ng"
+  173  clear
+  174  git config --global user.name 'Kevin Ng'
+  175  clear
+  176  git config --global user.name 'kevinwng23@gmail.com'
+  177  clear
+  178  git status
+  179  git config
+  180  git config --global user.name 'Kevin Ng'
+  181  git config --global user.name Kevin Ng
+  182  git status
+  183  clear
+  184  git branch
+  185  git config --global user.name "kehfunn@gmail.com"
+  186  git config
+  187  clear
+  188  clear
+  189  git config --global user.name "Kevin Ng"
+  190  git status
+  191  pwd
+  192  mkdir star_wars
+  193  ls
+  194  cd star_wars
+  195  pwd
+  196  ls
+  197  cd ..
+  198  ls
+  199  cd star_wars
+  200  clear
+  201  pwd
+  202  clear
+  203  mkdir empire rebellion
+  204  ls
+  205  cd empire
+  206  touch darth_vader.txt
+  207  ls
+  208  nano darth_vader.txt
+  209  nano darth_vader.txt
+  210  cd empire
+  211  pwd
+  212  ls
+  213  touch emperor_palpatine.txt
+  214  mkdir death_star
+  215  ls
+  216  mv darth_vader.txt death_star/
+  217  ls
+  218  cd death_star
+  219  ls
+  220  tree
+  221  cd ~
+  222  tree
+  223  cd star_wars
+  224  tree
+  225  clear
+  226  git add .
+  227  git commit -m "Act 1 Done"
+  228  git add .
+  229  git add
+  230  git status
+  231  clear
+  232  git status
+  233  ls
+  234  cd star_wars
+  235  ls
+  236  tree
+  237  git add act1.sh
+  238  git status
+  239  git add .
+  240  git status
+  241  clear
+  242  ls
+  243  ls -a
+  244  cd ..
+  245  cd ..
+  246  cd star_wars
+  247  ls
+  248  mv star_wars star_warsWRONG
+  249  ls -a
+  250  cd star_wars
+  251  ls -a
+  252  mkdir star_wars
+  253  mkdir empire rebellion
+  254  touch darth_vader.txt
+  255  nano darth_vader.txt
+  256  cd empire
+  257  touch emperor_palpatine.txt
+  258  mkdir death_star
+  259  mv darth_vader.txt death_star
+  260  ls
+  261  mv death_star darth_vader.txt
+  262  ls
+  263  nano darth_vader.txt
+  264  mv darth_vader.txt death_star
+  265  ls
+  266  touch darth_vader.txt
+  267  nano darth_vader.txt
+  268  ls
+  269  nano darth_vader.txt
+  270  mv darth_vader.txt death_star/
+  271  ls
+  272  git add .
+  273  git status
+  274  git commit -m "Act1 Completed"
+  275  git status
+  276  git push origin master
+  277  ls
+  278  cd ..
+  279  ls
+  280  cd rebellion
+  281  cd empire
+  282  cd ..
+  283  ls
+  284  cd empire
+  285  cd rebellion && touch princess_leia.txt && nano princess_leia.txt
+  286  cd rebellion
+  287  ls
+  288  cd ..
+  289  ls
+  290  cd rebellion
+  291  touch princess_leia.txt && nano princess_leia.txt
+  292  pwd
+  293  touch obi_wan.txt
+  294  touch luke_skywalker.txt
+  295  mkdir millenium_falcon
+  296  cd millenium_falcon
+  297  touch han_solo.txt chewbacca.txt
+  298  ls
+  299  mv luke_skywalker.txt millenium_falcon/
+  300  ls
+  301  cd rebellion
+  302  ls
+  303  cd ..
+  304  ls
+  305  mv luke_skywalker.txt millenium_falcon/
+  306  ls
+  307  mv obi_wan.txt millenium_falcon/
+  308  mv princess_leia.txt millenium_falcon/
+  309  ls
+  310  clear
+  311  ls
+  312  cd ..
+  313  ls
+  314  cd empire
+  315  ls
+  316  cd rebellion
+  317  cd ..
+  318  ls
+  319  cd rebellion
+  320  ls
+  321  mv millenium_falcon ~/Star_Wars/star_wars/empire/death_star
+  322  ls
+  323  tree
+  324  cd ..
+  325  tree
+  326  cd ..
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd ..
+  331  ls
+  332  cd star_wars
+  333  ls
+  334  tree
+  335  cd ..
+  336  cd labs
+  337  ls
+  338  cd sei
+  339  ls
+  340  cd labs
+  341  ls
+  342  cd star_wars
+  343  ls
+  344  tree
+  345  rm star_wars
+  346  cd star_wars
+  347  cd ..
+  348  rm -rf star_wars
+  349  ls
+  350  tree
+  351  cd rebellion
+  352  cd ..
+  353  cd ..
+  354  cd ..
+  355   cd ..
+  356  ls
+  357  cd star_wars
+  358  tree
+  359  cd ..
+  360  ls
+  361  rm star_wars
+  362  rm -rf Star_Wars
+  363  ls
+  364  cd sei
+  365  ls
+  366  cd labs
+  367  ls
+  368  cd star_wars
+  369  ls
+  370  ls
+  371  cd rebellion
+  372  ls
+  373  cd ..
+  374  cd ..
+  375  ls
+  376  cd ..
+  377  ls
+  378  cd labs
+  379  ls
+  380  cd star_wars
+  381  ls
+  382  cd ..
+  383  ls
+  384  cd Star_Wars
+  385  ls
+  386  cd ..
+  387  cd ..
+  388   cd..
+  389  cd ..
+  390  ls
+  391  cd sei
+  392  ls
+  393  cd labs
+  394  ls
+  395  cd Star_Wars
+  396  ls
+  397  cd empire
+  398  ls
+  399  cd ..
+  400  cd rebellion
+  401  ls
+  402  cd ..
+  403  cd ..
+  404  cd ..
+  405  cd ..
+  406  ls
+  407  cd sei
+  408  ls
+  409  cd labs
+  410  ls
+  411  cd Star_Wars
+  412  ls
+  413  cd ..
+  414  cd ..
+  415  cd star_wars
+  416  cd ..
+  417  cd ..
+  418  cd ..
+  419  cd users
+  420  ls
+  421  cd ..
+  422  cd Users
+  423  ls
+  424  cd .
+  425  cd .
+  426  ls
+  427  cd shadeszn
+  428  ls
+  429  cd sei
+  430  ls
+  431  cd labs
+  432  ls
+  433  cd Star_Wars
+  434  ls
+  435  tree
+  436  cd rebellion
+  437  cd ..
+  438  ls
+  439  cd rebellion
+  440  ls
+  441  cd ..
+  442  cd ..
+  443  ls
+  444  ls
+  445  cd star_wars
+  446  ls
+  447  cd ..
+  448  ls
+  449  cd Star_Wars
+  450  ls
+  451  mkdir star_wars
+  452  ls
+  453  nano darth_vader.txt
+  454  ls
+  455  cd empire
+  456  ls
+  457  cd death_star
+  458  ls
+  459  nano darth_vader.txt
+  460  cd ..
+  461  cd ..
+  462  ls
+  463  ls
+  464  mv empire star_wars/
+  465  mv rebellion star_wars/
+  466  ls
+  467  rm darth_vader.txt
+  468  ls
+  469  cd star_wars
+  470  ls
+  471  cd empire
+  472  ls
+  473  cd death_star
+  474  ls
+  475  cd ..
+  476  cd ..
+  477  cd ..
+  478  tree
+  479  mv millenium_falcon ~/Star_Wars/star_wars/empire/death_star
+  480  ls
+  481  cd star_wars
+  482  ls
+  483  cd rebellion
+  484  ls
+  485  mv millenium_falcon ~/Star_Wars/star_wars/empire/death_star
+  486  cd ..
+  487  ls
+  488  cd ..
+  489  cd ..
+  490  ls
+  491  cd ..
+  492  ls
+  493  cd labs
+  494  ls
+  495  cd Star_Wars/
+  496  cd star_wars/
+  497  ls
+  498  cd rebellion
+  499  ls
+  500  mv millenium_falcon/ ~/sei/labs/Star_Wars/star_wars/empire/death_star/
+  501  ls
+  502  cd ..
+  503  ls
+  504  cd empire
+  505  ls
+  506  cd death_star
+  507  ls
+  508  git add .
+  509  git status
+  510  git commit -m "Act2 Completed"
+  511  git status
+  512  git status
+  513  git push origin master
+  514  clear
+  515  ls
+  516  cd millenium_falcon
+  517  ls
+  518  ls
+  519  cd ..
+  520  ls
+  521  cd millenium_falcon
+  522  tree
+  523  cd ..
+  524  cd ..
+  525  cd ..
+  526  tree
+  527  cd empire
+  528  ls
+  529  cd death_star
+  530  ls
+  531  cd millenium_falcon
+  532  mv millenium_falcon/* ~/sei/labs/Star_Wars/star_wars/empire/death_star/
+  533  ls
+  534  mv millenium_falcon* ~/sei/labs/Star_Wars/star_wars/empire/death_star/
+  535  ls
+  536  cd ..
+  537  ls
+  538  cd ..
+  539  ls
+  540  tree
+  541  cd ..
+  542  tree
+  543  cd empire
+  544  cd death_star
+  545  ls
+  546  mv millenium_falcon*/ ~/sei/labs/Star_Wars/star_wars/empire/death_star/
+  547  cd millenium_falcon
+  548  ls
+  549  mv millenium_falcon*/ ~/sei/labs/Star_Wars/star_wars/empire/death_star/
+  550  mv millenium_falcon*  ~/sei/labs/Star_Wars/star_wars/empire/death_star
+  551  ls
+  552  cd ..
+  553  mv millenium_falcon/* ~/sei/labs/Star_Wars/star_wars/empire/death_star/
+  554  ls
+  555  cd ..
+  556  ls
+  557  cd death_star
+  558  ls
+  559  tree
+  560  cd ..
+  561  cd ..
+  562  ls
+  563  tree
+  564  ls
+  565  cd empire
+  566  ls
+  567  cd death_star
+  568  ls
+  569  cd millenium_falcon
+  570  ls
+  571  cd ..
+  572  ls
+  573  rm obi_wan.txt
+  574  ls
+  575  cd ..
+  576  ls
+  577  cd death_star
+  578  ls
+  579  mv han_solo.txt chewbacca.txt princess_leia.txt luke_skywalker.txt millenium_falcon/
+  580  ls
+  581  cd millenium_falcon
+  582  ls
+  583  tree
+  584  cd ..
+  585  tree
+  586  cd ..
+  587  tree
+  588  cd ..
+  589  tree
+  590  cd death_star
+  591  cd empire
+  592  cd death_star
+  593  ls
+  594  cd millenium_falcon
+  595  mv millenium_falcon/* ~/sei/labs/Star_Wars/star_wars/rebellion
+  596  mv millenium_falcon*/ ~/sei/labs/Star_Wars/star_wars/rebellion
+  597  mv millenium_falcon*/ ~/sei/labs/Star_Wars/star_wars/rebellion/
+  598  ls
+  599  cd ..
+  600  mv millenium_falcon/* ~/sei/labs/Star_Wars/star_wars/rebellion
+  601  ls
+  602  ls
+  603  cd ..
+  604  cd ..
+  605  ls
+  606  cd rebellion
+  607  ls
+  608  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/sei/labs/Star_Wars/star_wars/empire/death_star/millenium_falcon/
+  609  ls
+  610  cd ..
+  611  cd empire
+  612  cd death_star
+  613  ls
+  614  cd millenium_falcon
+  615  ls
+  616  mv millenium_falcon/* ~/sei/labs/Star_Wars/star_wars/rebellion/
+  617  mv millenium_falcon*/ ~/sei/labs/Star_Wars/star_wars/rebellion/
+  618  mv millenium_falcon/* ~/sei/labs/Star_Wars/star_wars/rebellion/
+  619  ls
+  620  mv millenium_falcon ~/sei/labs/Star_Wars/star_wars/rebellion/
+  621  ls
+  622  cd ..
+  623  mv millenium_falcon/ ~/sei/labs/Star_Wars/star_wars/rebellion/
+  624  ls
+  625  cd ..
+  626  cd ..
+  627  cd rebellion
+  628  ls
+  629  cd ..
+  630  ls
+  631  cd empire
+  632  ls
+  633  cd death_star
+  634  ls
+  635  mv darth_vader.txt ~/sei/labs/Star_Wars/star_wars/empire/
+  636  ls
+  637  cd ..
+  638  ls
+  639  cd death_star
+  640  cd ..
+  641  rm death_star
+  642  rm -rf death_star
+  643  ls
+  644  git add .
+  645  git status
+  646  git commit -m "Act3 Completed"
+  647  git push origin master
+  648  history
