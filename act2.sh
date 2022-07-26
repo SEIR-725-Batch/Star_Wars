@@ -9,5 +9,6 @@ mkdir millenium_falcon
 # 5. Inside the millenium_falcon, create two files: han_solo.txt and chewbacca.txt
 touch han_solo.txt chewbacca.txt
 # 6. Move luke_skywalker, obi_wan, and princess_leia into the millenium_falcon, respectively.
-
+mv ~/sei/star_wars/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/sei/star_wars/rebellion/millenium_falcon/
 # 7. Move the millenium_falcon into the death_star.
+mv ~/sei/star_wars/rebellion/millenium_falcon ~/sei/star_wars/empire/death_star/
