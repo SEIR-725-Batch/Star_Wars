@@ -1,0 +1,135 @@
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % mkdir star_wars 
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % cd star_wars           
+nickvanderipe@Nicks-MacBook-Pro star_wars % mkdir empire and rebellion 
+nickvanderipe@Nicks-MacBook-Pro star_wars % rmdir empire and rebellion 
+nickvanderipe@Nicks-MacBook-Pro star_wars % mkdir empire rebellion  
+nickvanderipe@Nicks-MacBook-Pro star_wars % cd empire && touch darth_vader.txt 
+nickvanderipe@Nicks-MacBook-Pro empire % echo "...heavy breathing...">> <darth_vader.txt>
+zsh: parse error near `<'
+nickvanderipe@Nicks-MacBook-Pro empire % echo ...heavy breathing...>>darth_vader.txt 
+nickvanderipe@Nicks-MacBook-Pro empire % touch emperor_palpatine.txt 
+nickvanderipe@Nicks-MacBook-Pro empire % mkdir death_star 
+nickvanderipe@Nicks-MacBook-Pro empire % mv darth_vader.txt death_star 
+nickvanderipe@Nicks-MacBook-Pro empire % cd ..   
+nickvanderipe@Nicks-MacBook-Pro star_wars % \ cd rebellion 
+zsh: command not found:  cd
+nickvanderipe@Nicks-MacBook-Pro star_wars % cd rebellion 
+nickvanderipe@Nicks-MacBook-Pro rebellion % touch.ex 
+nickvanderipe@Nicks-MacBook-Pro rebellion % 
+nickvanderipe@Nicks-MacBook-Pro rebellion % 
+nickvanderipe@Nicks-MacBook-Pro rebellion % touch.echo Help me, Obi-Wan... You're my only h
+ope.>>princess_leia.txt 
+quote> 
+quote> 
+quote> cd ~
+quote> Help me, Obi-Wan... You're my only hope. 
+zsh: command not found: touch.echo
+nickvanderipe@Nicks-MacBook-Pro rebellion % $ echo 'Help me, Obi-Wan... You're my only hope
+. > princess_leia.txt 
+zsh: command not found: $
+nickvanderipe@Nicks-MacBook-Pro rebellion % touch princess_leia.txt && echo "Help me, Obi-W
+an... You're my only hope."> princess_leia.txt 
+nickvanderipe@Nicks-MacBook-Pro rebellion % touch obi_wan.txt 
+nickvanderipe@Nicks-MacBook-Pro rebellion % touch luke_skywalker.txt 
+nickvanderipe@Nicks-MacBook-Pro rebellion % mkdir millenium_falcon 
+nickvanderipe@Nicks-MacBook-Pro rebellion % cd millenium_falcon 
+nickvanderipe@Nicks-MacBook-Pro millenium_falcon % touch han_solo.txt chewbacca.txt
+nickvanderipe@Nicks-MacBook-Pro millenium_falcon % mv luke_skywalker.txt && obi_wan.txt && princess.leia.txt millenium_falcon 
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+nickvanderipe@Nicks-MacBook-Pro millenium_falcon % mv millenium_falcon death_star 
+mv: rename millenium_falcon to death_star: No such file or directory
+nickvanderipe@Nicks-MacBook-Pro millenium_falcon % mv millenium_falcon ~/star_wars/empire/d
+eath_star 
+mv: rename millenium_falcon to /Users/nickvanderipe/star_wars/empire/death_star: No such file or directory
+nickvanderipe@Nicks-MacBook-Pro millenium_falcon % cd ~
+nickvanderipe@Nicks-MacBook-Pro ~ % cd Star_Wars 
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % mv ./star_wars/rebellion/millenium_falcon ~/sta
+r_wars/empire/death_star
+mv: rename ./star_wars/rebellion/millenium_falcon to /Users/nickvanderipe/star_wars/empire/death_star: No such file or directory
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % $ mv /star_wars/rebellion/millenium_falcon /sta
+r_wars/empire/death_star 
+zsh: command not found: $
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % cd ..     
+nickvanderipe@Nicks-MacBook-Pro ~ % mv/Users/nickvanderipe/Star_Wars/star_wars/rebellion/mi
+llenium_falcon mv/Users/nickvanderipe/Star_Wars/star_wars/empire/death_star 
+zsh: no such file or directory: mv/Users/nickvanderipe/Star_Wars/star_wars/rebellion/millenium_falcon
+nickvanderipe@Nicks-MacBook-Pro ~ % mv /Users/nickvanderipe/Star_Wars/star_wars/rebellion/m
+illenium_falcon /Users/nickvanderipe/Star_Wars/star_wars/empire/death_star 
+mv: rename /Users/nickvanderipe/Star_Wars/star_wars/rebellion/millenium_falcon to /Users/nickvanderipe/Star_Wars/star_wars/empire/death_star: No such file or directory
+nickvanderipe@Nicks-MacBook-Pro ~ % mv millenium falcon ~/empire/death_star 
+mv: /Users/nickvanderipe/empire/death_star is not a directory
+nickvanderipe@Nicks-MacBook-Pro ~ % cd millenium_falcon  
+cd: no such file or directory: millenium_falcon
+nickvanderipe@Nicks-MacBook-Pro ~ % c d 
+zsh: command not found: c
+nickvanderipe@Nicks-MacBook-Pro ~ % cd Star_Wars 
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % cd rebellion 
+cd: no such file or directory: rebellion
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % cd millenium_falcon 
+cd: no such file or directory: millenium_falcon
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % mv millenium_falcon ~/empire/death_star 
+mv: rename millenium_falcon to /Users/nickvanderipe/empire/death_star: No such file or directory
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % git commit -m "breezed through act 1 and now ha
+ving alot of trouble with moving directories as you can see. I missed something or do not u
+nderstand when I'm in a file how ot perform direct paths properly.
+dquote> 
+dquote> kjn
+dquote> remove 
+dquote> cd ~
+dquote> 
+dquote> 
+dquote> "Help me Obi-wan>"
+dquote> "
+error: pathspec 'me' did not match any file(s) known to git
+error: pathspec 'Obi-wan' did not match any file(s) known to git
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % git commit -m "Moving on to act 3 right now. Wi
+ll try to go back and finish act 2." 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "\n"
+
+nothing added to commit but untracked files present (use "git add" to track)
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % mv millenium_falcon/* death_star 
+zsh: no matches found: millenium_falcon/*
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % mv star_wars/rebellion/millenium_falcon/* star_
+wars/empire/deathstar 
+zsh: no matches found: star_wars/rebellion/millenium_falcon/*
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % setopt no_nomatch 
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % mv star_wars/rebellion/millenium_falcon/* star_ 
+wars/empire/deathstar
+mv: rename star_wars/rebellion/millenium_falcon/* to star_: No such file or directory
+zsh: no such file or directory: wars/empire/deathstar
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % mv millenium_falcon death_star 
+mv: rename millenium_falcon to death_star: No such file or directory
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % cd millenium_falcon 
+cd: no such file or directory: millenium_falcon
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % cd rebellion 
+cd: no such file or directory: rebellion
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % cd star_wars 
+cd: no such file or directory: star_wars
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % cd rebellion 
+cd: no such file or directory: rebellion
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % cd millenium_falcon 
+cd: no such file or directory: millenium_falcon
+nickvanderipe@Nicks-MacBook-Pro Star_Wars % history | tail -n 250
+  295  cd Star_Wars
+  296  cd rebellion 
+  297  cd millenium_falcon
+  298  mv millenium_falcon ~/empire/death_star
+  299  git commit -m "breezed through act 1 and now having alot of trouble with moving directories as you can see. I missed something or do not understand when I'm in a file how ot perform direct paths properly.\n\nkjn\nremove \ncd ~\n\n\n"Help me Obi-wan>"\n"
+  300  git commit -m "Moving on to act 3 right now. Will try to go back and finish act 2." 
+  301  mv millenium_falcon/* death_star
+  302  mv star_wars/rebellion/millenium_falcon/* star_wars/empire/deathstar
+  303  setopt no_nomatch
+  304  mv star_wars/rebellion/millenium_falcon/* star_\nwars/empire/deathstar 
+  305  mv millenium_falcon death_star
+  306  cd millenium_falcon 
+  307  cd rebellion 
+  308  cd star_wars
+  309  cd rebellion
+  310  cd millenium_falcon
+nickvanderipe@Nicks-MacBook-Pro Star_Wars %
