@@ -1,0 +1,250 @@
+ 38  code test
+   39  code .
+   40  brew list
+   41  code .
+   42  code.
+   43  'code' .
+   44  pwd
+   45  cd~
+   46  cd ~
+   47  ls
+   48  ls -a
+   49  brew install tree
+   50  cd sei
+   51  cd ~
+   52  mkdir ~/drawers
+   53  ls
+   54  mkdir socks && cd socks
+   55  pwd
+   56  tree
+   57  touch dress.socks
+   58  ls
+   59  cd..
+   60  cd ..
+   61  ls
+   62  cd drawers
+   63  touch pjs.drawers
+   64  ls
+   65  cd pjs
+   66  cd pjs.drawers
+   67  cd
+   68  mkdir ~/drawers/pjs && ~/drawers/more-socks
+   69  pwd
+   70  cd drawers
+   71  ls
+   72  rm pjs
+   73  ls
+   74  rm pjs.drawers
+   75  ls
+   76  mdkir socks && cd socks
+   77  mkdir socks && cd socks
+   78  touch dress.socks
+   79  ls
+   80  pwd
+   81  cd.
+   82  cd .
+   83  cd ..
+   84  mkdir ~/drawers/pjs ~/drawers/more-socks
+   85  tree.
+   86  tree .
+   87  rm socks/dress.socks .
+   88  tree .
+   89  cd .
+   90  cp socks/*.socks ~/drawers/more-socks
+   91  cp socks/*.socks ~/ drawers/more-socks .
+   92  mkdir ~/sei
+   93  cd~/sei
+   94  cd .
+   95  pwd
+   96  mkdir ~/sei
+   97  cd ~/sei
+   98  mkdir labs fundamentals projects repos code-alongs deliverables reflections
+   99  tree .
+  100  ls
+  101  mkdir boilerplate
+  102  ls
+  103  cd boilerplate
+  104  ls
+  105  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  106  ls
+  107  tree .
+  108  cd ..
+  109  ls
+  110  cp -R boilerplate ./code-alongs
+  111  cd code-alongs
+  112  ls
+  113  mv boilerplate hello.world
+  114  ls
+  115  cd hello.world
+  116  "code" .
+  117  mv hello.world hello_world
+  118  cd ..
+  119  git clone https://github.com/tjphillips08/daily-js-code-challenges.git
+  120  code ~/ .gitconfig
+  121  git clone https://github.com/tjphillips08/daily-js-code-challenges.git
+  122  'code' .
+  123  git status
+  124  pwd
+  125  cd daily-js-code-challenges
+  126  git status
+  127  git add .
+  128  git commit -m "Solve addOne"
+  129  git push origin master
+  130  git clone https://github.com/tjphillips08/daily-js-code-challenges.git
+  131  ls
+  132  git clone https://github.com/tjphillips08/github_101.git
+  133  ls
+  134  cd github_101
+  135  'code' .
+  136  git status
+  137  git add .
+  138  git commit -m "Add my answers to answers.txt"
+  139  git push origin master
+  140  git clone https://github.com/tjphillips08/Star_Wars-1.git
+  141  cd .
+  142  pwd
+  143  'code' .
+  144  cd ..
+  145  ls
+  146  cd .
+  147  mkdir star_wars
+  148  cd ..
+  149  pwd
+  150  ls
+  151  cd ..
+  152  cd ~
+  153  pwd
+  154  mkdir star_wars
+  155  cd sei
+  156  ls
+  157  cd deliverables
+  158  ls
+  159  git clone https://github.com/SEIR-725-Batch/Star_Wars-4.git
+  160  'code' .
+  161  mkdir star_wars
+  162  ls
+  163  cd star_wars
+  164  ls
+  165  mkdir empire mkdir rebellion
+  166  ls
+  167  rm mkdir
+  168  cd empire
+  169  touch darth_vader.txt
+  170  ls
+  171  tree.
+  172  tree .
+  173  pwd
+  174  cd darth_vader.txt
+  175  $echo "...heavy breathing..." >darth_vader.txt
+  176  echo -e "...heavy breathing...">>darth_vader.txt
+  177  touch emperor_palpatine.txt
+  178  mkdir death_star
+  179  mv.darth_vader.txt ~/death_star
+  180  mv darth_vader.txt ~/death_star
+  181  touch darth_vader.txt
+  182  echo -e "...heavy breathing...">>darth_vader.txt
+  183  cd rebellion
+  184  cd ..
+  185  cd rebellion
+  186  //touch princess_leia.txt && echo -e"Help me, Obi-Wan…You’re my only hope.">>princess_leia.txt
+  187  touch princess_leia.txt && echo -e"Help me, Obi-Wan…You’re my only hope.">>princess_leia.txt
+  188  touch princess_leia.txt && echo"Help me, Obi-Wan…You’re my only hope.">>princess_leia.txt
+  189  touch princess_leia.txt && echo -e "Help me, Obi-Wan…You’re my only hope.">>princess_leia.txt
+  190  touch obi_wan.txt
+  191  touch luke_skywalker.txt
+  192  mkdir millenium_falcon
+  193  cd millenium_falcon
+  194  touch han_solo.txt
+  195  touch chewbacca.txt
+  196  mv luke_skywalker
+  197  rm obi_wan.txt
+  198  cd rebellion
+  199  cd ..
+  200  rm obi_wan.txt
+  201  cd ..
+  202  cd emire
+  203  cd empire
+  204  mv .darth_vader.txt ~/death_star
+  205  rm death_star
+  206  rmdir death_star
+  207  cd star_wars
+  208  cd Star_Wars-4
+  209  git add .
+  210  cd deliverables
+  211  cd ..
+  212  git add .
+  213  git status
+  214  cd star_wars
+  215  git status
+  216  cd act1.sh
+  217  git status
+  218  cd empire
+  219  git status
+  220  cd star_wars
+  221  cd ..
+  222  git status
+  223  ls
+  224  cd ..
+  225  ls
+  226  cd Star_Wars
+  227  ls -a
+  228  git status
+  229  git add .
+  230  git commit -a "act1.sh"
+  231  git commit "act1.sh"
+  232  git commit -m "act1.sh"
+  233  git push origin master
+  234  git add .
+  235  git commit -m "act2.sh"
+  236  git add act2.sh
+  237  ls
+  238  cd ..
+  239  ls
+  240  git add .
+  241  git status
+  242  history | tail -n 250
+  243  git push origin master
+  244  pwd
+  245  ls
+  246  git clone https://github.com/tjphillips08/Star_Wars-1.git
+  247  pwd
+  248  cd sei
+  249  cd deliverables
+  250  git clone https://github.com/tjphillips08/Star_Wars-1.git
+  251  'code'.
+  252  code .
+  253  cd Star_Wars-1
+  254  ls -a
+  255  code .
+  256  mkdir star_wars
+  257  mkdir empire mkdir rebellion
+  258  rmdir mkdir
+  259  cd empire
+  260  touch darth_vader.txt
+  261  echo -e"...heavy breathing...">>darth_vader.txt
+  262  cd rebellion
+  263  cd ..
+  264  cd rebellion
+  265  touch princess_leia.txt && echo -e "Help me, Obi-Wan... You're my only hope.">>princess.leia.txt
+  266  touch obi_wan.txt
+  267  touch luke_skywalker.txt
+  268  mkdir millenium falcon
+  269  cd millenium falcon
+  270  ls
+  271  mkdir millenium_falcon
+  272  cd millenium_falcon
+  273  touch han_solo.txt
+  274  touch chewbacca.txt
+  275  mv luke_skywalker
+  276  cd ..
+  277  rm obi_wan.txt
+  278  cd ..
+  279  cd empire
+  280  rmdir death_star
+  281  git status
+  282  git add act1.sh
+  283  git commit -m "act1.sh"
+  284  git add act2.sh
+  285  git commit -m "act2.sh"
+  286  git add act3.sh
+  287  git commit -m "act3.sh"
