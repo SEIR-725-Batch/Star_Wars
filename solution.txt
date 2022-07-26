@@ -1,0 +1,83 @@
+cd ..
+  291  ls
+  292  cd labs
+  293  git clone https://github.com/bbakercello/github_101.git
+  294  cd github101
+  295  ls
+  296  cd github_101
+  297  code .
+  298  git status
+  299  git add .
+  300  git status
+  301  git commit -m 
+  302  git commit -m 'Add my answers to answers.txt'
+  303  git status
+  304  git push origin master
+  305  cd ~
+  306  cd sei
+  307  cd deliverables
+  308  git clone https://github.com/bbakercello/Star_Wars.git
+  309  code .
+  310  cd Star_Wars
+  311  mkdir star_wars
+  312  ls
+  313  cd star_wars
+  314  ls
+  315  mkdir empire rebellion
+  316  ls
+  317  cd empire directory
+  318  ls
+  319  cd empire
+  320  touch darth_vader.txt
+  321  ls
+  322  cd darth_vader.txt
+  323  echo "...heavy breathing..."
+  324  echo "...heavy breathing..." > darth_vader.txt
+  325  cd ..
+  326  ls
+  327  cd empire
+  328  touch emperor_palpatine.txt
+  329  cd ..
+  330  ls
+  331  cd empire
+  332  mkdir death_star
+  333  mv ~sei/deliverables/star_wars/star_wars/empire/darth_vader.txt ~sei/deliverables/star_wars/star_wars/empire/death_star
+  334  mv ~/sei/deliverables/star_wars/star_wars/empire/darth_vader.txt ~/sei/deliverables/star_wars/star_wars/empire/death_star
+  335  ls
+  336  cd death_star
+  337  ls
+  338  cd ..
+  339  ls
+  340  touch ./star_wars/rebellion/princess_leia.txt echo "Help me, Obi-Wan...You're my only hope." > princess_leia.txt 
+  341  echo "Help me, Obi-Wan... You're my only hope." > ~/sei/deliverables/star_wars/star_wars/rebellion/princess_leia.txt
+  342  ls
+  343  cd rebellion
+  344  ls
+  345  touch obi_wan.text
+  346  touch luke_skywalker.txt
+  347  mkdir millenium_falcon
+  348  touch ./millenium_falcon/han_solo.txt ./millenium_falcon/han_solo.txt
+  349  touch .millenium_falcon/chewbacca.txt
+  350  touch ./millenium_falcon/chewbacca.txt
+  351  mv ./princess_leia.txt ./millenium_falcon
+  352  mv ./obiw_wan.txt  ./luke_skywalker.txt  ./millenium_falcon 
+  353  mv ./luke_skywalker.txt ./millenium_falcon
+  354  mv ./obi_wan.txt ./millenium_falcon
+  355  mv ./obi_wan.text ./obi_wan.txt
+  356  mv .obi_wan.txt ./millenium_falcon
+  357  mv ./obi_wan.txt ./millenium_falcon
+  358  mv ./millenium_falcon ../empire/death_star
+  359  mv ../empire/death_star/millenium_falcon/han_solo.txt ../empire/death_star/millenium_falcon/chewbacca.txt ../empire/death_star/millenium_falcon/princess_leia.txt ../empire/death_star/millenium_falcon/luke_skywalker.txt ../empire/death_star/millenium_falcon/obi_wan.txt ../empire/death_star
+  360  cd ..
+  361  rm ./empire/death_star/obi_wan.txt
+  362  cd empirer
+  363  cd empire
+  364  cd death_star
+  365  ls
+  366  mv ./chewbacca.txt ./han_solo.txt /luke_skywalker.txt princess_leia.txt ./millenium_falcon
+  367  mv ./luke_skywalker.txt ./millenium_falcon
+  368  mv ./millenium_falcon ~/sei/star_wars/star_wars/rebellion
+  369  mv ./millenium_falcon ~/sei/deliverables/star_wars/star_wars/rebellion
+  370  mv ./darth_vader.txt ..
+  371  cd ..
+  372  rm -rf ./death_star
