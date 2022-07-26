@@ -1,0 +1,250 @@
+133  cd
+  134  mkdir ~/sei
+  135  cd ~/sei
+  136  mkdir labs
+  137  ls
+  138  mkdir fundamentals && projects
+  139  ls
+  140  mkdir projects
+  141  mkdir repos
+  142  mkdir code-alongs
+  143  mkdir deliverables
+  144  mkdir reflections
+  145  ls
+  146  cd..
+  147  cd
+  148  cd ericsMoneyGang
+  149  mkdir firstapp
+  150  mkdir firstApp
+  151  cd firstApp
+  152  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  153  tree
+  154  code .
+  155  code
+  156  cd firstapp
+  157  code .
+  158  code
+  159  code .
+  160  cd
+  161  code .
+  162  cd
+  163  cd..
+  164  cd ..
+  165  mkdir GAwork
+  166  ls
+  167  cd documents
+  168  ls
+  169  mkdir GAwork
+  170  ls
+  171  cd gawork
+  172  mkdir deliverables
+  173  cd deliverables
+  174  git clone git@github.com:moarboost/Star_Wars.git
+  175  cd sei
+  176  cd
+  177  cd sei
+  178  git clone git@github.com:moarboost/Star_Wars.git
+  179  ls
+  180  git clone https://github.com/moarboost/Star_Wars
+  181  ls
+  182  cd star_wars
+  183  code .
+  184  ls
+  185  cd act1.sh
+  186  mkdir empire rebellion
+  187  ls
+  188  cd empire
+  189  touch darth_vader.txt
+  190  ls
+  191  $ECHO "...heavy breathing..."
+  192  echo "...heavy breathing..."
+  193  mkdir emperor_palpatine.txt
+  194  ls
+  195  touch emperor_palpatine.txt
+  196  mkdir death_star
+  197  tree
+  198  mv ~/darth_vader.txt ./death_star/
+  199  mv darth_vader.txt ./death_star/
+  200  cd star_wars/rebellion
+  201  cd star_wars
+  202  cd
+  203  cd star_wars
+  204  cd empire
+  205  ls
+  206  cd sei
+  207  ls
+  208  cd Star_wars
+  209  cd rebellion
+  210  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope."
+  211  touch obi_wan.txt
+  212  touch luke_skywalker.txt
+  213  mkdir millenium_falcon
+  214  touch han_solo.txt chewbacca.txt
+  215  cd millenium_falcon
+  216  touch han_solo.txt chewbacca.txt
+  217  ls
+  218  cd
+  219  cd sei
+  220  cd hello_world
+  221  ls
+  222  cd code-alongs
+  223  ls
+  224  cd
+  225  cd sei
+  226  cd
+  227  code .
+  228  hello_world cd ..
+  229  seir725
+  230  cd sei
+  231  git clone https://github.com/moarboost/daily-js-code-challenges.git
+  232  cd seir75
+  233  ls
+  234  cd daily-js-code-challenges
+  235  ls
+  236  -a
+  237  ls -a
+  238  code .
+  239  node challenges.js
+  240  git status
+  241  git add .
+  242  git status
+  243  git commit -m 'solve addOne function'
+  244  git status
+  245  git push origin master
+  246  git branch
+  247  git push origin master
+  248  git status
+  249  ls -a
+  250  cd github_101
+  251  cd
+  252  ls
+  253  git push origin github_101
+  254  git clone https://github.com/moarboost/github_101.git
+  255  cd sei
+  256  git clone https://github.com/moarboost/github_101.git
+  257  cd
+  258  ls
+  259  rm -r github_101
+  260  cd sei
+  261  cd github_101
+  262  code .
+  263  git status
+  264  git add .
+  265  git commit -m "Added my answers to answers.txt"
+  266  git push origin master
+  267  cd
+  268  ls
+  269  sei
+  270  ls
+  271  cd star_wars
+  272  code .
+  273  ls
+  274  cd rebellion
+  275  ls
+  276  cd millenium_falcon
+  277  ls
+  278  git status
+  279  git add .
+  280  git commit -m "Act 1 done"
+  281  ls
+  282  tree
+  283  cd millenium_falcon
+  284  cd rebellion
+  285  cd mellenium_falcon
+  286  cd millenium_falcon
+  287  mv ~/rebellion/luke_skywalker.txt ~/millenium_falcon
+  288  cd ..
+  289  mv ~/rebellion/luke_skywalker.txt ~/millenium_falcon/luke_skywalker.txt
+  290  mv ~/Star_Wars/rebellion/luke_skywalker.txt ~/Star_Wars/rebellion/millenium_falcon/luke_skywalker.txt
+  291  cd
+  292  cd master
+  293  cd Star_wars
+  294  code .
+  295  git status
+  296  ls
+  297  cd sei
+  298  ls
+  299  cd Star_wars
+  300  mw ~/rebellion/luke_skywalker.txt ~/millenium_falcon
+  301  mv ~/rebellion/luke_skywalker.txt ~/millenium_falcon
+  302  mv ~/rebellion/luke_skywalker.txt ~/sei/Star_wars/rebellion/millenium_falcon
+  303  tree
+  304  cd rebellion
+  305  mv ~/luke_skywalker.txt millenium_falcon
+  306  mv ~/rebellion/luke_skywalker.txt ~/millenium_falcon/
+  307  cd star_wars
+  308  cd Star_wars
+  309  cd ..
+  310  mv ~/rebellion/luke_skywalker.txt ~/millenium_falcon/
+  311  mv ~/sei/star_wars/rebellion/luke_skywalker.txt ~/millenium_falcon/
+  312  mv ~/sei/star_wars/rebellion/luke_skywalker.txt ~/sei/star_wars/rebellion/millenium_falcon/
+  313  ls
+  314  cd rebellion
+  315  cd millenium_falcon
+  316  ls
+  317  cd ..
+  318  mv ~/sei/star_wars/rebellion/obi_wan.txt ~/sei/star_wars/rebellion/millenium_falcon/
+  319  mv ~/sei/star_wars/rebellion/princess_leia.txt ~/sei/star_wars/rebellion/millenium_falcon/
+  320  cd millenium_falcon
+  321  cd rebellion
+  322  cd millenium_falcon
+  323  ls
+  324  cd ..
+  325  tree
+  326  mv ~/sei/star_wars/rebellion/millenium_falcon ~/sei/star_wars/empire/death_star/
+  327  cd empire
+  328  cd death_star
+  329  ls
+  330  cd millenium_falcon
+  331  ls
+  332  cd ..
+  333  git status
+  334  git commit -m "Act 2 done"
+  335  git add ~/sei/star_wars/
+  336  git status
+  337  git commit -m "Act 2 done"
+  338  tree
+  339  mv ~/sei/star_wars/empire/death_star/millenium_falcon/* ~/sei/star_wars/empire/death_star/
+  340  cd death_star
+  341  cd empire/death_star
+  342  ls
+  343  cd ~/millenium_falcon/ && rm obi_wan.txt
+  344  cd ~/sei/star_wars/empire/death_star/millenium_falcon/ && rm obi_wan.txt
+  345  cd ~/sei/star_wars/empire/death_star/ && rm obi_wan.txt
+  346  ls
+  347  mv ~/sei/star_wars/empire/death_star/chewbacca.txt han_solo.txt princess_leia.txt luke_skywalker.txt ~/sei/star_wars/empire/death_star/millenium_falcon/
+  348  cd ..
+  349  ls
+  350  tree
+  351  mv ~/sei/star_wars/empire/death_star/millenium_falcon/ ~/sei/star_wars/rebellion/
+  352  tree
+  353  cd ~/sei/star_wars/rebellion/ && rm han_solo.txt chewbacca.txt
+  354  ls
+  355  cd millneium_falcon
+  356  cd millenium_falcon
+  357  ls
+  358  cd ..
+  359  ls
+  360  cd ..
+  361  tree
+  362  mv ~/sei/star_wars/empire/death_star/darth_vader.txt ~/sei/star_wars/empire/
+  363  cd empire
+  364  ls
+  365  cd ..
+  366  tree
+  367  rm -rf  ~/sei/star_wars/empire/death_star
+  368  tree
+  369  git add .
+  370  code .
+  371  git add .
+  372  code .
+  373  git status
+  374  git add .
+  375  git status
+  376  cd
+  377  git clone https://github.com/moarboost/Star_Wars.git
+  378  git status
+  379  cd sei/star_wars
+  380  git status
+  381  git add .
+  382  git commit -m 'Act 3 Finished'
