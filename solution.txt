@@ -1,0 +1,250 @@
+ 627  ls
+  628  cd socks
+  629  touch dress.socks
+  630  ls
+  631  cd ..
+  632  pwd
+  633  ls
+  634  cd drawers
+  635  cd .
+  636  cd ..
+  637  ls
+  638  ~/drawers/pjs
+  639  mkdir ~/drawers/pjs
+  640  mkdir ~/drawers/more-socks
+  641  cd pjs
+  642  ls
+  643  cd drawers
+  644  cd pjs
+  645  touch warm.pjs
+  646  touch favorite.socks
+  647  mv ~/drawers/pjs/favorite.socks ~/drawers/socks/
+  648  cd ..
+  649  mv socks ~/drawers
+  650  cd drawers
+  651  ls
+  652  mv ~/drawers/pjs/favorite.socks ~/drawers/socks/
+  653  ls
+  654  cd socks
+  655  ls
+  656  cd ..
+  657  ls
+  658  cd socks
+  659  ls
+  660  mv favorite.socks -/drawers/more-socks/
+  661  ls
+  662  cd
+  663  ls
+  664  cd drawers
+  665  ls
+  666  cd pjs
+  667  mkdir shorts
+  668  ls
+  669  mv shorts ~/drawers/
+  670  cd ..
+  671  ls
+  672  cd shorts
+  673  touch plaid.pjs
+  674  ls
+  675  cd ..
+  676  tree
+  677  mv pjs/warm.pjs pjs/winter.pjs
+  678  ls
+  679  cd pjs
+  680  ls
+  681  cd ..
+  682  rm -rf ~/drawers/pjs
+  683  ls
+  684  tree
+  685  rm more-socks
+  686  rm -rf more-socks
+  687  ls
+  688  tree
+  689  cp -R ~/drawers/socks ~/drawers/more-socks
+  690  ls
+  691  tree
+  692  cd ..
+  693  mkdir ~/sei
+  694  cd ~/sei
+  695  ls
+  696  mkdir labs fundamentals projects repos code-alongs deliverables reflections
+  697  tree
+  698  mkdir boilerplate
+  699  tree
+  700  cd boilerplate
+  701  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  702  tree
+  703  cd ..
+  704  tree
+  705  cp boilerplate ~sei/code-alongs
+  706  cp boilerplate ~/sei/code-alongs
+  707  cd -R boilerplate ~/sei/code-alongs
+  708  cp -R boilerplate ~/sei/code-alongs
+  709  ls
+  710  tree
+  711  cd code-alongs
+  712  mv boilerplate hello_world
+  713  tree
+  714  git status
+  715  ls
+  716  cd sei
+  717  tree
+  718  ls
+  719  git clone https://github.com/7vma/daily-js-code-challenges.git
+  720  ls
+  721  cd daily-js-code-challenges
+  722  ls -a
+  723  code .
+  724  node
+  725  node challenges.js
+  726  git status
+  727  git add .
+  728  git status
+  729  git commit
+  730  git commit -m 'solve addOne function'
+  731  git push master
+  732  git status
+  733  git branch
+  734  git push origin master
+  735  git clone https://github.com/7vma/github_101.git
+  736  ls -a
+  737  cd ..
+  738  ls
+  739  cd labs
+  740  git clone https://github.com/7vma/github_101.git
+  741  ls
+  742  cd github_101
+  743  code .
+  744  git status
+  745  ls
+  746  cd sei
+  747  ls
+  748  cd labs
+  749  ls
+  750  cd github_101
+  751  ls
+  752  git status
+  753  git add .
+  754  git status
+  755  git commit -m "add my answers to answers.txt"
+  756  git status
+  757  git push origin master
+  758  ls
+  759  cd ..
+  760  ls
+  761  cd deliverables
+  762  git clone https://github.com/7vma/Star_Wars.git
+  763  ls
+  764  cd Star_Wars
+  765  ls
+  766  code .
+  767  mkdir star_wars
+  768  ls
+  769  cd act1.sh
+  770  mkdir empire rebellion
+  771  ls
+  772  cd empire
+  773  touch darth_vader.txt
+  774  pwd
+  775  echo "...heavy breathing..." >/Users/mxs/sei/deliverables/Star_Wars/empire/darth_vader.txt
+  776  ls
+  777  touch emperor_palpatine.txt
+  778  mkdir death_star
+  779  mv dath_vader.txt death_star
+  780  ls
+  781  mv darth_vader death_star
+  782  mv darth_vader.txt death_star
+  783  tree
+  784  ls
+  785  cd ..
+  786  cd rebellion
+  787  ls
+  788  echo "Help me, Obi-Wan...You're my only hope." princess_leia.txt
+  789  pwd
+  790  echo "Help me, Obi-Wan...You're my only hope." princess_leia.txt \nHelp me, Obi-Wan...You're my only hope. > /Users/mxs/sei/deliverables/Star_Wars/rebellion/princess_leia.txt\n\nHelp me, Obi-Wan...You're my only hope." princess_leia.txt \nHelp me, Obi-Wan...You're my only hope.\n
+  791  ls
+  792  cat princess_leia.txt
+  793  cat > princess_leia.txt
+  794  touch obi_wan.txt luke_skywalker.txt
+  795  mkdir millenium_falcon
+  796  cd millenium_falcon
+  797  touch han_solo.txt chewbacca.txt
+  798  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  799  cd ..
+  800  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon 
+  801  ls
+  802  pwd
+  803  mv millenium_falcon 
+  804  mv millenium_falcon ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star
+  805  pwd
+  806  ls
+  807  mv ~/Users/mxs/sei/deliverables/Star_Wars/rebellion/millenium_falcon ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star
+  808  mv /Users/mxs/Users/mxs/sei/deliverables/Star_Wars/rebellion/millenium_falcon /Users/mxs/Users/mxs/sei/deliverables/Star_Wars/empire/death_star
+  809  ls
+  810  cd millenium_falcon
+  811  pwd
+  812  cd ..
+  813  cd empire
+  814  cd death_star
+  815  pwd
+  816  mv /Users/mxs/sei/deliverables/Star_Wars/rebellion/millenium_falcon /Users/mxs/sei/deliverables/Star_Wars/empire/death_star
+  817  ls
+  818  mv millenium falcon death_star/*
+  819  mv millenium_falcon /Users/mxs/sei/deliverables/Star_Wars/rebellion/millenium_falcon /Users/mxs/sei/deliverables/Star_Wars/empire/death_star*
+  820  mv millenium_falcon /Users/mxs/sei/deliverables/Star_Wars/empire/death_star*
+  821  mv millenium_falcon*
+  822  ls
+  823  mv /Users/mxs/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon* /Users/mxs/sei/deliverables/Star_Wars/empire/death_star
+  824  ls
+  825  cd millenium_falcon
+  826  mv * ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star
+  827  mv * ~/death_star
+  828  cd..
+  829  cd ..
+  830  mv ~//Users/mxs/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon* ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star
+  831  mv ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon* ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star
+  832  mv /millenium_falcon/*.txt ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star
+  833  mv  -v ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon/* ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star
+  834  cd millenium_falcon
+  835  pwd
+  836  mv /Users/mxs/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon/* ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star/
+  837  cd ..
+  838  pwd
+  839  mv ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon/* ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star
+  840  ls
+  841  mv -v millenium_falcon/* ..
+  842  ls
+  843  tree
+  844  cd ..
+  845  ls
+  846  mv chewbacca.txt han_solo.txt luke_skuwalker.txt obi_wan.txt princess_leia.txt death_star
+  847  mv luke_skuwalker.txt death_star
+  848  mv luke_skywalker.txt death_star
+  849  cd death_star
+  850  ls
+  851  rm obi_wan.txt
+  852  ls
+  853  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  854  ls
+  855  tree
+  856  mv millenium_falcon ~/Users/mxs/sei/deliverables/Star_Wars/rebellion
+  857  ls
+  858  cd millenium_falcon
+  859  pwd
+  860  ~/Users/mxs/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon ~/Users/mxs/sei/deliverables/Star_Wars/rebellion
+  861  cd ..
+  862  cd rebellion
+  863  mv /Users/mxs/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon /Users/mxs/sei/deliverables/Star_Wars/rebellion
+  864  ls
+  865  cd ..
+  866  cd empire
+  867  cd death_star
+  868  ls
+  869  mv darth_vader.txt /Users/mxs/sei/deliverables/Star_Wars/empire
+  870  ls
+  871  cd ..
+  872  ls
+  873  rm death_star
+  874  rmdir death_star
+  875  ls
+  876  history
