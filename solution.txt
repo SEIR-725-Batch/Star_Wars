@@ -1,0 +1,543 @@
+ empire history
+    1  compaudit | xargs chmod g-w,o-w
+    2  echo $SHELL
+    3  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    4  compaudit | xargs chmod g-w,o-w
+    5  code .
+    6  clear
+    7  code .
+    8  clear
+    9  code .
+   10  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   11  xcode-select --install
+   12  "Software Update"
+   13  export PATH=$PATH:/opt/homebrew/bin
+   14  brew update
+   15  brew install git
+   16  echo $SHELL
+   17  code .
+   18  clear
+   19  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   20  brew install git
+   21  rm -rf /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core\nbrew tap homebrew/core
+   22  brew doctor
+   23  brew update
+   24  brew install git
+   25  git config --global user.name "maclamour"
+   26  git config --global user.email "maclamour@gmail.com"
+   27  git config --global user.password "Poweradeis28@"
+   28  git config --global init.defaultBranch main
+   29  git config --global core.editor "code --wait"
+   30  git config --global pull.rebase false
+   31  touch ~/.gitignore_global
+   32  git config --global core.excludesfile ~/.gitignore_global
+   33  code ~/.gitignore_global
+   34  brew install gh
+   35  gh auth login
+   36  brew install node
+   37  node -v\nnpm -v
+   38  npm i -g nodemon
+   39  npm install -g npm@8.15.0
+   40  ```bash\necho $SHELL\n```
+   41  echo $SHELL
+   42  chsh -s $(which zsh)
+   43  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   44  compaudit | xargs chmod g-w,o-w
+   45  code .
+   46  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   47  brew doctor
+   48  brew update
+   49  xcode-select --install
+   50  brew install git
+   51  which brew
+   52  brew list
+   53  npm i -g nodemon
+   54  pwd
+   55  cd ~
+   56  ls
+   57  cd Desktop
+   58  pwd
+   59  cd.
+   60  cd..
+   61  cd/
+   62  pwd
+   63  cd ..
+   64  pwd
+   65  cd .
+   66  pwd
+   67  ls -a
+   68  cd ..
+   69  brew install tree
+   70  tree .
+   71  pwd
+   72  cd
+   73  cd ..
+   74  mkdir ~/drawers
+   75  cd ..
+   76  pwd
+   77  cd ~
+   78  pwd
+   79  mkdir ~/drawers
+   80  ls
+   81  mkdir ~/closet
+   82  pwd
+   83  cd ~
+   84  mkdir ~/drawers
+   85  ls
+   86  cd drawers
+   87  ls
+   88  mkdir socks
+   89  cd socks
+   90  pwd
+   91  touch dress.socks
+   92  ls
+   93  cd drawers
+   94  cd ..
+   95  ls
+   96  mkdir pjs
+   97  ls
+   98  mkdir more-socks
+   99  ls
+  100  cd pj
+  101  cd drawers
+  102  ls
+  103  cd pjs
+  104  touch warm.pjs favorite.socks
+  105  cd ~/drawers
+  106  ls
+  107  cd pjs
+  108  ls
+  109  cd ~ drawers
+  110  cd drawers 
+  111  pwd
+  112  cd ~
+  113  cd ..
+  114  pwd
+  115  cd drawers
+  116  ls
+  117  cd drawers
+  118  mkdir ~/drawers
+  119  ls
+  120  pwd
+  121  cd drawers
+  122  mkdir ~/drawer
+  123  cd drawer
+  124  ls
+  125  pwd
+  126  cd ..
+  127  cd ~
+  128  pwd
+  129  cd drawer
+  130  pwd
+  131  mkdir socks
+  132  cd socks
+  133  touch dress.socks
+  134  cd~
+  135  cd ..
+  136  cd ~
+  137  pwd
+  138  mkdir~/pjs
+  139  mkdir pjs
+  140  makdir more-socks
+  141  mkdir more-socks
+  142  ls
+  143  cd ~ pjs
+  144  ls
+  145  cd ~
+  146  pwd
+  147  cd drawer
+  148  cd pjs
+  149  touch warm.pjs
+  150  favorite.socks
+  151  touch favorite.socks
+  152  ls
+  153  cd drawercd ..
+  154  cd ..
+  155  ls
+  156  cd pjs
+  157  mkdir shorts
+  158  cd shorts
+  159  touch plaid.pjs
+  160  cd ..
+  161  pwd 
+  162  mkdir ~/sei
+  163  cd ~/sei
+  164  mkdir labs 
+  165  mkdir fundamentals
+  166  mkdir projects
+  167  mkdir repos
+  168  mkdir code-alongs
+  169  mkdir deliverables reflections 
+  170  ls
+  171  mkdir bolierplate
+  172  cd bolierplate
+  173  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  174  ls
+  175  tree .
+  176  cp -R bolierplate ./code-alongs
+  177  cd.
+  178  cd..
+  179  tree .
+  180  cd sei
+  181  cd ~
+  182  cd sei
+  183  cp -R bolierpoint ./code-alongs
+  184  tree .
+  185  cp -R bolierpoint ./code-alongs
+  186  cd bolierplate
+  187  cd ..
+  188  cp -R bolierplate ./code-alongs
+  189  cd code-alongs
+  190  ls
+  191  cd usecd ..
+  192  cd ..
+  193  pwd
+  194  cd .
+  195  cd ~
+  196  pwd
+  197  cd sei
+  198  tree .
+  199  cd sei
+  200  tree .
+  201  pwd
+  202  cd sei
+  203  tree .
+  204  cd..
+  205  cd.
+  206  cd ..
+  207  pwd
+  208  git remote add <name of remote> <URL of repo on GitHub>
+  209  git remote-v
+  210  git remote -v
+  211  git status
+  212  git remote add<maclamour><https://github.com/maclamour/daily-js-code-challenges.git\>
+  213  cd sei
+  214  git clone https://github.com/maclamour/daily-js-code-challenges.git
+  215  ls
+  216  cd daily-js-code-challenges
+  217  git status
+  218  cd ..
+  219  cd ,,
+  220  cd ..
+  221  pwd
+  222  cd sei
+  223  cd ..
+  224  cd sei
+  225  cd ..
+  226  pwd
+  227  cd sei
+  228  ls
+  229  cd daily-js-code-challenges
+  230  code .
+  231  cd ..
+  232  cd sei
+  233  cd ..
+  234  cd sei
+  235  cd ~
+  236  pwd
+  237  cd sei
+  238  ls
+  239  daily-js-code-challenges
+  240  code.
+  241  code .
+  242  git status
+  243  git add .
+  244  git status
+  245  git commit -m "Solve addOne"
+  246  git push origin main
+  247  git push origin master
+  248  git repo
+  249  get clone https://github.com/maclamour/github_101.git
+  250  cd github_101
+  251  tree ,
+  252  tree .
+  253  cd labs
+  254  get clone https://github.com/maclamour/github_101.git
+  255  mkdir github_101
+  256  cd github_101
+  257  git clone https://github.com/maclamour/github_101.git
+  258  code .
+  259  git status
+  260  tree .
+  261  git status
+  262  git init
+  263  ls
+  264  cd github_101
+  265  cd ..
+  266  ls -a 
+  267  rm -rf .git 
+  268  ls -a 
+  269  cd github_101
+  270  git status
+  271  git add -A
+  272  git commit -m "Add my answers to answers.txt"
+  273  git push origin master 
+  274  git config --global init.defaultBranch main
+  275  git config --global pull.rebase true
+  276  c ~
+  277  cd~
+  278  cc .
+  279  cd ..
+  280  cd~
+  281  cd..
+  282  cd ..
+  283  cd ~
+  284  pwd
+  285  cd sei
+  286  tree .
+  287  cd deliverables
+  288  mkdirt Star_Wars
+  289  mkdrt Star_Wars
+  290  mkdir Star_Wars
+  291  tree .
+  292  cd Star_Wars
+  293  git clone https://github.com/maclamour/Star_Wars.git
+  294  ls
+  295  tree .
+  296  code .
+  297  mkdir empire rebellion
+  298  tree .
+  299  cd empire
+  300  touch darth_vader.txt
+  301  tree .
+  302  touch emperor_palpatine.txt
+  303  ls
+  304  tree .
+  305  mkdir death_star
+  306  tree .
+  307  nano darth_vader.txt 
+  308  pwd
+  309  cd sei
+  310  cd deliverables
+  311  tree .
+  312  pwd
+  313  cd sei
+  314  cd deliverables
+  315  tree .
+  316  code .
+  317  ls
+  318  tree .
+  319  cd empire
+  320  cd ~
+  321  pwd
+  322  cd sei
+  323  cd deliverables
+  324  tree .
+  325  mkdir empire rebellion
+  326  cd empire
+  327  touch darth_vader.txt
+  328  echo '...heavy breathing...' > darth_vader.txt
+  329  cat darth_vader.txt
+  330  touch emperor_palpatine.txt
+  331  cd ..
+  332  cd deliverables
+  333  cd empire
+  334  mv ~/empire/ darth_vader.txt ~/death_star
+  335  tree .
+  336  mkdir death_star
+  337  mv ~/empire/darth_vader.txt ~/death_star
+  338  ls
+  339  tree .
+  340  mv ~/empire/darth_vader.txt ~/death_star
+  341  % mv ~/empire/darth_vader.txt ~/death_star
+  342  clear 
+  343  cd ..
+  344  tree .
+  345  mv empire/darth_vader.txt ~/death_star
+  346  tree .
+  347  cd death_star
+  348  cd empire
+  349  touch darth_vader.txt
+  350  ls
+  351  mv ~/empire/darth_vader.txt ~/death_star
+  352  ls
+  353  mv ~ mv darth_vader.txt ~/death_star
+  354  rvdir death_star
+  355  rm death_star
+  356  tree .
+  357  mkdir death_star
+  358  tree .
+  359  mv darth_vader.txt ~/death_star
+  360  tree .
+  361  cd death_star
+  362  tree .
+  363  cd..
+  364  cd ..
+  365  tree .
+  366  touch darth_vader.txt
+  367  tree .
+  368  pwd
+  369  sei
+  370  cd deliverables
+  371  cd Star_Wars
+  372  tree
+  373  mkdir empire rebellion 
+  374  cd empire
+  375  touch emperor_palpatine.txt darth_vader.txt 
+  376  echo '...heavy breathing' > darth_vader.txt
+  377  cat darth_vader.txt
+  378  tree .
+  379  ls
+  380  tree .
+  381  cd ..
+  382  tree .
+  383  mkdir death_star
+  384  rmdir death_star 
+  385  cd empire
+  386  tree .
+  387  mv darth_vader.txt ~/death_star/
+  388  mv darth_vader.txt death_star
+  389  ls
+  390  tree .
+  391  mv darth_vader.txt death_star
+  392  pwd
+  393  sei 
+  394  cd deliverables
+  395  cd Star_Wars
+  396  tree .
+  397  touch darth_vader.txt 
+  398  tree >
+  399  tree .
+  400  cd empire
+  401  rm death_star
+  402  mkdir Death_Star
+  403  cd Death_Star
+  404  tree .
+  405  mv darth_vader.txt Death_Star
+  406  cd ..
+  407  ~/empire/darthclear 
+  408  clear 
+  409  pwd
+  410  cd empire
+  411  cd ..
+  412  c~
+  413  c ~
+  414  cd ..
+  415  pwd
+  416  cd sei
+  417  cd deliverables
+  418  cd Star_Wars
+  419  tree .
+  420  mkdir
+  421  mkdir empire rebellion
+  422  cd empire
+  423  touch darth_vader.txt
+  424  echo "...heavy breathing..." > darth_vader.txt
+  425  mkdir death_star
+  426  pwd
+  427  cd sei
+  428  cd deliverables
+  429  ls
+  430  cd Star_Wars
+  431  tree .
+  432  mv darth_vader.txt death_star
+  433  darth_vader.txt ./death_star
+  434  tree .
+  435  cd ..
+  436  cd Star_Wars
+  437  code .
+  438  cd empire
+  439  touch emperor_palpatine.txt\n
+  440  ls
+  441  tree .
+  442  cat darth_vader.txt
+  443  cd ..
+  444  darth_vader.txt ./death_star
+  445  mv darth_vader.txt ./death_star
+  446  cd em
+  447  cd empire
+  448  mv darth_vader.txt death_star
+  449  tree 
+  450  cd death_star
+  451  tree 
+  452  cd ..
+  453  cd rebellion
+  454  touch princess_leia.txt echo 'Help me, Obi-Wan…You’re my only hope.' > princess_leia.txt
+  455  ls
+  456  rm princess_leia.txt
+  457  ls
+  458  rm echo Help\ me,\ Obi-Wan…You’re\ my\ only\ hope.
+  459  ls
+  460  touch princess_leia.txt && echo 'Help me, Obi-Wan…You’re my only hope.' > princess_leia.txt
+  461  ls
+  462  cat princess_leia.txt
+  463  touch luke_skywalker.txt obi_wan.txt
+  464  tree 
+  465  mkdir millenium_falcon
+  466  han_solo.txt chewbacca.txt
+  467  touch han_solo.txt chewbacca.txt
+  468  tree
+  469  cd ..
+  470  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  471  tree
+  472  mv millenium_falcon ./death_star
+  473  tree 
+  474  mv death_star ./millenium_falcon
+  475  tree
+  476  mv millenium_falcon death_star/
+  477  tree 
+  478  mv death_star millenium_falcon
+  479  tree 
+  480  mv millenium_falcon ./
+  481  mv millenium_falcon ./rebellion/death_star
+  482  cd ..
+  483  tree 
+  484  mv rebellion/millenium_falcon empire/death_star
+  485  tree 
+  486  mv empire/death_star/millenium_falcon rebellion
+  487  tree 
+  488  mv rebellion/millenium_falcon empire/death_star 
+  489  tree
+  490  cd empire/death_star
+  491  cd millenium_falcon
+  492  cd ..
+  493  cd empire/death_star/millenium_falcon
+  494  tree
+  495  cd .. 
+  496  cd ..
+  497  mv death_star/millenium_falcon death_star
+  498  cd death_star/millenium_falcon
+  499  mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ./death_star
+  500  cd ..
+  501  mv empire/death_star/millenium_falcon/ chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ./death_star empire/death_star
+  502  cd empire
+  503  tree 
+  504  cd death_star/millenium_falcon
+  505  tree 
+  506  cd ..
+  507  cd empire mv death_star/millenium_falcon/* death_star
+  508  cd empire
+  509  mv death_star/millenium_falcon/* death_star
+  510  tree 
+  511  cd death_star
+  512  rm obi_wan.txt
+  513  tree
+  514  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  515  tree 
+  516  cd ..
+  517  tree 
+  518  mv empire/death_star/millenium_falcon rebellion
+  519  tree 
+  520  rm empire/death_star/darth_vader.txt empire
+  521  mv empire/death_star/darth_vader.txt empire 
+  522  cd empire/death_star
+  523  cd ..
+  524  tree 
+  525  cd ..
+  526  tree 
+  527  empire
+  528  touch darth_vader.txt
+  529  tree 
+  530  mv darth_vader.txt death_star
+  531  tree 
+  532  cd death_star
+  533  cd ..
+  534  mv empire/death_star/darth_vader.txt empire
+  535  tree
+  536  rm empire/death_star
+  537  cd empire
+  538  rm death_star
+  539  tree
+  540  rm -rf death_star
+  541  tree 
+➜  empire 
