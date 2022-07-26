@@ -1,0 +1,104 @@
+524  cd deliverables
+  525  git clone https://github.com/Jordan-Burgess/Star_Wars.git
+  526  ls
+  527  ls -a
+  528  cd Star_Wars
+  529  ls -a
+  530  cd seir725
+  531  ls
+  532  cd deliverables
+  533  ls
+  534  cd Star_Wars
+  535  clear
+  536  code .
+  537  mkdir star_wars
+  538  mkdir star_wars/empire star_wars/rebellion
+  539  touch empire/darth_vader.txt
+  540  cd empire && touch darth_vader.txt
+  541  touch star_wars/empire/darth_vader.txt
+  542  cd star_wars/empire 
+  543  echo "...heavy breathing..." >> darth_vader.txt
+  544  touch emperor_palpatine.txt
+  545  mkdir death_star
+  546  mv darth_vader.txt death_star
+  547  cd ..
+  548  git add .
+  549  git status
+  550  git commit -m "Complete act1.sh Prompts"
+  551  git status
+  552  clear
+  553  touch star_wars/rebellion/princess_leia.txt && echo "Help me, Obi-Wan…You're my only hope." >> star_wars/rebellion/princess_leia.txt
+  554  cd star_wars/rebellion
+  555  touch obi_wan.txt
+  556  touch luke_skywalker.txt
+  557  mkdir millenium_falcon
+  558  cd millenium_falcon
+  559  touch han_solo.txt chewbacca.txt
+  560  cd ..
+  561  mv luke_skywalker.txt millenium_falcon
+  562  mv obi_wan.txt millenium_falcon
+  563  mv princess_leia.txt millenium_falcon
+  564  cd ..
+  565  mv rebellion/millenium_falcon death_star
+  566  ls
+  567  cd death_star
+  568  ls
+  569  cd ..
+  570  clear
+  571  cd rebellion
+  572  mkdir millenium_falcon
+  573  tree
+  574  cd ..
+  575  tree
+  576  mv death_star/luke_skywalker.txt rebellion/millenium_falcon
+  577  tree
+  578  mv death_star/chewbacca.txt rebellion/millenium_falcon
+  579  mv death_star/han_solo.txt rebellion/millenium_falcon
+  580  mv death_star/obi_wan.txt rebellion/millenium_falcon
+  581  mv death_star/princess_leia.txt rebellion/millenium_falcon
+  582  tree
+  583  rm -rf death_star
+  584  tree
+  585  cd rebellion
+  586  ls
+  587  mv millenium_falcon ../empire/death_star
+  588  ..
+  589  ls
+  590  tree
+  591  clear
+  592  ..
+  593  git add .
+  594  git status
+  595  git commit -m "Complete act2.sh prompts"
+  596  git status
+  597  clear
+  598  cd star_wars
+  599  mv empire/death_star/millenium_falcon/* ../
+  600  ls
+  601  cd ..
+  602  mv chewbacca.txt star_wars/empire/death_star/millenium_falcon
+  603  mv han_solo.txt star_wars/empire/death_star/millenium_falcon
+  604  mv luke_skywalker.txt star_wars/empire/death_star/millenium_falcon
+  605  mv obi_wan.txt star_wars/empire/death_star/millenium_falcon
+  606  mv princess_leia.txt star_wars/empire/death_star/millenium_falcon
+  607  cd star_wars
+  608  clear
+  609  mv empire/death_star/millenium_falcon/* empire/death_star
+  610  cd empire/death_star
+  611  ls
+  612  rm obi_wan.txt
+  613  ls
+  614  mv chewbacca.txt millenium_falcon
+  615  mv han_solo.txt millenium_falcon
+  616  mv luke_skywalker.txt millenium_falcon
+  617  mv princess_leia.txt millenium_falcon
+  618  mv millenium_falcon ../../rebellion
+  619  mv darth_vader.txt ../
+  620  cd ..
+  621  rm -rf death_star
+  622  ls
+  623  cd ..
+  624  clear
+  625  git add .
+  626  git commit -m "Complete act3.sh Prompts"
+  627  git status
