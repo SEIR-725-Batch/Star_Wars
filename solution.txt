@@ -1,0 +1,377 @@
+➜  sei ls
+Star_Wars    cd           code-alongse fundamental  project      repos
+boilerplate  code-alongs  deliverable  ls           ref
+➜  sei star ward 
+zsh: command not found: star
+➜  sei Star_Wars 
+➜  Star_Wars git:(master) code .
+➜  Star_Wars git:(master) mkdir star_wars
+➜  Star_Wars git:(master) rm star_wars
+rm: star_wars: is a directory
+➜  Star_Wars git:(master) rm -rf star_wars
+➜  Star_Wars git:(master) ls
+README.md    act1.sh      act2.sh      act3.sh      solution.txt
+➜  Star_Wars git:(master) mkdir Star_wars
+➜  Star_Wars git:(master) ls
+README.md    Star_wars    act1.sh      act2.sh      act3.sh      solution.txt
+➜  Star_Wars git:(master) star_wars
+➜  star_wars git:(master) mkdir {empire, rebellion}
+zsh: parse error near `}'
+➜  star_wars git:(master) mkdir empire && rebellion
+zsh: command not found: rebellion
+➜  star_wars git:(master) mkdir empire rebellion
+mkdir: empire: File exists
+➜  star_wars git:(master) ls
+empire    rebellion
+➜  star_wars git:(master) rm -rf empire
+➜  star_wars git:(master) rm -rf rebllion
+➜  star_wars git:(master) ls
+rebellion
+➜  star_wars git:(master) rm -rf rebellion
+➜  star_wars git:(master) ls
+➜  star_wars git:(master) mkdir empire rebellion
+➜  star_wars git:(master) ls
+empire    rebellion
+➜  star_wars git:(master) empire
+➜  empire git:(master) ✗ cd -  
+~/sei/Star_Wars/star_wars
+➜  star_wars git:(master) ✗ empire   
+➜  empire git:(master) ✗ mkdir darth_vader.txt
+➜  empire git:(master) ✗ darth_vader
+zsh: command not found: darth_vader
+➜  empire git:(master) ✗ darth_vader.txt
+➜  darth_vader.txt git:(master) ✗ $ echo "...heavy breathing..."
+zsh: command not found: $
+➜  darth_vader.txt git:(master) ✗ echo "...heavy breathing..."
+...heavy breathing...
+➜  darth_vader.txt git:(master) ✗ ls
+➜  darth_vader.txt git:(master) ✗ echo
+
+➜  darth_vader.txt git:(master) ✗ ls
+➜  darth_vader.txt git:(master) ✗ echo "...heavy breathing..."
+...heavy breathing...
+➜  darth_vader.txt git:(master) ✗ cd -
+~/sei/Star_Wars/star_wars/empire
+➜  empire git:(master) ✗ mkdir emperor_palpatine.txt
+➜  empire git:(master) ✗ mkdir death_star
+➜  empire git:(master) ✗ mv darth_vader.txt death_star
+➜  empire git:(master) ✗ death_star
+➜  death_star git:(master) ✗ ls
+darth_vader.txt
+➜  death_star git:(master) ✗ cd
+➜  ~ star_wars rebellion
+zsh: command not found: star_wars
+➜  ~ star_wars /rebellion
+zsh: command not found: star_wars
+➜  ~ star_wars/rebellion
+zsh: no such file or directory: star_wars/rebellion
+➜  ~ star_wars
+zsh: command not found: star_wars
+➜  ~ open "star_wars"
+The file /Users/audri/star_wars does not exist.
+➜  ~ star_wars
+zsh: command not found: star_wars
+➜  ~ ls
+19b3a7dd22efdccf5a352a73b504730e drawers
+Applications                     github_101
+Desktop                          ls
+Documents                        mkdir
+Downloads                        pjs
+Library                          pwd
+Movies                           rm
+Music                            sei
+Pictures                         socks
+Public                           tree
+➜  ~ sei
+➜  sei ls
+Star_Wars    cd           code-alongse fundamental  project      repos
+boilerplate  code-alongs  deliverable  ls           ref
+➜  sei Star_Wars
+➜  Star_Wars git:(master) ✗ star_wars rebellion
+zsh: command not found: star_wars
+➜  Star_Wars git:(master) ✗ open "star_wars"
+➜  Star_Wars git:(master) ✗ Star_wars rebellion
+zsh: command not found: Star_wars
+➜  Star_Wars git:(master) ✗ open "Star_wars" "rebellion"
+The file /Users/audri/sei/Star_Wars/rebellion does not exist.
+➜  Star_Wars git:(master) ✗ {Star_wars}
+➜  Star_wars git:(master) ✗ cd -
+~/sei/Star_Wars
+➜  Star_Wars git:(master) ✗ {Star_wars,rebellion}
+zsh: command not found: Star_wars,rebellion
+➜  Star_Wars git:(master) ✗ Star wars
+zsh: command not found: Star
+➜  Star_Wars git:(master) ✗ mkdir princess_leis.txt echo "Help me, Obi-Wan... You're my only hope."
+➜  Star_Wars git:(master) ✗ rm -rf princess_leis.txt 
+➜  Star_Wars git:(master) ✗ ls
+Help me, Obi-Wan... You're my only hope.
+README.md
+Star_wars
+act1.sh
+act2.sh
+act3.sh
+echo
+solution.txt
+➜  Star_Wars git:(master) ✗ cd -
+~/sei/Star_Wars/Star_wars
+➜  Star_wars git:(master) ✗ ls
+empire    rebellion
+➜  Star_wars git:(master) ✗ cd -
+~/sei/Star_Wars
+➜  Star_Wars git:(master) ✗ cd -
+~/sei/Star_Wars/Star_wars
+➜  Star_wars git:(master) ✗ pwd
+/Users/audri/sei/Star_Wars/Star_wars
+➜  Star_wars git:(master) ✗ cd
+➜  ~ sei
+➜  sei ls
+Star_Wars    cd           code-alongse fundamental  project      repos
+boilerplate  code-alongs  deliverable  ls           ref
+➜  sei Star_Wars
+➜  Star_Wars git:(master) ✗ ls        
+Help me, Obi-Wan... You're my only hope.
+README.md
+Star_wars
+act1.sh
+act2.sh
+act3.sh
+echo
+solution.txt
+➜  Star_Wars git:(master) ✗ mkdir star
+➜  Star_Wars git:(master) ✗ rm -rf star
+➜  Star_Wars git:(master) ✗ mkdir star_wars/rebellion
+mkdir: star_wars/rebellion: File exists
+➜  Star_Wars git:(master) ✗ ls
+Help me, Obi-Wan... You're my only hope.
+README.md
+Star_wars
+act1.sh
+act2.sh
+act3.sh
+echo
+solution.txt
+➜  Star_Wars git:(master) ✗ star_wars/rebellion echo "Help me, Obi-Wan... You're my only hope."
+zsh: permission denied: star_wars/rebellion
+➜  Star_Wars git:(master) ✗ star_wars/rebellion mkdir princess_leia.txt echo "Help me, Obi-Wan... You're my only hope."
+zsh: permission denied: star_wars/rebellion
+➜  Star_Wars git:(master) ✗ star_wars/rebellion
+➜  rebellion git:(master) ✗ mkdir obi_wan.txt
+➜  rebellion git:(master) ✗ mkdir luke_skywalker.txt
+➜  rebellion git:(master) ✗ mkdir millenium_falcon
+➜  rebellion git:(master) ✗ millenium_falcom mkdir han_solo
+zsh: command not found: millenium_falcom
+➜  rebellion git:(master) ✗ milenium_falcon.txt mkdir han_solo
+zsh: command not found: milenium_falcon.txt
+➜  rebellion git:(master) ✗ millenium_falcon.txt mkdir han_solo
+zsh: command not found: millenium_falcon.txt
+➜  rebellion git:(master) ✗ millenium_falcom.txt {mkdir han_solo}
+zsh: parse error near `}'
+➜  rebellion git:(master) ✗ millenium_falcon.txt
+zsh: command not found: millenium_falcon.txt
+➜  rebellion git:(master) ✗ millenium_falcon
+➜  millenium_falcon git:(master) ✗ mkdir han_solo.txt && chewbacca.txt 
+zsh: command not found: chewbacca.txt
+➜  millenium_falcon git:(master) ✗ mkdir han_solo chewbacca.txt
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo      han_solo.txt
+➜  millenium_falcon git:(master) ✗ mv {luke_skywalker,obi_wan,princess_leia} millenium_falcon
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo      han_solo.txt
+➜  millenium_falcon git:(master) ✗ cd -   
+~/sei/Star_Wars/star_wars/rebellion
+➜  rebellion git:(master) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt
+➜  rebellion git:(master) ✗ mv {luke_skywalker,obi_wan,princess_leia} millenium_falcon     
+mv: rename luke_skywalker to millenium_falcon/luke_skywalker: No such file or directory
+mv: rename obi_wan to millenium_falcon/obi_wan: No such file or directory
+mv: rename princess_leia to millenium_falcon/princess_leia: No such file or directory
+➜  rebellion git:(master) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt
+➜  rebellion git:(master) ✗ mv {luke_skywalker.txt,obi_wan.txt} millenium_falcon
+➜  rebellion git:(master) ✗ mkdir princess_leia
+➜  rebellion git:(master) ✗ mv princess_leia millenium_falcon
+➜  rebellion git:(master) ✗ cd -
+~/sei/Star_Wars/star_wars/rebellion/millenium_falcon
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       obi_wan.txt
+han_solo           luke_skywalker.txt princess_leia
+➜  millenium_falcon git:(master) ✗ mv death_star
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+➜  millenium_falcon git:(master) ✗ cd -
+~/sei/Star_Wars/star_wars/rebellion
+➜  rebellion git:(master) ✗ ls
+millenium_falcon
+➜  rebellion git:(master) ✗ cd -
+~/sei/Star_Wars/star_wars/rebellion/millenium_falcon
+➜  millenium_falcon git:(master) ✗ cd -
+~/sei/Star_Wars/star_wars/rebellion
+➜  rebellion git:(master) ✗ cd -
+~/sei/Star_Wars/star_wars/rebellion/millenium_falcon
+➜  millenium_falcon git:(master) ✗ cd -
+~/sei/Star_Wars/star_wars/rebellion
+➜  rebellion git:(master) ✗ ls
+millenium_falcon
+➜  rebellion git:(master) ✗ mv millenium_falcon death_star
+➜  rebellion git:(master) ✗ millenium_falcon
+zsh: command not found: millenium_falcon
+➜  rebellion git:(master) ✗ cd -
+cd: no such file or directory: /Users/audri/sei/Star_Wars/star_wars/rebellion/millenium_falcon
+➜  rebellion git:(master) ✗ cd -
+cd: no such file or directory: /Users/audri/sei/Star_Wars/star_wars/rebellion/millenium_falcon
+➜  rebellion git:(master) ✗ cd
+➜  ~ sei
+➜  sei Star-Wars
+zsh: command not found: Star-Wars
+➜  sei ls
+Star_Wars    cd           code-alongse fundamental  project      repos
+boilerplate  code-alongs  deliverable  ls           ref
+➜  sei Star_Wars
+➜  Star_Wars git:(master) ✗ ls
+Help me, Obi-Wan... You're my only hope.
+README.md
+Star_wars
+act1.sh
+act2.sh
+act3.sh
+echo
+solution.txt
+➜  Star_Wars git:(master) ✗ Star_wars
+➜  Star_wars git:(master) ✗ ls
+empire    rebellion
+➜  Star_wars git:(master) ✗ empire
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ death_star
+➜  death_star git:(master) ✗ ls
+darth_vader.txt
+➜  death_star git:(master) ✗ cd -
+~/sei/Star_Wars/Star_wars/empire
+➜  empire git:(master) ✗ cd -
+~/sei/Star_Wars/Star_wars/empire/death_star
+➜  death_star git:(master) ✗ cd
+➜  ~ sei 
+➜  sei Staw_Wars
+zsh: command not found: Staw_Wars
+➜  sei Star_Wars
+➜  Star_Wars git:(master) ✗ Star_wars
+➜  Star_wars git:(master) ✗ ls
+empire    rebellion
+➜  Star_wars git:(master) ✗ rebellion
+➜  rebellion git:(master) ✗ ls
+death_star
+➜  rebellion git:(master) ✗ death_star
+➜  death_star git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       obi_wan.txt
+han_solo           luke_skywalker.txt princess_leia
+➜  death_star git:(master) ✗ cd ~
+➜  ~ sei
+➜  sei Star_Wars
+➜  Star_Wars git:(master) ✗ ls
+Help me, Obi-Wan... You're my only hope.
+README.md
+Star_wars
+act1.sh
+act2.sh
+act3.sh
+echo
+solution.txt
+➜  Star_Wars git:(master) ✗ Star_wars
+➜  Star_wars git:(master) ✗ ls
+empire    rebellion
+➜  Star_wars git:(master) ✗ rebellion
+➜  rebellion git:(master) ✗ ls
+death_star
+➜  rebellion git:(master) ✗ cd -
+~/sei/Star_Wars/Star_wars
+➜  Star_wars git:(master) ✗ empire
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ cd -
+~/sei/Star_Wars/Star_wars
+➜  Star_wars git:(master) ✗ rebellion
+➜  rebellion git:(master) ✗ ls
+death_star
+➜  rebellion git:(master) ✗ death_star
+➜  death_star git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       obi_wan.txt
+han_solo           luke_skywalker.txt princess_leia
+➜  death_star git:(master) ✗ find.millenium_falcon
+zsh: command not found: find.millenium_falcon
+➜  death_star git:(master) ✗ find."millenium_falcon
+dquote> 
+dquote> cd
+dquote> millenium_falcon
+dquote> "
+zsh: command not found: find.millenium_falcon\n\ncd\nmillenium_falcon\n
+➜  death_star git:(master) ✗ find."millenium_falcon"
+zsh: command not found: find.millenium_falcon
+➜  death_star git:(master) ✗ cd - 
+~/sei/Star_Wars/Star_wars/rebellion
+➜  rebellion git:(master) ✗ mkdir millenium_falcon
+➜  rebellion git:(master) ✗ millenium_falcon
+➜  millenium_falcon git:(master) ✗ mkdir princess_leia
+➜  millenium_falcon git:(master) ✗ cd -
+~/sei/Star_Wars/Star_wars/rebellion
+➜  rebellion git:(master) ✗ mv millenium_falcon death_star
+➜  rebellion git:(master) ✗ death_star
+➜  death_star git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       millenium_falcon   princess_leia
+han_solo           luke_skywalker.txt obi_wan.txt
+➜  death_star git:(master) ✗ cd -
+~/sei/Star_Wars/Star_wars/rebellion
+➜  rebellion git:(master) ✗ ls
+death_star
+➜  rebellion git:(master) ✗ death_star
+➜  death_star git:(master) ✗ ls 
+chewbacca.txt      han_solo.txt       millenium_falcon   princess_leia
+han_solo           luke_skywalker.txt obi_wan.txt
+➜  death_star git:(master) ✗ rm -rf obi_wan.txt
+➜  death_star git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       millenium_falcon
+han_solo           luke_skywalker.txt princess_leia
+➜  death_star git:(master) ✗ mv {chewbacca.txt,han_solo,princess_leia,han_solo.txt,luke_skywalker.txt,obi_wan.txt} millenium_falcon
+mv: rename obi_wan.txt to millenium_falcon/obi_wan.txt: No such file or directory
+➜  death_star git:(master) ✗ mv han_solo.txt millenium_falcon
+mv: han_solo.txt: No such file or directory
+➜  death_star git:(master) ✗ cd -   
+~/sei/Star_Wars/Star_wars/rebellion
+➜  rebellion git:(master) ✗ death_star
+➜  death_star git:(master) ✗ mv millenium_falcon rebellion
+➜  death_star git:(master) ✗ ls
+rebellion
+➜  death_star git:(master) ✗ ls
+rebellion
+➜  death_star git:(master) ✗ rebellion
+➜  rebellion git:(master) ✗ death_star
+zsh: command not found: death_star
+➜  rebellion git:(master) ✗ ls       
+chewbacca.txt      han_solo.txt       princess_leia
+han_solo           luke_skywalker.txt
+➜  rebellion git:(master) ✗ mv rebellion rebellion
+mv: rename rebellion to rebellion: No such file or directory
+➜  rebellion git:(master) ✗ mv rebellion to millenium_falcon
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+➜  rebellion git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       princess_leia
+han_solo           luke_skywalker.txt
+➜  rebellion git:(master) ✗ mv millenium_falcon rebellion
+mv: rename millenium_falcon to rebellion: No such file or directory
+➜  rebellion git:(master) ✗ mkdir millenium_falcon
+➜  rebellion git:(master) ✗ death_star
+zsh: command not found: death_star
+➜  rebellion git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       millenium_falcon
+han_solo           luke_skywalker.txt princess_leia
+➜  rebellion git:(master) ✗ cd -
+~/sei/Star_Wars/Star_wars/rebellion/death_star
+➜  death_star git:(master) ✗ mv luke_skywalker empire
+mv: rename luke_skywalker to empire: No such file or directory
+➜  death_star git:(master) ✗ mv luke_skywalker death_star
+mv: rename luke_skywalker to death_star: No such file or directory
+➜  death_star git:(master) ✗ rebellion
+➜  rebellion git:(master) ✗ mv luke_skywalker.txt empire
+➜  rebellion git:(master) ✗ cd
