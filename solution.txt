@@ -1,0 +1,661 @@
+➜  Star_Wars git:(master) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      solution.txt
+➜  Star_Wars git:(master) ✗ mkdir empire rebellion
+➜  death_star git:(master) ✗ git add .
+➜  death_star git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../act1.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  death_star git:(master) ✗ git commit -m "complete act 1"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../act1.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  death_star git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../act1.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+➜  death_star git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../act1.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  death_star git:(master) ✗ git add act.sh
+fatal: pathspec 'act.sh' did not match any files
+➜  death_star git:(master) ✗ git add act1.sh
+fatal: pathspec 'act1.sh' did not match any files
+➜  death_star git:(master) ✗ git add ../../act1.sh
+➜  death_star git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   ../../act1.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../
+
+➜  death_star git:(master) ✗ git commit -m "complete ash1.sh"
+[master fb55d8e] complete ash1.sh
+ 1 file changed, 6 insertions(+), 5 deletions(-)
+➜  death_star git:(master) ✗ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+➜  death_star git:(master) ✗ cd rebellion
+cd: no such file or directory: rebellion
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ cd ..
+➜  Star_Wars git:(master) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      empire       rebellion    solution.txt
+➜  Star_Wars git:(master) ✗ cd empire touch princess_leia.txt echo "Help me, obi-Wan..You're my only hope." >> princess_leia.txt
+cd: too many arguments
+➜  Star_Wars git:(master) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      empire       rebellion    solution.txt
+➜  Star_Wars git:(master) ✗ cd rebellion 
+➜  rebellion git:(master) ✗ touch princess_leia.txt echo "Help me, obi-Wan..You're my only hope." >> princess_leia.txt
+➜  rebellion git:(master) ✗ ls
+Help me, obi-Wan..You're my only hope. echo                                   princess_leia.txt
+➜  rebellion git:(master) ✗ touch obi-wan.txt
+➜  rebellion git:(master) ✗ ls
+Help me, obi-Wan..You're my only hope. echo                                   obi-wan.txt                            princess_leia.txt
+➜  rebellion git:(master) ✗ touch luke_skywalker.txt
+➜  rebellion git:(master) ✗ ls
+Help me, obi-Wan..You're my only hope. echo                                   luke_skywalker.txt                     obi-wan.txt                            princess_leia.txt
+➜  rebellion git:(master) ✗ mkdir millenium_falcon
+➜  rebellion git:(master) ✗ cd millenium_falcon 
+➜  millenium_falcon git:(master) ✗ touch han_solo.txt chewbacca.txt
+
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ mv luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcon             
+mv: /Users/nsikakudoh/millenium_falcon is not a directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ mv luke_skywalker.txt ~/millenium_falcon
+mv: rename luke_skywalker.txt to /Users/nsikakudoh/millenium_falcon: No such file or directory
+➜  millenium_falcon git:(master) ✗ pwd
+/Users/nsikakudoh/GA-software-dev/labs/Star_Wars/rebellion/millenium_falcon
+➜  millenium_falcon git:(master) ✗ cd ..
+➜  rebellion git:(master) ✗ pwd
+/Users/nsikakudoh/GA-software-dev/labs/Star_Wars/rebellion
+➜  rebellion git:(master) ✗ ls
+Help me, obi-Wan..You're my only hope. luke_skywalker.txt                     obi-wan.txt
+echo                                   millenium_falcon                       princess_leia.txt
+➜  rebellion git:(master) ✗ cd millenium_falcon 
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ mv luke_skywalker.txt millenium_falcon
+mv: rename luke_skywalker.txt to millenium_falcon: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ cd ..
+➜  rebellion git:(master) ✗ ls
+Help me, obi-Wan..You're my only hope. luke_skywalker.txt                     obi-wan.txt
+echo                                   millenium_falcon                       princess_leia.txt
+➜  rebellion git:(master) ✗ mv luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcon
+mv: /Users/nsikakudoh/millenium_falcon is not a directory
+➜  rebellion git:(master) ✗ pwd
+/Users/nsikakudoh/GA-software-dev/labs/Star_Wars/rebellion
+➜  rebellion git:(master) ✗ ls
+Help me, obi-Wan..You're my only hope. luke_skywalker.txt                     obi-wan.txt
+echo                                   millenium_falcon                       princess_leia.txt
+➜  rebellion git:(master) ✗ cd millenium_falcon 
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ cd ..
+➜  rebellion git:(master) ✗ ls
+Help me, obi-Wan..You're my only hope. luke_skywalker.txt                     obi-wan.txt
+echo                                   millenium_falcon                       princess_leia.txt
+➜  rebellion git:(master) ✗ cd ..
+➜  Star_Wars git:(master) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      empire       rebellion    solution.txt
+➜  Star_Wars git:(master) ✗ cd rebellion 
+➜  rebellion git:(master) ✗ ls
+Help me, obi-Wan..You're my only hope. luke_skywalker.txt                     obi-wan.txt
+echo                                   millenium_falcon                       princess_leia.txt
+➜  rebellion git:(master) ✗ git add .
+➜  rebellion git:(master) ✗ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Help me, obi-Wan..You're my only hope.
+        new file:   echo
+        new file:   luke_skywalker.txt
+        new file:   millenium_falcon/chewbacca.txt
+        new file:   millenium_falcon/han_solo.txt
+        new file:   obi-wan.txt
+        new file:   princess_leia.txt
+
+Changes not staged for commit:
+➜  Star_Wars git:(master) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      empire       rebellion    solution.txt
+➜  Star_Wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ cd ..
+➜  Star_Wars git:(master) ✗ cd rebellion 
+➜  rebellion git:(master) ✗ 
+➜  rebellion git:(master) ✗ ls
+Help me, obi-Wan..You're my only hope. luke_skywalker.txt                     obi-wan.txt
+echo                                   millenium_falcon                       princess_leia.txt
+➜  rebellion git:(master) ✗ tree
+.
+├── Help me, obi-Wan..You're my only hope.
+├── echo
+├── luke_skywalker.txt
+├── millenium_falcon
+│   ├── chewbacca.txt
+│   └── han_solo.txt
+├── obi-wan.txt
+└── princess_leia.txt
+
+1 directory, 7 files
+➜  rebellion git:(master) ✗ cd ..
+➜  millenium_falcon git:(master) ✗ tree
+.
+├── chewbacca.txt
+└── han_solo.txt
+
+0 directories, 2 files
+➜  millenium_falcon git:(master) ✗ cd ..
+➜  rebellion git:(master) ✗ ls
+Help me, obi-Wan..You're my only hope. echo                                   luke_skywalker.txt                     millenium_falcon                       princess_leia.txt
+➜  rebellion git:(master) ✗ cd ..
+➜  Star_Wars git:(master) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      empire       rebellion    solution.txt
+➜  Star_Wars git:(master) ✗ cd empire 
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ rm death_star
+rm: death_star: is a directory
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ cd death_star 
+➜  death_star git:(master) ✗ ls
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ rm ~/death-star
+rm: /Users/nsikakudoh/death-star: No such file or directory
+➜  empire git:(master) ✗ rm death_star
+rm: death_star: is a directory
+➜  empire git:(master) ✗ history
+    1  code .
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    3  brew doctor
+    4  brew update
+    5  xcode-select --install
+    6  brew install git
+    7  git config --global user.name "Username"
+    8  helo
+    9  hello
+   10  pwd
+   11  ls
+   12  cd documents
+   13  ls
+   14  pwd
+   15  ls
+   16  ls -a
+   17  cd ..
+   18  pwd
+   19  mkdir myfolder
+   20  ls
+   21  cd myfolder
+   22  touch index.html style.css
+   23  ls
+   24  rm style.css
+   25  ls
+   26  cd ..
+   27  rm -r myfolder
+   28  ls
+   29  git --version
+   30  git --version
+   31  pwd
+   32  mkdir GA-Blog
+   33  cd GA-Blog
+   34  git init
+   35  ls
+   36  pwd
+   37  ls -a
+   38  git status
+   39  touch post.txt
+   40  git status
+   41  git add post.txt
+   42  git status
+   43  git commit -m "created a new post.txt file"
+   44  git config --global user.email "nsikak@sparknerds.io"
+   45  git config --global user.name "Nsikak Udoh"
+   46  git status
+   47  git commit -m "Created a new post.txt file"
+   48  git log
+   49  pwd
+   50  cd ..
+   51  pwd
+   52  ls
+   53  mkdir GA-software-dev
+   54  pwd
+   55  cd GA-software
+   56  cd GA-software-dev
+   57  pwd
+   58  ls
+   59  mkdir git-practice
+   60  pwd
+   61  cd git-practice
+   62  pwd
+   63  git init
+   64  pwd
+   65  ls -a
+   66  git status
+   67  touch README.txt
+   68  git status
+   69  git add README.txt
+   70  git status
+   71  git commit -m "created a new readme.txt file"
+   72  git log
+   73  cd ..
+   74  cd .
+   75  pwd
+   76  cd ...
+   77  cd ..
+   78  pwd
+   79  ls
+   80  git clone https://git.generalassemb.ly/tristanhall/simple-node-js-react-npm-app.git
+   81  pwd
+   82  echo $SHELL
+   83  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   84  git status
+   85  pwd
+   86  ls
+   87  cd GA-software-dev
+   88  git status
+   89  cd ..
+   90  pwd
+   91  git config --global user.name "Username"Nsikak Udoh
+   92  pwd
+   93  cd GA-software-ga
+   94  cd GA-software-dev
+   95  ls
+   96  cd git-practice
+   97  git status
+   98  git log
+   99  git config --global core.editor "code --wait"
+  100  git config --global pull.rebase false
+  101  git config --global --list --show-origin
+  102  git config --global --edit\n
+  103  git config --global --list --show-origin
+  104  git config --global --edit\n
+  105  git config --global init.defaultBranch main
+  106  pwd
+  107  git config --global core.editor "code --wait"
+  108  touch ~/.gitignore_global
+  109  git config --global core.excludesfile ~/.gitignore_global
+  110  code ~/.gitignore_global
+  111  pwd
+  112  ls
+  113  brew install gh
+  114  gh auth login
+  115  brew install node
+  116  node -v\nnpm -v
+  117  npm i -g nodemon
+  118  npm install -g npm@8.15.0
+  119  pw
+  120  pwd
+  121  ls
+  122  pwd
+  123  cd GA-software-dev
+  124  ls
+  125  cd ..
+  126  pwd
+  127  brew install tree
+  128  tree
+  129  clear
+  130  pwd
+  131  ls
+  132  cd GA-software-dev
+  133  pwd
+  134  ls
+  135  cd GA-software-dev
+  136  TREE
+  137  mkdir code-along
+  138  cd code-along
+  139  mkdir terminal-basics
+  140  cd terminal-basics
+  141  pwd
+  142  mkdir drawers
+  143  ls
+  144  cd drawers
+  145  mkdir socks && cd socks
+  146  pwd
+  147  touch dress.socks
+  148  ls
+  149  cd ..
+  150  mkdir pjs more-socks
+  151  ls
+  152  cd pjs
+  153  touch favorite.socks
+  154  touch warm.pjs
+  155  ls
+  156  cd ..
+  157  tree
+  158  clear
+  159  tree
+  160  clear
+  161  mv /pjs/favorite.socks socks
+  162  mv mv pjs/favorite.socks socks
+  163  ls
+  164  mv pjs/favorite.socks socks
+  165  cd ..
+  166  ls
+  167  cd drawers
+  168  ls
+  169  mv pjs/favorite.socks socks
+  170  tree
+  171  mv socks/dress.socks more-socks
+  172  tree
+  173  mv pjs/winter.js pjs/warm.js
+  174  ls
+  175  tree
+  176  clear
+  177  ls
+  178  clea
+  179  clear
+  180  tree
+  181  ls
+  182  rm more-socks/dress.socks
+  183  tree
+  184  cd more-socks
+  185  ls
+  186  cd ..
+  187  l
+  188  ls
+  189  tree
+  190  rm -rf pjs
+  191  ls
+  192  tre
+  193  tree
+  194  clear
+  195  cd socks
+  196  ls
+  197  touch not_my_favorite_socks
+  198  touch blue.socks purple.socks yellow.socks
+  199  pwd
+  200  ls
+  201  cd GA-software-dev
+  202  ld
+  203  ls
+  204  cd code-along
+  205  ls
+  206  cd terminal-basics
+  207  ls
+  208  cd drawers
+  209  cd socks
+  210  ls
+  211  touch dress.slacks
+  212  touch blue.shirt
+  213  cd ..
+  214  ls
+  215  cd socks
+  216  ls
+  217  mv *.socks ../
+  218  ls
+  219  cd ..
+  220  ls
+  221  tree
+  222  cd ~
+  223  clesr
+  224  clear
+  225  pwd
+  226  ls
+  227  cd GA-software-dev
+  228  LS
+  229  mkdir labs fundamentals projects repos deliverables reflections
+  230  ls
+  231  cd code-along
+  232  ls
+  233  cd .
+  234  cd ..
+  235  cd code-along
+  236  ls
+  237  touch Readme.txt
+  238  ls
+  239  cd funcd clear
+  240  cd ..
+  241  ls
+  242  cd git-practice
+  243  ls
+  244  cd ..
+  245  clear
+  246  ls
+  247  cd code-along
+  248  ls
+  249  mkdir hello_world
+  250  cd hello_world
+  251  mkdir script styles && touch index.html scripts/app.js styles/main.css
+  252  ls
+  253  tree
+  254  cd script
+  255  touch app.js
+  256  cd ..
+  257  tree
+  258  code.
+  259  code .
+  260  cd ..
+  261  ls
+  262  mkdir daily-code-challenges
+  263  ls
+  264  clear
+  265  ls
+  266  git clone https://github.com/Isaacudoh/daily-js-code-challenges.git
+  267  ls
+  268  touch .
+  269  ls
+  270  cd daily-js-code-challenges
+  271  ls -a
+  272  code .
+  273  git status
+  274  git log
+  275  node challenges.js
+  276  git status
+  277  git add .
+  278  git status
+  279  git commit -m "solve addOne function"
+  280  git status
+  281  git log
+  282  git status
+  283  git branch
+  284  git status
+  285  git log
+  286  clear
+  287  git status
+  288  git push origin master
+  289  git status
+  290  clear
+  291  pwd
+  292  cd ..
+  293  ls
+  294  cd ..
+  295  ls
+  296  cd labs
+  297  ls
+  298  git clone https://github.com/Isaacudoh/github_101.git
+  299  cd github_101
+  300  code .
+  301  git status
+  302  git add
+  303  git add .
+  304  git status
+  305  git commit -m "Add my answers to answers.txt"
+  306  git push origin master
+  307  cd ..
+  308  ls
+  309  git clone https://github.com/Isaacudoh/Star_Wars.git
+  310  ls
+  311  cd Star_Wars
+  312  code .
+  313  ls
+  314  mkdir empire rebellion
+  315  cd empire
+  316  touch darth_vader.txt
+  317  echo "heavy breathing" >> darth_vader.txt
+  318  touch emperor_palpatine.txt
+  319  pwd
+  320  mkdir death_star
+  321  mv darth_vader.txt ~/death_star
+  322  tree
+  323  ls
+  324  cd death_star
+  325  ls
+  326  clear
+  327  git add .
+  328  git status
+  329  git commit -m "complete act 1"
+  330  git status
+  331  git add .
+  332  git status
+  333  clear
+  334  git status
+  335  git add act.sh
+  336  git add act1.sh
+  337  git add ../../act1.sh
+  338  git status
+  339  git commit -m "complete ash1.sh"
+  340  git status
+  341  git add .
+  342  git status
+  343  clear
+  344  cd rebellion
+  345  cd ..
+  346  ls
+  347  cd empire touch princess_leia.txt echo "Help me, obi-Wan..You're my only hope." >> princess_leia.txt
+  348  ls
+  349  cd rebellion
+  350  touch princess_leia.txt echo "Help me, obi-Wan..You're my only hope." >> princess_leia.txt
+  351  ls
+  352  touch obi-wan.txt
+  353  ls
+  354  touch luke_skywalker.txt
+  355  ls
+  356  mkdir millenium_falcon
+  357  cd millenium_falcon
+  358  touch han_solo.txt chewbacca.txt\n
+  359  ls
+  360  mv luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcon
+  361  ls
+  362  mv luke_skywalker.txt ~/millenium_falcon
+  363  pwd
+  364  cd ..
+  365  pwd
+  366  ls
+  367  cd millenium_falcon
+  368  ls
+  369  mv luke_skywalker.txt millenium_falcon
+  370  ls
+  371  cd ..
+  372  ls
+  373  mv luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcon
+  374  pwd
+  375  ls
+  376  cd millenium_falcon
+  377  ls
+  378  cd ..
+  379  ls
+  380  cd ..
+  381  ls
+  382  cd rebellion
+  383  ls
+  384  git add .
+  385  git status
+  386  git add ../act2.sh
+  387  git status
+  388  git commit -m "complete act 2"
+  389  cd ..
+  390  clear
+  391  ls
+  392  cd empire
+  393  ls
+  394  cd ..
+  395  cd rebellion
+  396  ls
+  397  tree
+  398  cd ..
+  399  ls
+  400  cd Star_Wars
+  401  ls
+  402  cd empire
+  403  ls
+  404  cd ..
+  405  ls
+  406  mv filename /dir1/\n
+  407  mv chewbacca.txt han_solo.txt /death_star
+  408  mv chewbacca.txt han_solo.txt ~/death_star
+  409  ls
+  410  cd empire
+  411  ls
+  412  cd death_star
+  413  ls
+  414  cd ..
+  415  cd empire
+  416  ls
+  417  cd ..
+  418  cd rebellion
+  419  ls
+  420  rm obi-wan.txt
+  421  ls
+  422  cd millenium_falcon
+  423  clear
+  424  tree
+  425  cd ..
+  426  ls
+  427  cd ..
+  428  ls
+  429  cd empire
+  430  ls
+  431  rm death_star
+  432  ls
+  433  cd death_star
+  434  ls
+  435  cd ..
+  436  ls
+  437  rm ~/death-star
+  438  rm death_star
+➜  empire git:(master) ✗ 
