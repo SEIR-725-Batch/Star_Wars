@@ -1,0 +1,67 @@
+ 416  git clone https://github.com/philberdecio/Star_Wars.git
+  417  ls
+  418  cd Star_Wars
+  419  ls
+  420  code .
+  421  ls
+  422  mkdir star_wars
+  423  ls
+  424  cd star_wars
+  425  mkdir empire rebellion
+  426  ls
+  427  cd empire
+  428  cd ..
+  429  touch star_wars/empire/darth_vader.txt
+  430  tree
+  431  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+  432  cat star_wars/empire/darth_vader.txt
+  433  touch star_wars/empire/emperor_palpatine.txt
+  434  tree
+  435  clear
+  436  mkdir star_wars/empire/death_star
+  437  clear
+  438  tree
+  439  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+  440  tree
+  441  git add .
+  442  git commit -m "Act 1 Completed"
+  443  touch star_wars/rebellion/princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> star_wars/rebellion/princess_leia.txt
+  444  tree
+  445  cat star_wars/rebellion/princess_leia.txt
+  446  touch star_wars/rebellion/obi_wan.txt
+  447  tree
+  448  clear
+  449  tree
+  450  touch star_wars/rebellion/luke_skywalker.txt
+  451  treew
+  452  tree
+  453  mkdir star_wars/rebellion/millenium_falcon
+  454  tree
+  455  clear
+  456  touch star_wars/rebellion/millenium_falcon/han_solo.txt star_wars/rebellion/millenium_falcon/chewbacca.txt
+  457  tree
+  458  cd star_wars/rebellion && mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  459  tree
+  460  mv millenium_falcon ../empire/death_star
+  461  tree ..
+  462  cd ..
+  463  ls
+  464  clear
+  465  tree
+  466  git add .
+  467  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  468  rm star_wars/empire/death_star/obi_wan.txt
+  469  cd star_wars/empire/death_star && mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  470  mv millenium_falcon ../../rebellion
+  471  tree ~/Star_Wars
+  472  mv darth_vader.txt ..
+  473  cd .. && rm death_star -rf
+  474  ls
+  475  cd death_star
+  476  cd .. && rmd -rf death_star
+  477  cd death_star
+  478  cd .. && rm -rf death_star
+  479  cd ../..
+  480  git add .
+  481  git commit -m "Act 3 Completed"
+  482  clear
