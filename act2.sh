@@ -13,4 +13,4 @@ Star_Wars git:(master) ✗ touch star_wars/rebellion/millenium_falcon/han_solo.t
 ➜  star_wars git:(master) ✗ mv rebellion/obi_wan.txt rebellion/millenium_falcon
 ➜  star_wars git:(master) ✗ mv rebellion/princess_leia.txt rebellion/millenium_falcon
 # 7. Move the millenium_falcon into the death_star.
-star_wars git:(master) ✗ mv rebellion/millenium_falcon  empire      
+star_wars git:(master) ✗ mv rebellion/millenium_falcon  empire/death_star      
