@@ -15,3 +15,4 @@ mv luke_skywalker millenium_falcon
 mv obi_wan millenium_falcon
 mv princess_leia millenium_falcon
 # 7. Move the millenium_falcon into the death_star.
+mv millenium_falcon death_star

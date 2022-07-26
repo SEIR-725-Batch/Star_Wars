@@ -1,0 +1,726 @@
+➜  Star_Wars git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   act1.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  Star_Wars git:(master) ✗ git add .
+➜  Star_Wars git:(master) ✗ git commit -m 'edit act1 steps 1-7'
+[master 9041d4e] edit act1 steps 1-7
+ 1 file changed, 9 insertions(+), 5 deletions(-)
+➜  Star_Wars git:(master) git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 430 bytes | 430.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/hrigg/Star_Wars.git
+   b1b8753..9041d4e  master -> master
+➜  Star_Wars git:(master) git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+➜  Star_Wars git:(master) tree
+.
+├── README.md
+├── act1.sh
+├── act2.sh
+├── act3.sh
+└── solution.txt
+
+0 directories, 5 files
+➜  Star_Wars git:(master) cd act1.sh
+cd: not a directory: act1.sh
+➜  Star_Wars git:(master) mkdir act1.sh
+mkdir: act1.sh: File exists
+➜  Star_Wars git:(master) cd act1.sh
+cd: not a directory: act1.sh
+➜  Star_Wars git:(master) cd act1
+cd: no such file or directory: act1
+➜  Star_Wars git:(master) mkdir act1
+➜  Star_Wars git:(master) cd act1
+➜  act1 git:(master) mkdir star_wars
+➜  act1 git:(master) cd star_wars 
+➜  star_wars git:(master) mkdir empire rebellion
+➜  star_wars git:(master) cd empire
+➜  empire git:(master) touch darth_vader.txt
+➜  empire git:(master) ✗ echo ...heavy breathing... >darth_vader.txt
+➜  empire git:(master) ✗ cd empire
+cd: no such file or directory: empire
+➜  empire git:(master) ✗ touch emperor_palpatine.txt
+➜  empire git:(master) ✗ mkdir death_star
+➜  empire git:(master) ✗ mv darth_vader.txt death_star
+➜  empire git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  empire git:(master) ✗ git add .
+➜  empire git:(master) ✗ git commit -m "add changes in terminal new act1"
+[master ea3af6c] add changes in terminal new act1
+ 2 files changed, 1 insertion(+)
+ create mode 100644 act1/star_wars/empire/death_star/darth_vader.txt
+ create mode 100644 act1/star_wars/empire/emperor_palpatine.txt
+➜  empire git:(master) git push origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (7/7), 536 bytes | 536.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/hrigg/Star_Wars.git
+   9041d4e..ea3af6c  master -> master
+➜  empire git:(master) cd ~
+➜  ~ ls
+Applications Desktop      Downloads    Library      Music        Public       sei
+Deliverables Documents    GA-Blog      Movies       Pictures     node
+➜  ~ cd sei
+➜  sei ls
+classwork             deliverable           labs
+daily-code-challenges hw
+➜  sei cd deliverable
+➜  deliverable ls
+➜  deliverable ls -a
+.  ..
+➜  deliverable cd ..
+➜  sei cd hw
+➜  hw ls -a
+.           ..          Star_Wars-2
+➜  hw cd ..
+➜  sei cd labs
+➜  labs ls -a
+.          ..         github_101
+➜  labs cd ..
+➜  sei cd classwork
+➜  classwork ls -a
+.         ..        .DS_Store Star_Wars
+➜  classwork cd Star_Wars 
+➜  Star_Wars git:(master) ls -a
+.            .DS_Store    README.md    act1.sh      act3.sh
+..           .git         act1         act2.sh      solution.txt
+➜  Star_Wars git:(master) cd act1.sh        
+cd: not a directory: act1.sh
+➜  Star_Wars git:(master)  ls                      
+README.md    act1         act1.sh      act2.sh      act3.sh      solution.txt
+➜  Star_Wars git:(master) cd act1/star_wars/empire 
+➜  empire git:(master) ✗ cd ~
+➜  ~ ls
+Applications Desktop      Downloads    Library      Music        Public       sei
+Deliverables Documents    GA-Blog      Movies       Pictures     node
+➜  ~ cd sei
+➜  sei ls
+classwork             deliverable           labs
+daily-code-challenges hw
+➜  sei cd classwork
+➜  classwork ls
+Star_Wars
+➜  classwork cd Star_Wars 
+➜  Star_Wars git:(master) ✗ ls -a
+.            .DS_Store    README.md    act1.sh      act3.sh
+..           .git         act1         act2.sh      solution.txt
+➜  Star_Wars git:(master) ✗ cd act1
+➜  act1 git:(master) ✗ ls
+star_wars
+➜  act1 git:(master) ✗ cd star_wars 
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ pwd
+/Users/heatherrigg/sei/classwork/Star_Wars/act1/star_wars
+➜  star_wars git:(master) ✗ cd rebellion 
+➜  rebellion git:(master) ✗  touch princess_leia.txt && echo 'Help me Obi-Wan... you are my only hope' >princess_leia.txt 
+
+➜  rebellion git:(master) ✗ mkdir obi_wan.txt
+➜  rebellion git:(master) ✗ mkdir luke_skywalker.txt
+➜  rebellion git:(master) ✗ touch obi_wan.txt
+➜  rebellion git:(master) ✗ touch luke_skywalker.txt
+➜  rebellion git:(master) ✗ mkdir millenium_falcon
+➜  rebellion git:(master) ✗ cd millenium_falcon 
+➜  millenium_falcon git:(master) ✗ touch han_solo.txt chewbacca.txt
+➜  millenium_falcon git:(master) ✗ cd ~
+➜  ~ git status
+fatal: not a git repository (or any of the parent directories): .git
+➜  ~ cd sei
+➜  sei ls
+classwork             deliverable           labs
+daily-code-challenges hw
+➜  sei cd classwork
+➜  classwork ls
+Star_Wars
+➜  classwork cd Star_Wars 
+➜  Star_Wars git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   act2.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        act1/star_wars/rebellion/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  Star_Wars git:(master) ✗ git add .
+➜  Star_Wars git:(master) ✗ git commit -m"add act 2 steps 1-7"
+[master 3955ac9] add act 2 steps 1-7
+ 4 files changed, 10 insertions(+), 5 deletions(-)
+ create mode 100644 act1/star_wars/rebellion/millenium_falcon/chewbacca.txt
+ create mode 100644 act1/star_wars/rebellion/millenium_falcon/han_solo.txt
+ create mode 100644 act1/star_wars/rebellion/princess_leia.txt
+➜  Star_Wars git:(master) git push origin master
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 862 bytes | 862.00 KiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/hrigg/Star_Wars.git
+   ea3af6c..3955ac9  master -> master
+➜  Star_Wars git:(master) git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+➜  Star_Wars git:(master) cd act1/star_wars/rebellion 
+➜  rebellion git:(master) touch obi_wan.txt
+➜  rebellion git:(master) ✗ touch luke_skywalker.txt
+➜  rebellion git:(master) ✗ mv luke_skywalker.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv obi_wan.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv princess_leia millenium_falcon
+mv: rename princess_leia to millenium_falcon/princess_leia: No such file or directory
+➜  rebellion git:(master) ✗ mv princess_leia.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv millenium_falcon death_star
+➜  rebellion git:(master) ✗ mv millenium_falcon/* death_star
+zsh: no matches found: millenium_falcon/*
+➜  rebellion git:(master) ✗ mv millenium_falcon* death_star
+zsh: no matches found: millenium_falcon*
+➜  rebellion git:(master) ✗ ls
+death_star
+➜  rebellion git:(master) ✗ cd death_star 
+➜  death_star git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  death_star git:(master) ✗ cd ..
+➜  rebellion git:(master) ✗ mkdir millenium_falcon
+➜  rebellion git:(master) ✗ mv luke_skywalker.txt millenium_falcon
+mv: rename luke_skywalker.txt to millenium_falcon/luke_skywalker.txt: No such file or directory
+➜  rebellion git:(master) ✗ rm obi_wan.txt
+rm: obi_wan.txt: No such file or directory
+➜  rebellion git:(master) ✗ rm death_star/millenium_falcon/obi_wan.txt 
+➜  rebellion git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ history | tail -n 250
+
+  111  arch -arm64 brew install /usr/local
+  112  brew doctor
+  113  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"\n
+  114  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"\n
+  115  pwd
+  116  ld
+  117  ls
+  118  echo $HOMEBREW_PREFIX #=> /opt/homebrew                                                                            \n
+  119  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"\n
+  120  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  121  brew doctor
+  122  pwd
+  123  brew doctor
+  124  which -a brew
+  125  brew config | grep HOMEBREW_PREFIX\n
+  126  arch -arm64 brew install rust\n
+  127  pwd
+  128  brew doctor\\n
+  129  brew doctor
+  130  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"\n
+  131  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  132  brew doctor
+  133  brew -v
+  134  which brew
+  135  brew install tree
+  136  code .
+  137  cd .
+  138  ls
+  139  code .
+  140  code
+  141  code .
+  142  brew install tree
+  143  brew doctor
+  144  code .
+  145  brew -v
+  146  code .
+  147  which brew
+  148  ls
+  149  cd
+  150  ls -a
+  151  export PATH=$PATH:/opt/homebrew/bin
+  152  brew doctor
+  153  brew update
+  154  brew doctor
+  155  brew install tree
+  156  arch -arm64 brew install tree
+  157  code .
+  158  mkdir Deliverables
+  159  ls
+  160  cd deliverable
+  161  cd deliverables
+  162  cd ..
+  163  mkdir classwork
+  164  ls
+  165  cd classwork
+  166  git clone git@github.com:hrigg/Star_Wars.git
+  167  gh repo clone hrigg/Star_Wars
+  168  ls
+  169  code .
+  170  ls
+  171  cd Star_Wars
+  172  code .
+  173  ls
+  174  cd act1.sh
+  175  ls
+  176  act1.sh
+  177  cd ~
+  178  pwd
+  179  ls
+  180  classwork
+  181  ls
+  182  Star_Wars
+  183  ls
+  184  cd ~
+  185  mkdir sei
+  186  ls
+  187  cd sei
+  188  mkdir daily-code-challenges
+  189  ls
+  190  cd
+  191  ls
+  192  cd sei
+  193  cd daily-code-challenges
+  194  ls
+  195  git clone https://github.com/hrigg/daily-js-code-challenges.git
+  196  ls
+  197  cd daily-js-code-challenges
+  198  ls -a
+  199  code .
+  200  node challenges.js
+  201  git status
+  202  git add .
+  203  git status
+  204  git commit -m'solve addOne function'
+  205  git status
+  206  git push origin master
+  207  cd ~
+  208  pwd
+  209  ls
+  210  cd sei
+  211  mkdir labs
+  212  ls
+  213  mkdir deliverable
+  214  ls
+  215  cd labs
+  216  git clone https://github.com/hrigg/github_101.git
+  217  ls
+  218  cd github_101
+  219  code .
+  220  git status
+  221  git add .
+  222  git commit -m"answer quiz questinos in answers.txt"
+  223  git status
+  224  git push origin master
+  225  cd ~
+  226  ls
+  227  cd sei
+  228  ls
+  229  mkdir hw
+  230  ls
+  231  cd hw
+  232  git clone https://github.com/SEIR-725-Batch/Star_Wars-2.git
+  233  ls
+  234  ls -a
+  235  cd Star_Wars-2
+  236  code .
+  237  cd ~
+  238  ls
+  239  cd Deliverables
+  240  ls
+  241  ls -a
+  242  cd ~
+  243  classwork
+  244  ls
+  245  cd classwork
+  246  ls -a
+  247  cd Star_Wars
+  248  ls
+  249  code .
+  250  cd ~
+  251  mv classwork sei
+  252  cd sei
+  253  ls
+  254  cd classwork
+  255  ls -a
+  256  cd Star_Wars
+  257  code .
+  258  git status
+  259  git add .
+  260  git commit -m 'edit act1 steps 1-7'
+  261  git push origin master
+  262  git status
+  263* tree
+  264* ls -a
+  265* cd act1.sh
+  266* cd act1
+  267  tree
+  268  cd act1.sh
+  269  mkdir act1.sh
+  270  cd act1.sh
+  271  cd act1
+  272  mkdir act1
+  273  cd act1
+  274  mkdir star_wars
+  275  cd star_wars
+  276  mkdir empire rebellion
+  277  cd empire
+  278  touch darth_vader.txt
+  279  echo ...heavy breathing... >darth_vader.txt
+  280  cd empire
+  281  touch emperor_palpatine.txt
+  282  mkdir death_star
+  283  mv darth_vader.txt death_star
+  284  git status
+  285  git add .
+  286  git commit -m "add changes in terminal new act1"
+  287  git push origin master
+  288  cd ~
+  289  ls
+  290  cd sei
+  291  ls
+  292  cd deliverable
+  293  ls
+  294  ls -a
+  295  cd ..
+  296  cd hw
+  297  ls -a
+  298  cd ..
+  299  cd labs
+  300  ls -a
+  301  cd ..
+  302  cd classwork
+  303  ls -a
+  304  cd Star_Wars
+  305  ls -a
+  306  cd act1.sh
+  307* ls -a
+  308  cd act1/star_wars/empire
+  309  cd ~
+  310  ls
+  311  cd sei
+  312  ls
+  313  cd classwork
+  314  ls
+  315  cd Star_Wars
+  316  ls -a
+  317  cd act1
+  318  ls
+  319  cd star_wars
+  320  ls
+  321  pwd
+  322  cd rebellion
+  323  mkdir obi_wan.txt
+  324  mkdir luke_skywalker.txt
+  325  touch obi_wan.txt
+  326  touch luke_skywalker.txt
+  327  mkdir millenium_falcon
+  328  cd millenium_falcon
+  329  touch han_solo.txt chewbacca.txt
+  330  cd ~
+  331  git status
+  332  cd sei
+  333  ls
+  334  cd classwork
+  335  ls
+  336  cd Star_Wars
+  337  git status
+  338  git add .
+  339  git commit -m"add act 2 steps 1-7"
+  340  git push origin master
+  341  git status
+  342  cd act1/star_wars/rebellion
+  343  touch obi_wan.txt
+  344  touch luke_skywalker.txt
+  345  mv luke_skywalker.txt millenium_falcon
+  346  mv obi_wan.txt millenium_falcon
+  347  mv princess_leia millenium_falcon
+  348  mv princess_leia.txt millenium_falcon
+  349  mv millenium_falcon death_star
+  350  mv millenium_falcon/* death_star
+  351  mv millenium_falcon* death_star
+  352  ls
+  353  cd death_star
+  354  ls
+  355  cd ..
+  356  mkdir millenium_falcon
+  357  mv luke_skywalker.txt millenium_falcon
+  358  rm obi_wan.txt
+  359  rm death_star/millenium_falcon/obi_wan.txt
+  360  cd ..
+➜  star_wars git:(master) ✗  star_wars git:(master) ✗ history | tail -n 250
+  134  which brew
+  135  brew install tree
+  136  code .
+  137  cd .
+  138  ls
+  139  code .
+  140  code
+  141  code .
+  142  brew install tree
+  143  brew doctor
+  144  code .
+  145  brew -v
+  146  code .
+  147  which brew
+  148  ls
+  149  cd
+  150  ls -a
+  151  export PATH=$PATH:/opt/homebrew/bin
+  152  brew doctor
+  153  brew update
+  154  brew doctor
+  155  brew install tree
+  156  arch -arm64 brew install tree
+  157  code .
+  158  mkdir Deliverables
+  159  ls
+  160  cd deliverable
+  161  cd deliverables
+  162  cd ..
+  163  mkdir classwork
+  164  ls
+  165  cd classwork
+  166  git clone git@github.com:hrigg/Star_Wars.git
+  167  gh repo clone hrigg/Star_Wars
+  168  ls
+  169  code .
+  170  ls
+  171  cd Star_Wars
+  172  code .
+  173  ls
+  174  cd act1.sh
+  175  ls
+  176  act1.sh
+  177  cd ~
+  178  pwd
+  179  ls
+  180  classwork
+  181  ls
+  182  Star_Wars
+  183  ls
+  184  cd ~
+  185  mkdir sei
+  186  ls
+  187  cd sei
+  188  mkdir daily-code-challenges
+  189  ls
+  190  cd
+  191  ls
+  192  cd sei
+  193  cd daily-code-challenges
+  194  ls
+  195  git clone https://github.com/hrigg/daily-js-code-challenges.git
+  196  ls
+  197  cd daily-js-code-challenges
+  198  ls -a
+  199  code .
+  200  node challenges.js
+  201  git status
+  202  git add .
+  203  git status
+  204  git commit -m'solve addOne function'
+  205  git status
+  206  git push origin master
+  207  cd ~
+  208  pwd
+  209  ls
+  210  cd sei
+  211  mkdir labs
+  212  ls
+  213  mkdir deliverable
+  214  ls
+  215  cd labs
+  216  git clone https://github.com/hrigg/github_101.git
+  217  ls
+  218  cd github_101
+  219  code .
+  220  git status
+  221  git add .
+  222  git commit -m"answer quiz questinos in answers.txt"
+  223  git status
+  224  git push origin master
+  225  cd ~
+  226  ls
+  227  cd sei
+  228  ls
+  229  mkdir hw
+  230  ls
+  231  cd hw
+  232  git clone https://github.com/SEIR-725-Batch/Star_Wars-2.git
+  233  ls
+  234  ls -a
+  235  cd Star_Wars-2
+  236  code .
+  237  cd ~
+  238  ls
+  239  cd Deliverables
+  240  ls
+  241  ls -a
+  242  cd ~
+  243  classwork
+  244  ls
+  245  cd classwork
+  246  ls -a
+  247  cd Star_Wars
+  248  ls
+  249  code .
+  250  cd ~
+  251  mv classwork sei
+  252  cd sei
+  253  ls
+  254  cd classwork
+  255  ls -a
+  256  cd Star_Wars
+  257  code .
+  258  git status
+  259  git add .
+  260  git commit -m 'edit act1 steps 1-7'
+  261  git push origin master
+  262  git status
+  263* tree
+  264* ls -a
+  265* cd act1.sh
+  266* cd act1
+  267  tree
+  268  cd act1.sh
+  269  mkdir act1.sh
+  270  cd act1.sh
+  271  cd act1
+  272  mkdir act1
+  273  cd act1
+  274  mkdir star_wars
+  275  cd star_wars
+  276  mkdir empire rebellion
+  277  cd empire
+  278  touch darth_vader.txt
+  279  echo ...heavy breathing... >darth_vader.txt
+  280  cd empire
+  281  touch emperor_palpatine.txt
+  282  mkdir death_star
+  283  mv darth_vader.txt death_star
+  284  git status
+  285  git add .
+  286  git commit -m "add changes in terminal new act1"
+  287  git push origin master
+  288  cd ~
+  289  ls
+  290  cd sei
+  291  ls
+  292  cd deliverable
+  293  ls
+  294  ls -a
+  295  cd ..
+  296  cd hw
+  297  ls -a
+  298  cd ..
+  299  cd labs
+  300  ls -a
+  301  cd ..
+  302  cd classwork
+  303  ls -a
+  304  cd Star_Wars
+  305  ls -a
+  306  cd act1.sh
+  307* ls -a
+  308  cd act1/star_wars/empire
+  309  cd ~
+  310  ls
+  311  cd sei
+  312  ls
+  313  cd classwork
+  314  ls
+  315  cd Star_Wars
+  316  ls -a
+  317  cd act1
+  318  ls
+  319  cd star_wars
+  320  ls
+  321  pwd
+  322  cd rebellion
+  323  mkdir obi_wan.txt
+  324  mkdir luke_skywalker.txt
+  325  touch obi_wan.txt
+  326  touch luke_skywalker.txt
+  327  mkdir millenium_falcon
+  328  cd millenium_falcon
+  329  touch han_solo.txt chewbacca.txt
+  330  cd ~
+  331  git status
+  332  cd sei
+  333  ls
+  334  cd classwork
+  335  ls
+  336  cd Star_Wars
+  337  git status
+  338  git add .
+  339  git commit -m"add act 2 steps 1-7"
+  340  git push origin master
+  341  git status
+  342  cd act1/star_wars/rebellion
+  343  touch obi_wan.txt
+  344  touch luke_skywalker.txt
+  345  mv luke_skywalker.txt millenium_falcon
+  346  mv obi_wan.txt millenium_falcon
+  347  mv princess_leia millenium_falcon
+  348  mv princess_leia.txt millenium_falcon
+  349  mv millenium_falcon death_star
+  350  mv millenium_falcon/* death_star
+  351  mv millenium_falcon* death_star
+  352  ls
+  353  cd death_star
+  354  ls
+  355  cd ..
+  356  mkdir millenium_falcon
+  357  mv luke_skywalker.txt millenium_falcon
+  358  rm obi_wan.txt
+  359  rm death_star/millenium_falcon/obi_wan.txt
+  360  cd ..
+  361  history | tail -n 250\n
+  362  git add .
+  363  commit -m"finish act 3"
+  364  commit -m 'finish act 3'
+  365  push origin master
+  366  git push origin master
+  367  git status
+  368  git add .
+  369  git commit -m 'edit act 3 in act 1 file'
+  370  git push origin master
+  371  git status
+  372  git add .
+  373  git commit -m:"solution txt"
+  374  git add .
+  375  git status
+  376  git add .
+  377  git add
+  378  git add .
+  379  git status
+  380  git commit -m "solution txt"
+  381  git push origin master
+  382  git status
+  383  pwd
