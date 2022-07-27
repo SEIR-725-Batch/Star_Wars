@@ -1,0 +1,107 @@
+ 142  cd sei
+  143  ls
+  144  cd deliverables
+  145  git clone https://github.com/IsmaelGonzalez23/Star_Wars.git
+  146  ls
+  147  cd Star_Wars
+  148  code . 
+  149  mkdir empire rebellion 
+  150  cd empire
+  151  touch darth_vader.txt
+  152  echo "...heavy breathing..." >> darth_vader.txt
+  153  cd ..
+  154  ls
+  155  cd empire
+  156  touch emperor_palpatine.txt
+  157  mkdir death_star
+  158  cd ..
+  159  mv ~/empire/darth_vader.txt ~/empire/death_star/darth_vader.txt
+  160  mv /empire/darth_vader.txt /empire/death_star/darth_vader.txt
+  161  mv /Star_Wars/empire/darth_vader.txt /Star_Wars/empire/death_star/darth_vader.txt
+  162  mv Star_Wars/empire/darth_vader.txt Star_Wars/empire/death_star/darth_vader.txt
+  163  ls
+  164  cd empire
+  165  ls
+  166  mv /empire/darth_vader.txt /empire/death_star/darth_vader.txt
+  167  mv /empire/darth_vader.txt to /empire/death_star/darth_vader.txt
+  168  mv darth_vader.txt to /death_star/darth_vader.txt
+  169  mv darth_vader.txt to death_star/darth_vader.txt
+  170  mv /darth_vader.txt to /death_star/darth_vader.txt
+  171  mv /darth_vader.txt to /death_star/
+  172  mv /darth_vader.txt to /death_star
+  173  mv /darth_vader.txt to death_star
+  174  mv darth_vader.txt  /death_star
+  175  ls
+  176  cd sei
+  177  ls
+  178  cd deliverab;es
+  179  cd deliverables
+  180  ls
+  181  cd Star_Wars
+  182  code .
+  183  mv darth_vader.txt /death_star/
+  184  mv darth_vader.txt /death_star
+  185  ls
+  186  cd empire
+  187  mv darth_vader.txt /death_star/
+  188  mv darth_vader.txt /death_star
+  189  mv darth_vader.txt /death_star/darth_vader.txt
+  190  mv darth_vader.txt /death_star/darth_vader.txt/
+  191  mv darth_vader.txt death_star/darth_vader.txt/
+  192  mv darth_vader.txt death_star/darth_vader.txt
+  193  git add .
+  194  git commit -m "Finishing Act 1"
+  195  cd ..
+  196  git add .
+  197  git commit -m "Finishing Act 1, for real this time..."
+  198  ls
+  199  cd rebellion
+  200  cd ~
+  201  cd sei
+  202  ls
+  203  cd labs
+  204  mkdir data_types_lab
+  205  ls
+  206  cd data_types_lab 
+  207  touch index.html main.js
+  208  code . 
+  209  node main.js
+  210  code . 
+  211* node 
+  212* node .
+  213* node main.js
+  214  touch princess_leia.txt echo "Help me, Obi-Wan... You're my only hope." >> princess_leia.txt
+  215  touch princess_leia.txt &&  echo "Help me, Obi-Wan... You're my only hope." >> princess_leia.txt
+  216  touch obi_wan.txt
+  217  touch luke_skywalker.txt
+  218  mkdir millenium_falcon 
+  219  cd millenium_falcon
+  220  touch hansolo.txt chewbacca.txt
+  221  cd ..
+  222  ls
+  223  mv luke_skywalker.txt princess_leia.txt obi_wan.txt millenium_falcon/ luke_skywalker.txt princess_leia.txt obi_wan.txt
+  224  ls
+  225  mv luke_skywalker.txt princess_leia.txt obi_wan.txt millenium_falcon/ 
+  226  ls
+  227  cd .  
+  228  cd ..
+  229  mv rebellion/millenium_falcon  empire/death_star/
+  230  git add .
+  231  git commit -m "Finishing act 2."
+  232  cd death_star
+  233  cd empire
+  234  mv death_star/millenium_falcon/* death_star
+  235  cd death_star
+  236  rm obi_wan.txt
+  237  mv chewbacca.txt hansolo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  238  cd ..
+  239  mv empire/death_star/millenium_falcon rebellion
+  240  mv empire/death_star/darth_vader.txt empire/death_star
+  241  mv empire/death_star/darth_vader.txt empire/
+  242  rm empire/death_star
+  243  rmdir empire/death_star
+  244  git add.
+  245  git add .
+  246  git commit -m "The empire is being defeated..."
+  247  hisory | tail -n 500
+  248  hisory | tail -n 250
