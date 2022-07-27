@@ -16,3 +16,5 @@ mv luke_skywalker.txt obi_wan.txt princess_leia.txt ./millenium_falcon/
 
 # 7. Move the millenium_falcon into the death_star.
 mv millenium_falcon ~/Star_Wars/star_wars/empire/death_star
+
+# adding comments to update the pull request issue. 
