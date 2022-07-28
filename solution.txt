@@ -1,0 +1,24 @@
+mikey@Michaels-MBP Star_Wars % history
+  138  mv *.txt ~/sei/deliverables/Star_Wars/star-wars/death_star/millenium_falcon
+  139  mv*.txt ~/sei/deliverables/Star_Wars/star_wars/death_star/millenium_falcon
+  140  mv *.txt ~/sei/deliverables/Star_Wars/star_wars/death_star/millenium_falcon
+  141  mv *.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  142  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  143  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/darth_vader.txt  ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  144  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/rebellion
+  145  mv *.txt ~/empire
+  146  cd Star_Wars
+  147  cd ..
+  148  cd ..
+  149  cd ..
+  150  git add .
+  151  git commit m- "completed act 3"
+  152  git add .
+  153  git commit -m "completed act 3"
+mikey@Michaels-MBP Star_Wars % history tail | -n 250
+fc: event not found: tail
+zsh: command not found: -n
+mikey@Michaels-MBP Star_Wars % history tail | -n 200
+fc: event not found: tail
+zsh: command not found: -n
+mikey@Michaels-MBP Star_Wars % 
