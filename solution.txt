@@ -1,47 +1,653 @@
-act1.sh
-# 1. In this directory, create a new directory called star_wars. Example answer: mkdir star_wars
-mkdir star_wars
-# 2. In the star_wars folder, create two new directories: empire and rebellion (This can be done in two commands, but how would you do it in one?)
-mkdir empire rebellion
-# 3. Inside the empire directory, create a file called darth_vader.txt 
-cd empire cat > darth_vader.txt
-# 4. Use the force (or your echo) to add the text "...heavy breathing..." to the darth_vader.txt file (Don’t remember how to do this? Use the ‘other force’, known as Google!)
-cd darth_vader.txt echo "...heavy breathing..."
-# 5. Inside the empire directory, create a file called emperor_palpatine.txt
-cd empire cat > emperor_palpatine.txt
-# 6. Inside the empire directory, create a directory called death_star
-cd empire mkdir death_star
-# 7. Move darth_vader.txt into the death_star
-cd empire mv darth_vader.txt death_star
+➜  Star_Wars git:(master) ✗ star_wars
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ mv death_star death_star
+mv: cannot move 'death_star' to a subdirectory of itself, 'death_star/death_star'
+➜  rebellion git:(master) ✗ cd millenium_falcon
+cd: no such file or directory: millenium_falcon
+➜  rebellion git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ ls
+Luke_skywalker.txt  chewbacca.txt  han_solo.txt  obi_won.txt  princess_leia.txt
+➜  death_star git:(master) ✗ mv * -/death_star
+mv: invalid option -- '/'
+Try 'mv --help' for more information.
+➜  death_star git:(master) ✗ mv --help
+Usage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
 
-act2.sh
-# 1. Inside the `star_wars/rebellion` directory, (IN ONE COMMAND) create a file called princess_leia.txt with the text "Help me, Obi-Wan…You’re my only hope."
-cd star_wars/rebellion cat > princess_leia.txt echo "Help me, Obi-Won...You're my only hope."
-# 2. Create a file called obi_wan.txt in star_wars/rebellion
-cat > obi_wan.txt
-# 3. Create a file in star_wars/rebellion called luke_skywalker.txt
-cd star_wars/rebellion cat > Luku_skywalker.txt
-# 4. Create a directory in star_wars/rebellion called millenium_falcon
-cd star_wars/rebellion mkdir millenium_falcon
-# 5. Inside the millenium_falcon, create two files: han_solo.txt and chewbacca.txt
-cd millenium_falcon cat > han_solo.txt chewbacca.txt
-# 6. Move luke_skywalker, obi_wan, and princess_leia into the millenium_falcon, respectively.
-cd star_wars/rebellion mv Luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
-# 7. Move the millenium_falcon into the death_star.
-cd star_wars/rebellion mv millenium_falcon death_star
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help     display this help and exit
+      --version  output version information and exit
 
-act3.sh
-# 1. Unload the Millenium Falcon in ONE COMMAND!
-# Move the whole crew from the millenium_falcon directory into the death_star directory. HINT: * following a directory will grab all files/folders inside of a directory (directory/*)
-cd millenium_falcon/* mv death_star 
-# 2. darth_vader has defeated obi_wan! Delete poor obi_wan.
-cd darth_vader rm obi_wan.txt
-# 3.  Our heroes have disabled the tractor beam! Move the whole crew back into the millenium_falcon!
-# Remember: darth_vader remains in the death_star and emperor_palpatine is still in the empire.
-cd death_star mv Luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
-# 4. Move the millenium_falcon back into the rebellion directory.
-cd millenium_falcon mv rebellion
-# 5. darth_vader leaves the death_star to pursue luke_skywalker! Move him from the death_star into the empire directory!
-cd death_star mv darth_vader.txt empire
-# 6. Thanks to his practice back home at Beggar’s Canyon, Luke blew up the death_star! Remove it from the galaxy!
-rm -rf death_star
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report mv translation bugs to <https://translationproject.org/team/>
+Full documentation at: <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+➜  death_star git:(master) ✗ cd ..
+➜  rebellion git:(master) ✗ mv *.death_star -/death_star
+zsh: no matches found: *.death_star
+➜  rebellion git:(master) ✗ mv * .death_star death_star 
+mv: cannot move 'death_star' to a subdirectory of itself, 'death_star/death_star'
+mv: cannot stat '.death_star': No such file or directory
+➜  rebellion git:(master) ✗ ..
+➜  star_wars git:(master) ✗ mv * .death_star death_star
+mv: cannot move 'death_star' to a subdirectory of itself, 'death_star/death_star'
+mv: cannot stat '.death_star': No such file or directory
+➜  star_wars git:(master) ✗ mv death_star
+mv: missing destination file operand after 'death_star'
+Try 'mv --help' for more information.
+➜  star_wars git:(master) ✗ mv death_star
+mv: missing destination file operand after 'death_star'
+Try 'mv --help' for more information.
+➜  star_wars git:(master) ✗ tree
+.
+└── death_star
+    ├── darth_vader.txt
+    ├── empire
+    │   └── emperor_palpatine.txt
+    └── rebellion
+        └── death_star
+            ├── Luke_skywalker.txt
+            ├── chewbacca.txt
+            ├── han_solo.txt
+            ├── obi_won.txt
+            └── princess_leia.txt
+
+4 directories, 7 files
+➜  star_wars git:(master) ✗ ls
+death_star
+➜  star_wars git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ ls
+darth_vader.txt  empire  rebellion
+➜  death_star git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ ls
+death_star
+➜  rebellion git:(master) ✗ mv death_star millenium_falcon
+➜  rebellion git:(master) ✗ ls
+millenium_falcon
+➜  rebellion git:(master) ✗ cd ..
+➜  death_star git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ tree
+.
+└── death_star
+    ├── darth_vader.txt
+    ├── empire
+    │   └── emperor_palpatine.txt
+    └── rebellion
+        └── millenium_falcon
+            ├── Luke_skywalker.txt
+            ├── chewbacca.txt
+            ├── han_solo.txt
+            ├── obi_won.txt
+            └── princess_leia.txt
+
+4 directories, 7 files
+➜  star_wars git:(master) ✗ mv death_star/rebellion rebellion
+➜  star_wars git:(master) ✗ tree
+.
+├── death_star
+│   ├── darth_vader.txt
+│   └── empire
+│       └── emperor_palpatine.txt
+└── rebellion
+    └── millenium_falcon
+        ├── Luke_skywalker.txt
+        ├── chewbacca.txt
+        ├── han_solo.txt
+        ├── obi_won.txt
+        └── princess_leia.txt
+
+4 directories, 7 files
+➜  star_wars git:(master) ✗ mv rebellion/millenium_falcon/*.txt death_star
+➜  star_wars git:(master) ✗ tree
+.
+├── death_star
+│   ├── Luke_skywalker.txt
+│   ├── chewbacca.txt
+│   ├── darth_vader.txt
+│   ├── empire
+│   │   └── emperor_palpatine.txt
+│   ├── han_solo.txt
+│   ├── obi_won.txt
+│   └── princess_leia.txt
+└── rebellion
+    └── millenium_falcon
+
+4 directories, 7 files
+➜  star_wars git:(master) ✗ cd death_star 
+➜  death_star git:(master) ✗ rm obi_won.txt
+➜  death_star git:(master) ✗ cd star_wars                                   
+cd: no such file or directory: star_wars
+➜  death_star git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ cd death_star   
+➜  death_star git:(master) ✗ mv Luke_skywalker.txt millenium_falcon
+➜  death_star git:(master) ✗ mv princes_leia.txt millenium_falcon
+➜  death_star git:(master) ✗ cd rebllion
+cd: no such file or directory: rebllion
+➜  death_star git:(master) ✗ cd..
+zsh: command not found: cd..
+➜  death_star git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ cd millenium_falcon 
+➜  millenium_falcon git:(master) ✗ ls
+➜  millenium_falcon git:(master) ✗ tree
+.
+
+0 directories, 0 files
+➜  millenium_falcon git:(master) ✗ ..
+➜  rebellion git:(master) ✗ ..
+➜  star_wars git:(master) ✗ ls
+death_star  rebellion
+➜  star_wars git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ ls
+chewbacca.txt  darth_vader.txt  empire  han_solo.txt  millenium_falcon
+➜  death_star git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+emperor_palpatine.txt
+➜  empire git:(master) ✗ cd millenium_falcon
+cd: no such file or directory: millenium_falcon
+➜  empire git:(master) ✗ ..
+➜  death_star git:(master) ✗ ..
+➜  star_wars git:(master) ✗ cd death_star      
+➜  death_star git:(master) ✗ rm millenium_falcon
+➜  death_star git:(master) ✗ ..
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ ls
+➜  millenium_falcon git:(master) ✗ cat > Luke_skywalker.txt princess_leia.txt
+cat: princess_leia.txt: No such file or directory
+➜  millenium_falcon git:(master) ✗ cat > princess_leia.txt
+..      
+^C
+➜  millenium_falcon git:(master) ✗ ls
+Luke_skywalker.txt  princess_leia.txt
+➜  millenium_falcon git:(master) ✗ ....
+➜  Star_Wars git:(master) ✗ cd star_wars
+➜  star_wars git:(master) ✗ cd death_star 
+➜  death_star git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+emperor_palpatine.txt
+➜  empire git:(master) ✗ cd death_star
+cd: no such file or directory: death_star
+➜  empire git:(master) ✗ cd ..
+➜  death_star git:(master) ✗ ls
+chewbacca.txt  darth_vader.txt  empire  han_solo.txt
+➜  death_star git:(master) ✗    
+➜  death_star git:(master) ✗ ls
+chewbacca.txt  darth_vader.txt  empire  han_solo.txt
+➜  death_star git:(master) ✗ ..                 
+➜  star_wars git:(master) ✗ mv -death_star/darth_vadr.txt -/emire
+mv: invalid option -- 'd'
+Try 'mv --help' for more information.
+➜  star_wars git:(master) ✗ mv death_star/darth_vader -/empire
+mv: invalid option -- '/'
+Try 'mv --help' for more information.
+➜  star_wars git:(master) ✗ mv death_star/darth_vader empire
+mv: cannot stat 'death_star/darth_vader': No such file or directory
+➜  star_wars git:(master) ✗ mv star_wars/death_star/death_vader.txt -/empire
+mv: invalid option -- '/'
+Try 'mv --help' for more information.
+➜  star_wars git:(master) ✗ ls
+death_star  rebellion
+➜  star_wars git:(master) ✗ death_star
+➜  death_star git:(master) ✗ ls
+chewbacca.txt  darth_vader.txt  empire  han_solo.txt
+➜  death_star git:(master) ✗ mv darth_vader.txt empire
+➜  death_star git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ cd empire
+cd: no such file or directory: empire
+➜  star_wars git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ ls
+chewbacca.txt  empire  han_solo.txt
+➜  death_star git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+darth_vader.txt  emperor_palpatine.txt
+➜  empire git:(master) ✗ cd ..
+➜  death_star git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ re -rf death_star
+zsh: command not found: re
+➜  star_wars git:(master) ✗ rm -rf death_star
+➜  star_wars git:(master) ✗ ls
+rebellion
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ ls
+Luke_skywalker.txt  princess_leia.txt
+➜  millenium_falcon git:(master) ✗ history
+    1  clear
+    2  $SHELL --version
+    3  sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+    4  clear
+    5  sudo add-apt-repository ppa:git-core/ppa
+    6  sudo apt-get update
+    7  sudo apt-get install git
+    8  git config --global user.name "NaraHammondOwens"
+    9  git config --global user.email "user@email.com"
+   10  git config --global user.email "narasmith7@yahoo.com"
+   11  git config --global user.name
+   12  git config global user.email
+   13  git config --global user.email "user@email.com"
+   14  git config --global user.email "narasmith7@yahoo.com"
+   15  git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+   16  git config --global user.name
+   17  git config global user.email
+   18  git config --global user.email "narasmith7@yahoo.com"
+   19  git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+   20  git config --global user.name
+   21  git config global user.email
+   22  ls
+   23  mkdir test
+   24  ls
+   25  cd test
+   26  git init
+   27  git config global user.email
+   28  rm -rf .git
+   29  git clone https://github.com/NaraHammondOwens/daily-js-code-challenges.git
+   30  ls
+   31  cd daily-js-code-challenges
+   32  logout
+   33  git config --global user.email "user@email.com"
+   34  git config --global user.email "narasmith7@yahoo.com"
+   35  git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+   36  git config --global user.name
+   37  git config global user.email
+   38  sudo apt-get install git
+   39  git config --global user.name "NaraHammondOwens"
+   40  git config --global user.email "narasmith7@yahoo.com"
+   41  git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+   42  git config --global user.name
+   43  git config global user.email
+   44  git config --global init.defaultBranch main
+   45  git config --global core.editor "code --wait"
+   46  git config --global pull.rebase false
+   47  touch ~/.gitignore_global
+   48  git config --global core.excludesfile ~/.gitignore_global
+   49  code ~/.gitignore_global
+   50  logout
+   51  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+   52  sudo apt-add-repository https://cli.github.com/packages
+   53  sudo apt update
+   54  sudo apt install gh
+   55  gh auth login
+   56  "commandline" : "wsl.exe ~"
+   57  clear
+   58  ,
+   59  ls
+   60  clear
+   61  ls
+   62  mkdir seir725
+   63  cd seir725
+   64  mkdir homework
+   65  cd homework
+   66  git clone https://github.com/NaraHammondOwens/Star_Wars.git
+   67  ls
+   68  cd
+   69  cd seir725
+   70  cd homework
+   71  cd Star_Wars
+   72  ls
+   73  code .
+   74  git add .
+   75  git commit -m "test"
+   76  git push origin master
+   77  clear
+   78  code .
+   79  git add .
+   80  git commit -m "Shi'Nara Hammond-Owens"
+   81  git push origin master
+   82  logout
+   83  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+   84  cat << EOF >> ~/.zshrc\n\n\nexport NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion\nEOF
+   85  logout
+   86  nvm --version
+   87  cat << EOF >> ~/.zshrc\n\n\nexport NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion\nEOF
+   88  nvm --version
+   89  nvm install node
+   90  npm i -g nodemon
+   91  npm install -g npm@8.15.1
+   92  'npm fund'
+   93  npm fund
+   94  logout
+   95  cd ..
+   96  ls
+   97  sudo apt-get install tree 
+   98  tree
+   99  logout
+  100  cd Star_Wars cd act1.sh
+  101  ls
+  102  cd Star_Wars
+  103  cd act1.sh
+  104  clear
+  105  ls
+  106  cd seir725
+  107  ls
+  108  cd homework
+  109  ls
+  110  cd Star_Wars
+  111  tree
+  112  clear
+  113  ls
+  114  cd act1.sh
+  115  clear
+  116  mkdir star_wars
+  117  cd star_wars
+  118  mkdir empire rebellion
+  119  ls
+  120  cd empire rebellion
+  121  cd empire cat > darth_vader.txt
+  122  cd darth_vader.txt
+  123  echo "...heavy breathing..."
+  124  cd empire cat > emperor_palpatine.txt
+  125  mkdir death_star
+  126  mv darth_vader.txt death_star
+  127  cd rebellion cat > princess_leia.txt echo "Help me, Obi-Won...You're my only hope."
+  128  cd princess_leia.txt echo "Help me, Obi-Won...You're my only hope."
+  129  ls
+  130  cd princess_leia.txt
+  131  open princess_leia.txt
+  132  echo "Help me, Obi-Won...You're my only hope."
+  133  cd rebellion cat > obi_won.txt
+  134  cat > Luke_skywalker.txt
+  135  ls
+  136  cd seir725
+  137  ls
+  138  cd homework
+  139  tree
+  140  cd rebellion
+  141  Star_Wars
+  142  cd star_wars
+  143  cd rebellion
+  144  ls
+  145  clear
+  146  logout
+  147  cd rebellion mkdir millenium_falcon
+  148  cd rebellion
+  149  cd star_wars
+  150  cd rebellion
+  151  mkdir millenium_falcon
+  152  cd millenium_falcon
+  153  cat > han_solo.txt chewbacca.txt
+  154  cat > chewbacca.txt
+  155  cd star_wars
+  156  cd millenium_falcon
+  157  cd rebellion/millenium_falcon
+  158  mv Luke_skywalker.tx 
+  159  cd rebellion
+  160  mv millenium_falcon death_star
+  161  cd star_wars
+  162  ls
+  163  cd seir725
+  164  cd homework
+  165  tree
+  166  cd Star_Wars
+  167  cd star_wars
+  168  cd rebellion
+  169  mv Luke_skywalker.tx obi_won.txt princess_leia.txt millenium_falcon
+  170  mv Luke_skywalker.txt millenium_falcon
+  171  cd rebellion
+  172  cd rebellion/millenium_falcon
+  173  cd star_wars
+  174  logout
+  175  ls
+  176  cd seir725
+  177  cd homework
+  178  git clone https://github.com/NaraHammondOwens/Control_Flow.git
+  179  ls
+  180  tree
+  181  cd seir725
+  182  cd ..
+  183  mv Luke_skyealker.txt obi_won.txt princess_leia.txt millenium_falcon
+  184  cd ..
+  185  ls
+  186  mv obi_won.txt princess_leia.txt millenium_falcon
+  187  cd empire
+  188  ls
+  189  cd rebellion
+  190  cd ..
+  191  cd rebellion
+  192  ls
+  193  cd millenium_falcon
+  194  ls
+  195  cd ..
+  196  ..
+  197  tree
+  198  cd empire
+  199  mv obi_won.txt princess_leia.txt millenium_falcon
+  200  mv obi_won.txt princess_leia.txt rebellion
+  201  ..
+  202  mv obi_won.txt princess_leia.txt rebellion
+  203  mv Luke_skywalker.txt rebellion
+  204  mv emperor_pappatine.txt empire
+  205  mv emperor_palpatine.txt empire
+  206  cd rebellion
+  207  mv Luke_skywalker.txt obi_won.txt princess_leia.txt millenium_falcon
+  208  mv millenium_falcon death_star
+  209  ..
+  210  cd death_star
+  211  ls
+  212  ..
+  213  mkdir labs
+  214  ls
+  215  cd labs
+  216  ..
+  217  mkdir fundamentals 
+  218  repos
+  219  mkdir repos
+  220  mkdir completed_hw
+  221  ls
+  222  mkdir hello_world
+  223  cd hello_world 
+  224  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  225  cd rebellion
+  226  cd death_star
+  227  ls
+  228  death_star/* mv death_star
+  229  death_star/*
+  230  ..
+  231  run-tests-by-opening-in-browser.html
+  232  logout
+  233  death_star*
+  234  cd ..
+  235  death_star/* 
+  236  death_star/* mv death_star
+  237  death_star/* death_star
+  238  star_wars
+  239  cd rebellion
+  240  mv death_star death_star
+  241  cd millenium_falcon
+  242  cd death_star
+  243  ls
+  244  mv * -/death_star
+  245  mv --help
+  246  cd ..
+  247  mv *.death_star -/death_star
+  248  mv * .death_star death_star
+  249  ..
+  250  mv * .death_star death_star
+  251  mv death_star
+  252  tree
+  253  ls
+  254  cd death_star
+  255  ls
+  256  cd rebellion
+  257  ls
+  258  mv death_star millenium_falcon
+  259  ls
+  260  cd ..
+  261  tree
+  262  mv death_star/rebellion rebellion
+  263  tree
+  264  mv rebellion/millenium_falcon/*.txt death_star
+  265  tree
+  266* cd seir725
+  267* cd homework
+  268* ls
+  269* cd Control_Flow
+  270* code .
+  271* node lib/challenge.js
+  272* ..
+  273* cd labs
+  274* git clone https://github.com/SEIR-725-Batch/more_function_practice.git
+  275* tree
+  276* cd seir725
+  277* cd labs
+  278* git clone https://github.com/NaraHammondOwens/more_function_practice.git
+  279* seir725
+  280* ls
+  281* cd labs
+  282* git clone https://github.com/NaraHammondOwens/more_function_practice.git
+  283* code .
+  284* cd ..
+  285* ..
+  286* gh auth login
+  287* cd ..
+  288* ..
+  289* seir725
+  290* ls
+  291* cd homework
+  292* mkdir function_scopes
+  293* ls
+  294* cd function_scopes
+  295* git clone https://github.com/NaraHammondOwens/functions_scope_hw.git
+  296* code .
+  297* logout
+  298* git add . 
+  299* git commit -m"I completed promt 1-4."
+  300* git add .
+  301* git commit -"Completed prompt 5-7."
+  302* git add .
+  303* git commit -m"Completed prompt 8."
+  304* clear
+  305* cd lib
+  306* node challenge.js
+  307* cd ..
+  308* git remote -v
+  309* git add .
+  310* git status
+  311* git commit -m "complete promte 9"
+  312* cd lib
+  313* node challenge.js
+  314* cd ..
+  315* git add .
+  316* git status
+  317* git commit -m "complete 10"
+  318* cd ..
+  319* cd -
+  320* cd lip
+  321* cd lib
+  322* node challenge.js
+  323* cd ..
+  324* git add
+  325* git add .
+  326* git status
+  327* git commit
+  328* git status
+  329* git commit -m "compete 11"
+  330* cd lib
+  331* node challenge.js
+  332* cd ..
+  333* git add .
+  334* git status
+  335* git commit -m "complete 12"
+  336* cd lib
+  337* node challenge.js
+  338* cd ..
+  339* git add .
+  340* git status
+  341* git commit -m "complete 13"
+  342* cd lib
+  343* node challenge.js
+  344* cd ..
+  345* git add .
+  346* git status
+  347* git commit -m "compete 1-13. Fixed 2"
+  348* git push origin master
+  349  cd death_star
+  350  rm obi_won.txt
+  351  cd star_wars
+  352  cd ..
+  353  cd death_star
+  354  mv Luke_skywalker.txt millenium_falcon
+  355  mv princess_leia.txt millenium_falcon
+  356  cd rebllion
+  357  cd..
+  358  cd ..
+  359  cd rebellion
+  360  cd millenium_falcon
+  361  ls
+  362  tree
+  363  ..
+  364  ls
+  365  cd death_star
+  366  ls
+  367  cd empire
+  368  ls
+  369  cd millenium_falcon
+  370  ..
+  371  cd death_star
+  372  rm millenium_falcon
+  373  ..
+  374  cd rebellion
+  375  cd millenium_falcon
+  376  ls
+  377  cat > Luke_skywalker.txt princess_leia.txt
+  378  cat > princess_leia.txt
+  379  ls
+  380  ....
+  381  cd star_wars
+  382  cd death_star
+  383  cd empire
+  384  ls
+  385  cd death_star
+  386  cd ..
+  387  ls
+  388  ..
+  389  mv -death_star/darth_vadr.txt -/emire
+  390  mv death_star/darth_vader -/empire
+  391  mv death_star/darth_vader empire
+  392  mv star_wars/death_star/death_vader.txt -/empire
+  393  ls
+  394  death_star
+  395  ls
+  396  mv darth_vader.txt empire
+  397  cd ..
+  398  cd empire
+  399  cd death_star
+  400  ls
+  401  cd empire
+  402  ls
+  403  cd ..
+  404  re -rf death_star
+  405  rm -rf death_star
+  406  ls
+  407  cd rebellion
+  408  cd millenium_falcon
+  409  ls
+➜  millenium_falcon git:(master) ✗ 
