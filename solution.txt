@@ -1,0 +1,86 @@
+    1  echo $SHELL
+    2  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    3  code .
+    4  git config --global user.name "cwest9400"
+    5  git config --global user.email "chrstphrwest@gmail.com"
+    6  git config --global init.defaultBranch main
+    7  git config --global core.editor "code --wait"
+    8  git config --global pull.rebase false
+    9  touch ~/.gitignore_global
+   10  git config --global core.excludesfile ~/.gitignore_global
+   11  code ~/.gitignore_global
+   12  gh auth login
+   13  brew install gh
+   14  gh auth login
+   15  brew install node
+   16  node -v
+   17  npm i -g nodemon
+   18  $ git clone  https://github.com/cwest9400/Star_Wars.git
+   19  git clone https://github.com/cwest9400/Star_Wars.git
+   20  pwd
+   21  ls
+   22  cd Star_Wars code .
+   23  cd Star_Wars
+   24  code .
+   25  mkdir empire rebellion
+   26  cd empire
+   27  touch darth_vader.txt
+   28  echo ...heavy breathing... > darth_vader.txt
+   29  cat darth_vader.txt
+   30  cd -
+   31  ls
+   32  cd empire
+   33  touch emperor_palpatine.txt
+   34  mkdir death_star
+   35  mv darth_vader.txt death_star
+   36  git status
+   37  git add .
+   38  git status
+   39  cd ~
+   40  pwd
+   41  cd star_wars
+   42  git add .
+   43  git status
+   44  git commit -m "act1.sh completed"
+   45  cd rebellion
+   46  touch princess_leia.txt echo "Help me, Obi-Wan…You’re my only hope."
+   47  rm Help\ me,\ Obi-Wan…You’re\ my\ only\ hope. echo
+   48  rm princess_leia.txt
+   49  touch princess_leia.txt echo "Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+   50  rm echo Help\ me,\ Obi-Wan…You’re\ my\ only\ hope. princess_leia.txt
+   51  echo "Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+   52  touch obi_wan.txt
+   53  touch luke_skywalker.txt
+   54  mkdir millenium_falcon
+   55  cd millenium_falcon
+   56  touch han_solo.txt chewbacca.txt
+   57  cd .
+   58  cd -
+   59  cd ..
+   60  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+   61  ls
+   62  mv millenium_falcon ~/Star_Wars/empire/death_star
+   63  cd ~
+   64  cd s
+   65  cd Star_Wars
+   66  git add.
+   67  git add .
+   68  git status
+   69  git commit -m "act2.sh complete"
+   70  cd empire/death_star/millenium_falcon
+   71  mv *.txt ~/Star_Wars/empire/death_star
+   72  cd ..
+   73  rm obi_wan.txt
+   74  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/Star_Wars/empire/death_star/millenium_falcon
+   75  mv millenium_falcon ~/Star_Wars/empire
+   76  mv ~/Star_Wars/empire/millenium_falcon ~/Star_Wars/rebellion
+   77  mv ~/Star_Wars/empire/death_star/darth_vader.txt ~/Star_Wars/empire
+   78  rm ~/Star_Wars/empire/death_star
+   79  rmdir ~/Star_Wars/empire/death_star
+   80  cd~
+   81  cd ~
+   82  cd st
+   83  cd Star_Wars
+   84  git add .
+   85  git status
+   86  git commit -m "act3.sh complete"
